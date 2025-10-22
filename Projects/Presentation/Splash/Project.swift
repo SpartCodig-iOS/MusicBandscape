@@ -6,15 +6,13 @@ import ProjectTemplatePlugin
 import DependencyPackagePlugin
 
 let project = Project.makeAppModule(
-  name: "ThirdParty",
-  bundleId: .appBundleID(name: ".ThirdParty"),
+  name: "Splash",
+  bundleId: .appBundleID(name: ".Splash"),
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-    .SPM.composableArchitecture,
-    .SPM.weaveDI,
-    .SPM.tcaCoordinator,
-    .SPM.asyncMoya
+    .Shared(implements: .Shared),
+    .Domain(implements: .UseCase),
   ],
   sources: ["Sources/**"]
 )

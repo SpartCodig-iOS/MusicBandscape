@@ -1,4 +1,7 @@
 import SwiftUI
+import Presentation
+import Splash
+import ComposableArchitecture
 
 public struct ContentView: View {
     public init() {}
@@ -13,3 +16,10 @@ public struct ContentView: View {
 #Preview {
   ContentView()
 }
+
+#Preview {
+  SplashView(store: .init(initialState: SplashReducer.State(), reducer: {
+    SplashReducer()
+  }))
+}
+

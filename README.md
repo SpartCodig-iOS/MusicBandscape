@@ -41,6 +41,12 @@ MusicBandscape/
 ## 🚀 빠른 시작
 
 ### 새 프로젝트 생성 (권장)
+#### Install tuist
+ 
+```swift
+curl -Ls https://install.tuist.io | bash 
+```
+
 
 ```bash
 # 1. TuistTool 컴파일 (최초 1회만)
@@ -102,6 +108,7 @@ Data/Repository implements DataInterface
 ```
 
 ### Tuist  graph
+<img width="400" height="400" alt="graph" src="https://github.com/user-attachments/assets/5f852cc4-c5f2-417c-b0b6-6b7dae47b76d" />
 
 
 ## 개발 환경
@@ -114,6 +121,7 @@ Data/Repository implements DataInterface
 ## 사용 라이브러리
 
 - **ComposableArchitecture**: 상태 관리
+- **TCACoordinators**: 화면 전환 관리
 - **WeaveDI**: 의존성 주입
 - **SwiftLint**: 코드 스타일 체크
 
@@ -248,86 +256,4 @@ swiftc TuistTool.swift -o tuisttool
   - 입력 받은 의존성들을 `Projects/<Layer>/<ModuleName>/Project.swift`의 `dependencies: [` 영역에 자동 삽입합니다.
   - Domain 계층 생성 시, `Interface/Sources/Base.swift`를 템플릿으로 생성하도록 선택 가능.
 
-> ⚠️ **파일 경로 전제**  
-> - 위 파서는 특정 경로의 파일 구조/포맷을 기대합니다. 경로가 다르거나 파일 포맷이 변경되면 파싱이 실패할 수 있습니다.  
-> - 경로가 다르다면 `availableModuleTypes()`, `parseModulesFromFile()`, `parseSPMLibraries()`의 파일 경로를 프로젝트에 맞게 수정하세요.
 
-## 🚀 동적 프로젝트 이름 설정
-
-"MultiModuleTemplate" 대신 원하는 이름으로 프로젝트를 생성할 수 있습니다.
-
-### 사용 방법
-
-#### 🎯 방법 1: TuistTool 사용 (권장)
-
-```bash
-# 대화형 입력
-./tuisttool newproject
-
-# 명령어 인자로 바로 설정
-./tuisttool newproject MyAwesomeApp --bundle-id com.company.app
-```
-
-#### 🎯 방법 2: 환경변수 (CI/CD용)
-
-```bash
-export PROJECT_NAME="MyAwesomeApp"
-export BUNDLE_ID_PREFIX="com.company.awesome"
-tuist generate
-```
-
-#### 🎯 방법 3: Tuist 템플릿 (완전히 새 프로젝트)
-
-```bash
-mkdir MyNewProject && cd MyNewProject
-tuist scaffold multi-module-project --name MyNewProject
-```
-
-### 설정 가능한 항목
-
-| 항목 | 설명 | 기본값 |
-|------|------|--------|
-| `PROJECT_NAME` | 앱 이름 | MultiModuleTemplate |
-| `BUNDLE_ID_PREFIX` | 번들 ID 접두사 | io.Roy.Module |
-| `TEAM_ID` | 개발팀 ID | N94CS4N6VR |
-
----
-
-## 자주 쓰는 명령어
-
-```bash
-# 새 프로젝트 생성
-./tuisttool newproject
-
-# 기본 워크플로우
-./tuisttool build      # clean → fetch → generate
-tuist test
-
-# 개발 환경
-tuist up               # 부트스트랩
-tuist doctor           # 문제 진단
-
-# 고급 기능
-tuist focus <모듈>     # 특정 모듈만 포커스
-tuist graph --format pdf --path ./graph.pdf
-```
-
-## CI 예시 (로컬 재현과 동일한 단계)
-```bash
-./tuisttool reset
-./tuisttool build
-tuist test
-```
-
----
-
-## 기여 방법
-
-1. 브랜치를 생성합니다 (`git checkout -b feature/my-feature`)  
-2. 변경사항을 커밋합니다 (`git commit -m 'Add feature'`)  
-3. 브랜치에 푸시합니다 (`git push origin feature/my-feature`)  
-4. Pull Request를 생성합니다
-
-## 라이선스
-
-이 프로젝트는 [MIT License](LICENSE) 하에 배포됩니다.

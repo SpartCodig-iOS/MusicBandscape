@@ -1,11 +1,11 @@
-# MultiModuleTemplate
+# MusicBandscape
 
 Tuist로 구성된 멀티 모듈 iOS 프로젝트 템플릿입니다.
 
 ## 프로젝트 구조
 
 ```
-MultiModuleTemplate/
+MusicBandscape/
 ├── Workspace.swift
 ├── Tuist.swift
 ├── Projects/
@@ -100,6 +100,9 @@ Presentation → Domain/DomainInterface
 Domain/UseCase → Data/DataInterface
 Data/Repository implements DataInterface
 ```
+
+### Tuist  graph
+
 
 ## 개발 환경
 

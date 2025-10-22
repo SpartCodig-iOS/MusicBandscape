@@ -1,0 +1,2165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02999AE872F2D7264BFB9644 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; };
+		092CFA8CB7BF4DC4C126D51C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D832A4B430AA3814E6204086 /* Preview Assets.xcassets */; };
+		095E1C34AD98B15576EDA183 /* TuistBundle+MusicBandscapeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5174E23FF503454B351D0 /* TuistBundle+MusicBandscapeStage.swift */; };
+		12C97453E70BA04E84FCD72F /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		1682C0D89F38493F29F9DE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF17598D6D2A03BCEA0D83C /* ContentView.swift */; };
+		19129F72FC108837445381BD /* DomainInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5C65B0CE0DCC55D3B1A5F18 /* DomainInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		19899E692BC9EC93748A9E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D832A4B430AA3814E6204086 /* Preview Assets.xcassets */; };
+		207C31F3E6095A4001216DCC /* MusicBandscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */; };
+		209CFE4298E0ACC900642B63 /* TuistAssets+MusicBandscapeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D50290E2D6846E7D497B1 /* TuistAssets+MusicBandscapeStage.swift */; };
+		20D2E9B74B64938D6530FE3F /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		24F1FEADC3D5EC01CE0491D4 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A35AA72055CDBCA622D7D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0C9BBD68A6C292BD0CB8A /* Assets.xcassets */; };
+		396EDF51665172C1BC35775A /* DomainInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5C65B0CE0DCC55D3B1A5F18 /* DomainInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44CB53534615ED1E6CA9AF68 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		49DAA98F1E5AD6646FB071EE /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573F4851906C8B99E226721 /* Presentation.framework */; };
+		594804F084FB8691DCDBF19A /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		5A415DB10D8BAFE9BFA793A9 /* TuistBundle+MusicBandscapeProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FCBBA256CF3C8A871E4D5 /* TuistBundle+MusicBandscapeProd.swift */; };
+		5BF20279A167123B42FA7D78 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573F4851906C8B99E226721 /* Presentation.framework */; };
+		5C1BC08DE0ADC0C8A12A0188 /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		60ECA104DFE0D556B08C937C /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; };
+		61794716B7B25F2CD961E712 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62CA2FBB50D76CCCC2326C7D /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; };
+		63B1E6DDF43CB617B800F935 /* MusicBandscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */; };
+		6BB2EA46E392F88B41867BAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF17598D6D2A03BCEA0D83C /* ContentView.swift */; };
+		6EC832D502F6B4E6524AB997 /* TuistAssets+MusicBandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971390A619B2A0D7861BBC7 /* TuistAssets+MusicBandscape.swift */; };
+		732A953A5CD41FF771F862D2 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; };
+		73E75D8C2C3B169D137688EC /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		771B500CFACD51F987C52BAE /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; };
+		78004232F7EEDA3DFAB0882A /* TuistBundle+MusicBandscapeDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253807948382C2A1EC6B46D9 /* TuistBundle+MusicBandscapeDebug.swift */; };
+		799D64089415F477334CD054 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF17598D6D2A03BCEA0D83C /* ContentView.swift */; };
+		7A75B60720507B0E0CE0AAE7 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		7C3832B6098ED09734B6D1F6 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		933DCAEF7C53E560ECEF84E2 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		9650B3D8118625AF979BC44C /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A3E5238D1678C2CC6FD6D74 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F66597643D9B15E9FE53CEE /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		A1596EB4F873069DBD59FE85 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; };
+		A3030DD56A268A76CFA08B5B /* TuistAssets+MusicBandscapeDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3993B75BFDF29111C7AE41F /* TuistAssets+MusicBandscapeDebug.swift */; };
+		A87509248F84AE1D4875D930 /* MusicBandscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */; };
+		B0451F7BD603A23C1FDA995E /* DomainInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5C65B0CE0DCC55D3B1A5F18 /* DomainInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B43421DEC28D6C8AF8CB2C02 /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		BA623B0A43D4FE5778BCD68D /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		BDA2663BA1A5831B5E5375B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF17598D6D2A03BCEA0D83C /* ContentView.swift */; };
+		C1921976063265D696745C41 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; };
+		C44ACA93D7619ED35029D8E3 /* MusicBandscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EAE3B4F4B2B162F1F0721 /* MusicBandscapeTests.swift */; };
+		C92491FC9BC7E28BDB3BDF80 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9D2086529DD7DEB9EDADF2E /* DomainInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5C65B0CE0DCC55D3B1A5F18 /* DomainInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA54D24DDAD4839EF81F2F29 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D50007DEBA099BB03470A146 /* TuistAssets+MusicBandscapeProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B20A5B048CC92D24837B48D /* TuistAssets+MusicBandscapeProd.swift */; };
+		D5C60A087093A7288543A24B /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; };
+		D9F9BA8EFB0AD17C1EB4CE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0C9BBD68A6C292BD0CB8A /* Assets.xcassets */; };
+		E025085189A07357A8DA523F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D832A4B430AA3814E6204086 /* Preview Assets.xcassets */; };
+		E29F5F61E6FEC178BB9FC5DD /* MusicBandscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */; };
+		E43C826A264FCD8A0B8CA776 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA0DBE74807A5E5BBE7E9BF8 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB356288F593E8D5322C9878 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573F4851906C8B99E226721 /* Presentation.framework */; };
+		EC0C91BA77526B95BC789C8C /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		ED7A7D511EB1AB13A08B899A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D832A4B430AA3814E6204086 /* Preview Assets.xcassets */; };
+		F0FB73620EB0C81C8809EE70 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573F4851906C8B99E226721 /* Presentation.framework */; };
+		F34EC509A9052BC45B851E55 /* TuistBundle+MusicBandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB22CD95B1FF8D294304D1 /* TuistBundle+MusicBandscape.swift */; };
+		F5D07C428EF89713A449C1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0C9BBD68A6C292BD0CB8A /* Assets.xcassets */; };
+		F64B9E2E9C6AE606F25BFC2D /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		F83F3819CB1E0D793A46BDF9 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		FBB65C2118A64FCC984E4989 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
+		FF97DF9DB347120789D79A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0C9BBD68A6C292BD0CB8A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B98A6789E2C00817947FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C9A5EC44167DE3CE0D35E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39535AE41AA9044E866A97B7;
+			remoteInfo = MusicBandscape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C26F2E72C683B2235D5AFC9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				61794716B7B25F2CD961E712 /* Core.framework in Embed Frameworks */,
+				396EDF51665172C1BC35775A /* DomainInterface.framework in Embed Frameworks */,
+				EA0DBE74807A5E5BBE7E9BF8 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37538935A5C8C6D46854613E /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				44CB53534615ED1E6CA9AF68 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */,
+				B43421DEC28D6C8AF8CB2C02 /* swift-sharing_Sharing.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5D38CB99A22B3F59EC8361A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				24F1FEADC3D5EC01CE0491D4 /* Core.framework in Embed Frameworks */,
+				B0451F7BD603A23C1FDA995E /* DomainInterface.framework in Embed Frameworks */,
+				9A3E5238D1678C2CC6FD6D74 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7014310AFAF24DAAFD5EBD /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				594804F084FB8691DCDBF19A /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */,
+				73E75D8C2C3B169D137688EC /* swift-sharing_Sharing.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AFB06A35916BEAC33096FFA7 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				20D2E9B74B64938D6530FE3F /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */,
+				F64B9E2E9C6AE606F25BFC2D /* swift-sharing_Sharing.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D1E2039F323A37D5C2175825 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C92491FC9BC7E28BDB3BDF80 /* Core.framework in Embed Frameworks */,
+				C9D2086529DD7DEB9EDADF2E /* DomainInterface.framework in Embed Frameworks */,
+				9650B3D8118625AF979BC44C /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07D1A852DFE39BE65C91D71 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F471D516F3072C7CF4A53B7A /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				F83F3819CB1E0D793A46BDF9 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */,
+				EC0C91BA77526B95BC789C8C /* swift-sharing_Sharing.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FFF59265BAA5DBC3F84268E9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CA54D24DDAD4839EF81F2F29 /* Core.framework in Embed Frameworks */,
+				19129F72FC108837445381BD /* DomainInterface.framework in Embed Frameworks */,
+				E43C826A264FCD8A0B8CA776 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BC0C9BBD68A6C292BD0CB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CF17598D6D2A03BCEA0D83C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-composable-architecture_ComposableArchitecture.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAB22CD95B1FF8D294304D1 /* TuistBundle+MusicBandscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MusicBandscape.swift"; sourceTree = "<group>"; };
+		253807948382C2A1EC6B46D9 /* TuistBundle+MusicBandscapeDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MusicBandscapeDebug.swift"; sourceTree = "<group>"; };
+		3CE5174E23FF503454B351D0 /* TuistBundle+MusicBandscapeStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MusicBandscapeStage.swift"; sourceTree = "<group>"; };
+		3F2D795A0123868CB07940C6 /* MusicBandscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBandscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-sharing_Sharing.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570A6337715AFB04E4E1D798 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
+		5BB2805AC10C551A4BE08A59 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
+		796FF69BF9405F4ADE4E81DC /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		85990DA767BCC280E4E8B21B /* MusicBandscape-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MusicBandscape-Debug-Info.plist"; sourceTree = "<group>"; };
+		9B20A5B048CC92D24837B48D /* TuistAssets+MusicBandscapeProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MusicBandscapeProd.swift"; sourceTree = "<group>"; };
+		9BDF2DF7FFEF91EF96175DF4 /* MusicBandscape-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MusicBandscape-Prod-Info.plist"; sourceTree = "<group>"; };
+		9D2D50290E2D6846E7D497B1 /* TuistAssets+MusicBandscapeStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MusicBandscapeStage.swift"; sourceTree = "<group>"; };
+		9E151F04AB4CBB63289F7271 /* MusicBandscape_Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBandscape_Prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF727E6387CE846197F0C57E /* MusicBandscape_Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBandscape_Stage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3993B75BFDF29111C7AE41F /* TuistAssets+MusicBandscapeDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MusicBandscapeDebug.swift"; sourceTree = "<group>"; };
+		B5C65B0CE0DCC55D3B1A5F18 /* DomainInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B971390A619B2A0D7861BBC7 /* TuistAssets+MusicBandscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MusicBandscape.swift"; sourceTree = "<group>"; };
+		BBAC1E759AA48C517005F34C /* MusicBandscape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MusicBandscape-Info.plist"; sourceTree = "<group>"; };
+		C573F4851906C8B99E226721 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27EAE3B4F4B2B162F1F0721 /* MusicBandscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBandscapeTests.swift; sourceTree = "<group>"; };
+		D48D82352B428C5257F945C0 /* MusicBandscapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MusicBandscapeTests-Info.plist"; sourceTree = "<group>"; };
+		D707E92A8606642B65BD396E /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D832A4B430AA3814E6204086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDC077BB211E002675BC4ECC /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D5A80744E6B95AD36B124D /* MusicBandscape_Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBandscape_Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C124EB35DE5EF18DF6A461 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		EF13C035E3F2B1CB419D7E79 /* MusicBandscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBandscapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49FCBBA256CF3C8A871E4D5 /* TuistBundle+MusicBandscapeProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MusicBandscapeProd.swift"; sourceTree = "<group>"; };
+		FA563DDEA0FF06986462A7ED /* MusicBandscape-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MusicBandscape-Stage-Info.plist"; sourceTree = "<group>"; };
+		FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBandscapeApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D604BEE796E97E19C217F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1596EB4F873069DBD59FE85 /* Core.framework in Frameworks */,
+				5BF20279A167123B42FA7D78 /* Presentation.framework in Frameworks */,
+				62CA2FBB50D76CCCC2326C7D /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995BE756C47081E2F860CE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1921976063265D696745C41 /* Core.framework in Frameworks */,
+				EB356288F593E8D5322C9878 /* Presentation.framework in Frameworks */,
+				D5C60A087093A7288543A24B /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5984783416EFEA04212D31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A953A5CD41FF771F862D2 /* Core.framework in Frameworks */,
+				F0FB73620EB0C81C8809EE70 /* Presentation.framework in Frameworks */,
+				02999AE872F2D7264BFB9644 /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5B006639565BD6A9BA779E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771B500CFACD51F987C52BAE /* Core.framework in Frameworks */,
+				49DAA98F1E5AD6646FB071EE /* Presentation.framework in Frameworks */,
+				60ECA104DFE0D556B08C937C /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75BFFE13BB31BAA131E8EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203EEE6F5790F64D8C8F9A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC077BB211E002675BC4ECC /* Core.framework */,
+				B5C65B0CE0DCC55D3B1A5F18 /* DomainInterface.framework */,
+				E4D5A80744E6B95AD36B124D /* MusicBandscape_Debug.app */,
+				9E151F04AB4CBB63289F7271 /* MusicBandscape_Prod.app */,
+				AF727E6387CE846197F0C57E /* MusicBandscape_Stage.app */,
+				3F2D795A0123868CB07940C6 /* MusicBandscape.app */,
+				EF13C035E3F2B1CB419D7E79 /* MusicBandscapeTests.xctest */,
+				C573F4851906C8B99E226721 /* Presentation.framework */,
+				D707E92A8606642B65BD396E /* Shared.framework */,
+				1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */,
+				4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F78EB11158D7EBBC3525CFF /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				503B35744CE2B1BE60938253 /* Config */,
+				4511380F13C37757EAADCC75 /* Derived */,
+				C5B68EE79D779FC206FFB924 /* MusicBandscapeTests */,
+				565EE70300203201686B7489 /* Resources */,
+				4932F78757BEE067614778C0 /* Sources */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		4467AF4E41882AE1A017A3DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D832A4B430AA3814E6204086 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4511380F13C37757EAADCC75 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				914CF646E1A246A6BFAC8847 /* InfoPlists */,
+				B098FAE0A168A3D9489E9648 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		4932F78757BEE067614778C0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBEAD9121D93C3FA0C2BC5 /* Application */,
+				0CF17598D6D2A03BCEA0D83C /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4DC21924A1AC9A67D8185889 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D27EAE3B4F4B2B162F1F0721 /* MusicBandscapeTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		503B35744CE2B1BE60938253 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E5C124EB35DE5EF18DF6A461 /* Dev.xcconfig */,
+				570A6337715AFB04E4E1D798 /* Prod.xcconfig */,
+				796FF69BF9405F4ADE4E81DC /* Release.xcconfig */,
+				5BB2805AC10C551A4BE08A59 /* Stage.xcconfig */,
+			);
+			name = Config;
+			path = ../../Config;
+			sourceTree = "<group>";
+		};
+		565EE70300203201686B7489 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4467AF4E41882AE1A017A3DB /* Preview Content */,
+				0BC0C9BBD68A6C292BD0CB8A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		62A90C4EB834A33763BEFFB9 = {
+			isa = PBXGroup;
+			children = (
+				3F78EB11158D7EBBC3525CFF /* Project */,
+				203EEE6F5790F64D8C8F9A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		914CF646E1A246A6BFAC8847 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				85990DA767BCC280E4E8B21B /* MusicBandscape-Debug-Info.plist */,
+				BBAC1E759AA48C517005F34C /* MusicBandscape-Info.plist */,
+				9BDF2DF7FFEF91EF96175DF4 /* MusicBandscape-Prod-Info.plist */,
+				FA563DDEA0FF06986462A7ED /* MusicBandscape-Stage-Info.plist */,
+				D48D82352B428C5257F945C0 /* MusicBandscapeTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		AEEBEAD9121D93C3FA0C2BC5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B098FAE0A168A3D9489E9648 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B971390A619B2A0D7861BBC7 /* TuistAssets+MusicBandscape.swift */,
+				B3993B75BFDF29111C7AE41F /* TuistAssets+MusicBandscapeDebug.swift */,
+				9B20A5B048CC92D24837B48D /* TuistAssets+MusicBandscapeProd.swift */,
+				9D2D50290E2D6846E7D497B1 /* TuistAssets+MusicBandscapeStage.swift */,
+				1FAB22CD95B1FF8D294304D1 /* TuistBundle+MusicBandscape.swift */,
+				253807948382C2A1EC6B46D9 /* TuistBundle+MusicBandscapeDebug.swift */,
+				F49FCBBA256CF3C8A871E4D5 /* TuistBundle+MusicBandscapeProd.swift */,
+				3CE5174E23FF503454B351D0 /* TuistBundle+MusicBandscapeStage.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C5B68EE79D779FC206FFB924 /* MusicBandscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC21924A1AC9A67D8185889 /* Sources */,
+			);
+			path = MusicBandscapeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		027A19CD8B204CD3756DEAA5 /* MusicBandscape-Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FEB10B8C59908988B4AA2C /* Build configuration list for PBXNativeTarget "MusicBandscape-Debug" */;
+			buildPhases = (
+				F58607FB9DA4E1E2B36C4059 /* Sources */,
+				78B43C65B9B185BDE15FDECA /* Resources */,
+				CD5B006639565BD6A9BA779E /* Frameworks */,
+				FFF59265BAA5DBC3F84268E9 /* Embed Frameworks */,
+				8D7014310AFAF24DAAFD5EBD /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusicBandscape-Debug";
+			packageProductDependencies = (
+			);
+			productName = MusicBandscape_Debug;
+			productReference = E4D5A80744E6B95AD36B124D /* MusicBandscape_Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39535AE41AA9044E866A97B7 /* MusicBandscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E639852B0A8273A708230B /* Build configuration list for PBXNativeTarget "MusicBandscape" */;
+			buildPhases = (
+				17FFC89A6D561DE788D07DD9 /* Sources */,
+				7DB0AA68AAF0774C02A402FD /* Resources */,
+				B5984783416EFEA04212D31D /* Frameworks */,
+				5D38CB99A22B3F59EC8361A1 /* Embed Frameworks */,
+				37538935A5C8C6D46854613E /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicBandscape;
+			packageProductDependencies = (
+			);
+			productName = MusicBandscape;
+			productReference = 3F2D795A0123868CB07940C6 /* MusicBandscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74F4F5A245F0A071476B5F01 /* MusicBandscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9155AAD2B2332C3B4FA91BA0 /* Build configuration list for PBXNativeTarget "MusicBandscapeTests" */;
+			buildPhases = (
+				5F7B7DE425C0557DD6DDF7D0 /* Sources */,
+				EA7E6B590E5AE9F5C8DCEE29 /* Resources */,
+				F75BFFE13BB31BAA131E8EA6 /* Frameworks */,
+				E07D1A852DFE39BE65C91D71 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8117A17777F3B1E18D4B0C73 /* PBXTargetDependency */,
+			);
+			name = MusicBandscapeTests;
+			packageProductDependencies = (
+			);
+			productName = MusicBandscapeTests;
+			productReference = EF13C035E3F2B1CB419D7E79 /* MusicBandscapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9991A35E9822FE8E6A491450 /* MusicBandscape-Stage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E7E3613F4AACA7738A429D /* Build configuration list for PBXNativeTarget "MusicBandscape-Stage" */;
+			buildPhases = (
+				115C95992801E27D32C27BEC /* Sources */,
+				48F037228A5808F6F2D9B888 /* Resources */,
+				995BE756C47081E2F860CE1A /* Frameworks */,
+				0C26F2E72C683B2235D5AFC9 /* Embed Frameworks */,
+				F471D516F3072C7CF4A53B7A /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusicBandscape-Stage";
+			packageProductDependencies = (
+			);
+			productName = MusicBandscape_Stage;
+			productReference = AF727E6387CE846197F0C57E /* MusicBandscape_Stage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0E1EDCF763250845B205529 /* MusicBandscape-Prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200343C7ED4884E651777B0B /* Build configuration list for PBXNativeTarget "MusicBandscape-Prod" */;
+			buildPhases = (
+				2491F62A80E15B4749AC19D1 /* Sources */,
+				77506C85E27C8865684EF947 /* Resources */,
+				48D604BEE796E97E19C217F7 /* Frameworks */,
+				D1E2039F323A37D5C2175825 /* Embed Frameworks */,
+				AFB06A35916BEAC33096FFA7 /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusicBandscape-Prod";
+			packageProductDependencies = (
+			);
+			productName = MusicBandscape_Prod;
+			productReference = 9E151F04AB4CBB63289F7271 /* MusicBandscape_Prod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C9A5EC44167DE3CE0D35E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					74F4F5A245F0A071476B5F01 = {
+						TestTargetID = 39535AE41AA9044E866A97B7;
+					};
+				};
+			};
+			buildConfigurationList = E650255EECACF1C3B6BEFD9C /* Build configuration list for PBXProject "MusicBandscape" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ko,
+			);
+			mainGroup = 62A90C4EB834A33763BEFFB9;
+			productRefGroup = 203EEE6F5790F64D8C8F9A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39535AE41AA9044E866A97B7 /* MusicBandscape */,
+				027A19CD8B204CD3756DEAA5 /* MusicBandscape-Debug */,
+				F0E1EDCF763250845B205529 /* MusicBandscape-Prod */,
+				9991A35E9822FE8E6A491450 /* MusicBandscape-Stage */,
+				74F4F5A245F0A071476B5F01 /* MusicBandscapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F037228A5808F6F2D9B888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F9BA8EFB0AD17C1EB4CE8B /* Assets.xcassets in Resources */,
+				E025085189A07357A8DA523F /* Preview Assets.xcassets in Resources */,
+				BA623B0A43D4FE5778BCD68D /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
+				FBB65C2118A64FCC984E4989 /* swift-sharing_Sharing.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77506C85E27C8865684EF947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A35AA72055CDBCA622D7D3F /* Assets.xcassets in Resources */,
+				092CFA8CB7BF4DC4C126D51C /* Preview Assets.xcassets in Resources */,
+				9F66597643D9B15E9FE53CEE /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
+				933DCAEF7C53E560ECEF84E2 /* swift-sharing_Sharing.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B43C65B9B185BDE15FDECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF97DF9DB347120789D79A07 /* Assets.xcassets in Resources */,
+				ED7A7D511EB1AB13A08B899A /* Preview Assets.xcassets in Resources */,
+				5C1BC08DE0ADC0C8A12A0188 /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
+				7A75B60720507B0E0CE0AAE7 /* swift-sharing_Sharing.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB0AA68AAF0774C02A402FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D07C428EF89713A449C1DB /* Assets.xcassets in Resources */,
+				19899E692BC9EC93748A9E06 /* Preview Assets.xcassets in Resources */,
+				12C97453E70BA04E84FCD72F /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
+				7C3832B6098ED09734B6D1F6 /* swift-sharing_Sharing.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7E6B590E5AE9F5C8DCEE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115C95992801E27D32C27BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209CFE4298E0ACC900642B63 /* TuistAssets+MusicBandscapeStage.swift in Sources */,
+				095E1C34AD98B15576EDA183 /* TuistBundle+MusicBandscapeStage.swift in Sources */,
+				63B1E6DDF43CB617B800F935 /* MusicBandscapeApp.swift in Sources */,
+				1682C0D89F38493F29F9DE20 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FFC89A6D561DE788D07DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC832D502F6B4E6524AB997 /* TuistAssets+MusicBandscape.swift in Sources */,
+				F34EC509A9052BC45B851E55 /* TuistBundle+MusicBandscape.swift in Sources */,
+				A87509248F84AE1D4875D930 /* MusicBandscapeApp.swift in Sources */,
+				BDA2663BA1A5831B5E5375B4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2491F62A80E15B4749AC19D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50007DEBA099BB03470A146 /* TuistAssets+MusicBandscapeProd.swift in Sources */,
+				5A415DB10D8BAFE9BFA793A9 /* TuistBundle+MusicBandscapeProd.swift in Sources */,
+				207C31F3E6095A4001216DCC /* MusicBandscapeApp.swift in Sources */,
+				799D64089415F477334CD054 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7B7DE425C0557DD6DDF7D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44ACA93D7619ED35029D8E3 /* MusicBandscapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58607FB9DA4E1E2B36C4059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3030DD56A268A76CFA08B5B /* TuistAssets+MusicBandscapeDebug.swift in Sources */,
+				78004232F7EEDA3DFAB0882A /* TuistBundle+MusicBandscapeDebug.swift in Sources */,
+				E29F5F61E6FEC178BB9FC5DD /* MusicBandscapeApp.swift in Sources */,
+				6BB2EA46E392F88B41867BAF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8117A17777F3B1E18D4B0C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MusicBandscape;
+			target = 39535AE41AA9044E866A97B7 /* MusicBandscape */;
+			targetProxy = 24B98A6789E2C00817947FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1041BB44D7CAD81D3E3B0521 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Prod;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Prod;
+		};
+		10A3529FB2E5B2746EF4A3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Stage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1AB7760028CCFE85B0B0D530 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Prod;
+		};
+		1C82C0058FCB06CD5FE874F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C124EB35DE5EF18DF6A461 /* Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				BACKGROUND_MODES = "remote-notification";
+				CFBundleDevelopmentRegion = ko;
+				CFBundleDisplayName = MusicBandscape;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N94CS4N6VR;
+				ENABLE_BACKGROUND_MODES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC -all_load";
+				PRODUCT_NAME = MusicBandscape;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development io.Roy.Bandscape";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 6.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		21DEB6BEBE8165E39DF3E00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22AC47C142BA3C85699ED1E3 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Debug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Debug;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Prod;
+		};
+		38ECEE446BA3F135DEA5167E /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Prod;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Stage;
+		};
+		3959167F8543FC0E9E517EE7 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Stage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Stage;
+		};
+		5C82BAF44F4FE91C4710E697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Debug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Debug;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		67A5B80E11F7F50FD13D473F /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Debug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Debug;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Stage;
+		};
+		8EA4725A533A2B2B1F59EF1E /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Stage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Prod;
+		};
+		95DE63CA76AD646A3A4FF354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Debug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Debug;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		97F1BDC2A1EE9A90FBFD8505 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscapeTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.MusicBandscapeTests;
+				PRODUCT_NAME = MusicBandscapeTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicBandscape.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicBandscape";
+				TEST_TARGET_NAME = MusicBandscape;
+			};
+			name = Prod;
+		};
+		A5A78D79D2FF57A2C90F7D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Prod;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE416E0334DA70424C85F444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Prod;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C468D72302EC8BAB02F9F8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape_Stage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CB2269BC7DAA7924926AF746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscapeTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.MusicBandscapeTests;
+				PRODUCT_NAME = MusicBandscapeTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicBandscape.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicBandscape";
+				TEST_TARGET_NAME = MusicBandscape;
+			};
+			name = Release;
+		};
+		CF87861A8E06C54EA3CD36A0 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB2805AC10C551A4BE08A59 /* Stage.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				BACKGROUND_MODES = "remote-notification";
+				CFBundleDevelopmentRegion = ko;
+				CFBundleDisplayName = MusicBandscape;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N94CS4N6VR;
+				ENABLE_BACKGROUND_MODES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC -all_load";
+				PRODUCT_NAME = "MusicBandscape-Stage";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development io.Roy.Bandscape";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 6.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Stage;
+		};
+		DBDD2B262F71B00E5753267B /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570A6337715AFB04E4E1D798 /* Prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				BACKGROUND_MODES = "remote-notification";
+				CFBundleDevelopmentRegion = ko;
+				CFBundleDisplayName = MusicBandscape;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N94CS4N6VR;
+				ENABLE_BACKGROUND_MODES = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC -all_load";
+				PRODUCT_NAME = "MusicBandscape-Prod";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.Roy.Bandscape";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Prod;
+		};
+		E0FCFA1D2CD209E98740DE16 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Stage;
+		};
+		E680E324441369A19A6C13B1 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscapeTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.MusicBandscapeTests;
+				PRODUCT_NAME = MusicBandscapeTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicBandscape.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicBandscape";
+				TEST_TARGET_NAME = MusicBandscape;
+			};
+			name = Stage;
+		};
+		EA46A93B5A5C8697856C7795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape;
+				PRODUCT_NAME = MusicBandscape;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F4CD606DB9118ED2736CF1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796FF69BF9405F4ADE4E81DC /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				BACKGROUND_MODES = "remote-notification";
+				CFBundleDevelopmentRegion = ko;
+				CFBundleDisplayName = MusicBandscape;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N94CS4N6VR;
+				ENABLE_BACKGROUND_MODES = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC -all_load";
+				PRODUCT_NAME = MusicBandscape;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.Roy.Bandscape";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		F5F5DE36B98897529D4D2BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/MusicBandscapeTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.MusicBandscapeTests;
+				PRODUCT_NAME = MusicBandscapeTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicBandscape.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicBandscape";
+				TEST_TARGET_NAME = MusicBandscape;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E7E3613F4AACA7738A429D /* Build configuration list for PBXNativeTarget "MusicBandscape-Stage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A3529FB2E5B2746EF4A3C9 /* Debug */,
+				8EA4725A533A2B2B1F59EF1E /* Prod */,
+				C468D72302EC8BAB02F9F8C7 /* Release */,
+				3959167F8543FC0E9E517EE7 /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200343C7ED4884E651777B0B /* Build configuration list for PBXNativeTarget "MusicBandscape-Prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE416E0334DA70424C85F444 /* Debug */,
+				1041BB44D7CAD81D3E3B0521 /* Prod */,
+				A5A78D79D2FF57A2C90F7D30 /* Release */,
+				38ECEE446BA3F135DEA5167E /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E639852B0A8273A708230B /* Build configuration list for PBXNativeTarget "MusicBandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DEB6BEBE8165E39DF3E00D /* Debug */,
+				1AB7760028CCFE85B0B0D530 /* Prod */,
+				EA46A93B5A5C8697856C7795 /* Release */,
+				E0FCFA1D2CD209E98740DE16 /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9155AAD2B2332C3B4FA91BA0 /* Build configuration list for PBXNativeTarget "MusicBandscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F5DE36B98897529D4D2BD9 /* Debug */,
+				97F1BDC2A1EE9A90FBFD8505 /* Prod */,
+				CB2269BC7DAA7924926AF746 /* Release */,
+				E680E324441369A19A6C13B1 /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FEB10B8C59908988B4AA2C /* Build configuration list for PBXNativeTarget "MusicBandscape-Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DE63CA76AD646A3A4FF354 /* Debug */,
+				22AC47C142BA3C85699ED1E3 /* Prod */,
+				5C82BAF44F4FE91C4710E697 /* Release */,
+				67A5B80E11F7F50FD13D473F /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E650255EECACF1C3B6BEFD9C /* Build configuration list for PBXProject "MusicBandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C82C0058FCB06CD5FE874F6 /* Debug */,
+				DBDD2B262F71B00E5753267B /* Prod */,
+				F4CD606DB9118ED2736CF1EC /* Release */,
+				CF87861A8E06C54EA3CD36A0 /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C9A5EC44167DE3CE0D35E0 /* Project object */;
+}

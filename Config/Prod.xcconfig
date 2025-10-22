@@ -1,0 +1,14 @@
+//
+//  realse.xcconfig
+//  GoGo
+//
+//  Created by ha sungyong on 10/29/24.
+//
+
+#include "./Shared.xcconfig"
+
+OTHER_SWIFT_FLAGS[config=PROD][sdk=*] = $(inherited) -DPROD
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = PROD
+BUNDLE_DISPLAY_NAME = Bandscape
+
+

@@ -1,0 +1,12 @@
+//
+//  qa.xcconfig
+//  GoGo
+//
+//  Created by ha sungyong on 10/29/24.
+//
+
+#include "./Shared.xcconfig"
+
+OTHER_SWIFT_FLAGS[config=STAGE][sdk=*] = $(inherited) -DDEBUG
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGE
+BUNDLE_DISPLAY_NAME = Bandscape-Dev

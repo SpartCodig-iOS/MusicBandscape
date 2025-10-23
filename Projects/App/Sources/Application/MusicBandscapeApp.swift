@@ -21,8 +21,10 @@ struct MusicBandscapeApp: App {
     WindowGroup {
       let store = Store(initialState: AppReducer.State()) {
         AppReducer()
+#if DEBUG
           ._printChanges()
           ._printChanges(.actionLabels)
+#endif
       }
 
       AppView(store: store)

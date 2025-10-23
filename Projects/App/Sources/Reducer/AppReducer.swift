@@ -41,7 +41,7 @@ struct AppReducer {
 
   @Dependency(\.continuousClock) var clock
 
-  public var body: some Reducer<State, Action> {
+   var body: some Reducer<State, Action> {
     Reduce { state, action in
       switch action {
         case .view(let viewAction):

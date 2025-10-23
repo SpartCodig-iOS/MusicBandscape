@@ -11,8 +11,8 @@ let project = Project.makeAppModule(
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-    .Shared(implements: .Shared),
-    .Domain(implements: .UseCase),
+    .Core(implements: .Core),
+    .Shared(implements: .Shared)
   ],
   sources: ["Sources/**"]
 )

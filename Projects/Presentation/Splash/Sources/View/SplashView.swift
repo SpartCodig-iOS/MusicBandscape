@@ -14,7 +14,7 @@ import Shared
 @ViewAction(for: SplashReducer.self)
 public struct SplashView: View {
   @Perception.Bindable public var store: StoreOf<SplashReducer>
-  //  var onComplete: () -> Void
+
 
   public init(store: StoreOf<SplashReducer>) {
     self.store = store
@@ -96,7 +96,6 @@ public struct SplashView: View {
         }
         .padding(.horizontal, 32)
 
-        // MARK: Footer
         VStack {
           Spacer()
           Text("© 2025 Bandscape")

@@ -36,7 +36,7 @@ public struct SplashReducer {
 
   }
 
-  //MARK: - ViewAction
+  // MARK: - ViewAction
   @CasePathable
   public enum View {
     case onAppear
@@ -44,7 +44,7 @@ public struct SplashReducer {
   }
 
 
-  //MARK: - 앱내에서 사용하는 액션
+  // MARK: - 앱내에서 사용하는 액션
   public enum InnerAction: Equatable {
     case startAnimationSequence
     case updateLogo(opacity: CGFloat, scale: CGFloat)
@@ -53,7 +53,7 @@ public struct SplashReducer {
     case updateFooter(opacity: CGFloat)
   }
 
-  //MARK: - NavigationAction
+  // MARK: - NavigationAction
   public enum NavigationAction: Equatable {
     case presentMain
 

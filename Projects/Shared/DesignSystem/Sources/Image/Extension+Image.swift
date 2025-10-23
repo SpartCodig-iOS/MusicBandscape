@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+#if canImport(UIKit)
+import UIKit
+#endif
+
 public extension UIImage {
   convenience init?(_ asset: ImageAsset) {
     self.init(named: asset.rawValue, in: Bundle.module, with: nil)

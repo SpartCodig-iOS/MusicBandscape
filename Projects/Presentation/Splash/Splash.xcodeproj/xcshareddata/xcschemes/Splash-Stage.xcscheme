@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C777EA7684CF3B97BE76C38C"
-               BuildableName = "DesignSystem_DesignSystem.bundle"
-               BlueprintName = "DesignSystem_DesignSystem"
-               ReferencedContainer = "container:DesignSystem.xcodeproj">
+               BlueprintIdentifier = "179E506C0ADB4824BA017552"
+               BuildableName = "Splash_Stage.framework"
+               BlueprintName = "Splash-Stage"
+               ReferencedContainer = "container:Splash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C777EA7684CF3B97BE76C38C"
-            BuildableName = "DesignSystem_DesignSystem.bundle"
-            BlueprintName = "DesignSystem_DesignSystem"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "179E506C0ADB4824BA017552"
+            BuildableName = "Splash_Stage.framework"
+            BlueprintName = "Splash-Stage"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C777EA7684CF3B97BE76C38C"
-            BuildableName = "DesignSystem_DesignSystem.bundle"
-            BlueprintName = "DesignSystem_DesignSystem"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "179E506C0ADB4824BA017552"
+            BuildableName = "Splash_Stage.framework"
+            BlueprintName = "Splash-Stage"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

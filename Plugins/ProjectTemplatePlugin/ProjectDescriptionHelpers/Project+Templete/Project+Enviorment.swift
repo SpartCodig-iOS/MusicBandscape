@@ -27,7 +27,7 @@ public extension Project {
     public static let appStageName = "\(projectName)-Stage"
     public static let appProdName = "\(projectName)-Prod"
     public static let appDevName = "\(projectName)-Dev"
-    public static let deploymentTarget : ProjectDescription.DeploymentTargets = .iOS("17.0")
+    public static let deploymentTarget : ProjectDescription.DeploymentTargets = .iOS("16.6")
     public static let deploymentDestination: ProjectDescription.Destinations = [.iPhone]
     public static let organizationTeamId = teamId
     public static let bundlePrefix = bundleIdPrefix

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36DB180B3BF086646401D7DF"
-               BuildableName = "DesignSystem_DesignSystem_Stage.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Stage"
-               ReferencedContainer = "container:DesignSystem.xcodeproj">
+               BlueprintIdentifier = "098F8F29D6A8253E83E50261"
+               BuildableName = "Splash_Debug.framework"
+               BlueprintName = "Splash-Debug"
+               ReferencedContainer = "container:Splash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36DB180B3BF086646401D7DF"
-            BuildableName = "DesignSystem_DesignSystem_Stage.bundle"
-            BlueprintName = "DesignSystem_DesignSystem_Stage"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "098F8F29D6A8253E83E50261"
+            BuildableName = "Splash_Debug.framework"
+            BlueprintName = "Splash-Debug"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36DB180B3BF086646401D7DF"
-            BuildableName = "DesignSystem_DesignSystem_Stage.bundle"
-            BlueprintName = "DesignSystem_DesignSystem_Stage"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "098F8F29D6A8253E83E50261"
+            BuildableName = "Splash_Debug.framework"
+            BlueprintName = "Splash-Debug"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

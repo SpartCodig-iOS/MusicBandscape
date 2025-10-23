@@ -8,7 +8,7 @@ import DependencyPackagePlugin
 let project = Project.makeAppModule(
   name: "DesignSystem",
   bundleId: .appBundleID(name: ".DesignSystem"),
-  product: .staticFramework,
+  product: .framework,
   settings:  .settings(),
   dependencies: [
 

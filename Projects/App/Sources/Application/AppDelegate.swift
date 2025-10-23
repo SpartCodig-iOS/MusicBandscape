@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     WeaveDI.Container.bootstrapInTask { _ in
       await AppDIManager.shared.registerDefaultDependencies()
     }
-
+#if !DEBUG
     isPerceptionCheckingEnabled = false
-
+#endif
     return true
   }
 }

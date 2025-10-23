@@ -30,12 +30,14 @@ public struct PretendardFont: ViewModifier {
 //  }
 //}
 //
+#if canImport(UIKit)
  public extension UIFont {
    public static func pretendardFontFamily(family: PretendardFontFamily, size: CGFloat) -> UIFont {
     let fontName = "PretendardVariable-\(family)"
     return UIFont(name: fontName, size: size) ?? UIFont.systemFont(ofSize: size, weight: .regular)
   }
 }
+#endif
 
  public extension Font {
    public static func pretendardFont(family: PretendardFontFamily, size: CGFloat) -> Font{

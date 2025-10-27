@@ -6,13 +6,13 @@ import ProjectTemplatePlugin
 import DependencyPackagePlugin
 
 let project = Project.makeAppModule(
-  name: "Presentation",
-  bundleId: .appBundleID(name: ".Presentation"),
+  name: "Home",
+  bundleId: .appBundleID(name: ".Home"),
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-    .Presentation(implements: .Splash),
-    .Presentation(implements: .Home),
+    .Domain(implements: .UseCase),
+    .Shared(implements: .Shared),
     .Presentation(implements: .Detail)
   ],
   sources: ["Sources/**"]

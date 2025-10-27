@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D790755407D0CDDD70DB2F /* CombineMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A02D743F0045BBEC35D6F6 /* CombineMoya.framework */; };
+		044EED4370845FAC5AB74F9B /* AsyncMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C792CC956FA539853A801FA /* AsyncMoya.framework */; };
+		056002347C5D18C6D1E4DC62 /* Alamofire_Alamofire.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = F44C08A6AD090D2B42069281 /* Alamofire_Alamofire.bundle */; };
 		10E98FE95391D50781414FC6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B0B5F0559EA6D66C833FD /* Test.swift */; };
-		249B7E27642CB8EEAC3080AB /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EDE0D6962DC9EE00EC71C7 /* Base.swift */; };
-		380DCA58604EC641101AD257 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EDE0D6962DC9EE00EC71C7 /* Base.swift */; };
+		122102FE33887C00D0D1A626 /* DomainType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9516575A7F940C16D505E7 /* DomainType.swift */; };
+		19503B7DC6501566E6CD9673 /* DomainType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9516575A7F940C16D505E7 /* DomainType.swift */; };
+		23DEC0A30443C3CF19484992 /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C792CC956FA539853A801FA /* AsyncMoya.framework */; };
+		2824875B690CFE3379E7F480 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985AD9025AD6B46BF8A411BD /* Alamofire.framework */; };
+		467D3F469076966079DD6CFC /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C792CC956FA539853A801FA /* AsyncMoya.framework */; };
+		57FDCCDBA70EA2DA74EE38EC /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A04D446E1F435DC2AFC126 /* Moya.framework */; };
+		5A2E5282596F2047BE1DEBFD /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C60B9ED392DCCCFE3BB096 /* RxMoya.framework */; };
+		5ED8EA55E72C4DFF8EB9DEAA /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0708E13D341028923694B32B /* OSLog.framework */; };
+		6AB4755D8CAC7963A7AEA12A /* Alamofire_Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F44C08A6AD090D2B42069281 /* Alamofire_Alamofire.bundle */; };
 		6DA5A48BD0B9B35DC7A49249 /* Foundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021CD7FF40B20F0F8FAE456B /* Foundations.framework */; };
-		D429C950E4E34B05B157CA57 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EDE0D6962DC9EE00EC71C7 /* Base.swift */; };
-		E4A51A528FD9229FE20844A4 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EDE0D6962DC9EE00EC71C7 /* Base.swift */; };
+		901492B0E8D44F9EEBE5A7AD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC40D006E1705654090E3E6A /* RxSwift.framework */; };
+		994D064C3B5FF030ABAAEABD /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C792CC956FA539853A801FA /* AsyncMoya.framework */; };
+		A36F25D62FB7A0D0B1EE350A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420625E233727FF80D8BE57 /* NetworkError.swift */; };
+		A4341FD3CEAC71ED98472D5D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420625E233727FF80D8BE57 /* NetworkError.swift */; };
+		A49E0DCBC75C7F3087C17CD9 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420625E233727FF80D8BE57 /* NetworkError.swift */; };
+		B57985D039DBC98354F5CA44 /* DomainType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9516575A7F940C16D505E7 /* DomainType.swift */; };
+		C5296C1D6029ED7F4CE54D4B /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D2CDD1761ABDAA165F899F /* EventLimiter.framework */; };
+		D0FC3964106ACA7AF3ACAB2C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7858976A5645632621BB0F5 /* CFNetwork.framework */; };
+		D8246DA3CC6AAA7F387A69A3 /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C792CC956FA539853A801FA /* AsyncMoya.framework */; };
+		E0790C916E7CE5E54B7CFF20 /* DomainType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9516575A7F940C16D505E7 /* DomainType.swift */; };
+		F17EC4FD284E565AA297D843 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E325828FF48A98F8616980C /* LogMacro.framework */; };
+		F7A48FC3EA43091D084E84BD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420625E233727FF80D8BE57 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +46,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0F34282EAE4DC09396BF948F /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				056002347C5D18C6D1E4DC62 /* Alamofire_Alamofire.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		606D2E4DB89FFDB63923AD8B /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				23DEC0A30443C3CF19484992 /* AsyncMoya.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6DC4BB38EF366837F61807E9 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				D8246DA3CC6AAA7F387A69A3 /* AsyncMoya.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		825B4768E9037432C9031ECC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,6 +106,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADFADDBC91FFFF1FF947DA8F /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				467D3F469076966079DD6CFC /* AsyncMoya.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BBEA7168B913B1B0B8B0423A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,21 +136,43 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC5C4CEED4FF268FB6A856C2 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				994D064C3B5FF030ABAAEABD /* AsyncMoya.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		021CD7FF40B20F0F8FAE456B /* Foundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Foundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0708E13D341028923694B32B /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
+		1C792CC956FA539853A801FA /* AsyncMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAC9A1C6F1705579EF49E67 /* Foundations-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Foundations-Debug-Info.plist"; sourceTree = "<group>"; };
+		21A02D743F0045BBEC35D6F6 /* CombineMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4862CBC0E0D62BCBE2AFBDD7 /* Foundations_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Foundations_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C60B9ED392DCCCFE3BB096 /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E325828FF48A98F8616980C /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		604B0B5F0559EA6D66C833FD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		6420625E233727FF80D8BE57 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		648B5FA2F05EDB9FF9E152BF /* Foundations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Foundations-Info.plist"; sourceTree = "<group>"; };
 		652BB5729D40777B5FF582CE /* Foundations_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Foundations_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D48AE138F6FEB29160221F /* FoundationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FoundationsTests-Info.plist"; sourceTree = "<group>"; };
-		A1EDE0D6962DC9EE00EC71C7 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		70D2CDD1761ABDAA165F899F /* EventLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A04D446E1F435DC2AFC126 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		985AD9025AD6B46BF8A411BD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70F51F29FA64B0E7F8D4806 /* Foundations_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Foundations_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9730C9BA90C1C7196B80DE3 /* FoundationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7858976A5645632621BB0F5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		CD8A762D677AC6B40A4CBE51 /* Foundations-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Foundations-Stage-Info.plist"; sourceTree = "<group>"; };
+		CD9516575A7F940C16D505E7 /* DomainType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainType.swift; sourceTree = "<group>"; };
 		DF86B1059BDFEFF625515EBA /* Foundations-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Foundations-Prod-Info.plist"; sourceTree = "<group>"; };
+		F44C08A6AD090D2B42069281 /* Alamofire_Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire_Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC40D006E1705654090E3E6A /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +201,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FC3964106ACA7AF3ACAB2C /* CFNetwork.framework in Frameworks */,
+				5ED8EA55E72C4DFF8EB9DEAA /* OSLog.framework in Frameworks */,
+				2824875B690CFE3379E7F480 /* Alamofire.framework in Frameworks */,
+				044EED4370845FAC5AB74F9B /* AsyncMoya.framework in Frameworks */,
+				01D790755407D0CDDD70DB2F /* CombineMoya.framework in Frameworks */,
+				C5296C1D6029ED7F4CE54D4B /* EventLimiter.framework in Frameworks */,
 				6DA5A48BD0B9B35DC7A49249 /* Foundations.framework in Frameworks */,
+				F17EC4FD284E565AA297D843 /* LogMacro.framework in Frameworks */,
+				57FDCCDBA70EA2DA74EE38EC /* Moya.framework in Frameworks */,
+				5A2E5282596F2047BE1DEBFD /* RxMoya.framework in Frameworks */,
+				901492B0E8D44F9EEBE5A7AD /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +230,17 @@
 			children = (
 				37C4D7CC9093D3E335E4D089 /* Project */,
 				76D3FE9FF954FD9A0EE696B8 /* Products */,
+				33192548603C77AB7E80FAD5 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		33192548603C77AB7E80FAD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7858976A5645632621BB0F5 /* CFNetwork.framework */,
+				0708E13D341028923694B32B /* OSLog.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		37C4D7CC9093D3E335E4D089 /* Project */ = {
@@ -162,11 +264,20 @@
 		76D3FE9FF954FD9A0EE696B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				F44C08A6AD090D2B42069281 /* Alamofire_Alamofire.bundle */,
+				985AD9025AD6B46BF8A411BD /* Alamofire.framework */,
+				1C792CC956FA539853A801FA /* AsyncMoya.framework */,
+				21A02D743F0045BBEC35D6F6 /* CombineMoya.framework */,
+				70D2CDD1761ABDAA165F899F /* EventLimiter.framework */,
 				4862CBC0E0D62BCBE2AFBDD7 /* Foundations_Debug.framework */,
 				A70F51F29FA64B0E7F8D4806 /* Foundations_Prod.framework */,
 				652BB5729D40777B5FF582CE /* Foundations_Stage.framework */,
 				021CD7FF40B20F0F8FAE456B /* Foundations.framework */,
 				A9730C9BA90C1C7196B80DE3 /* FoundationsTests.xctest */,
+				5E325828FF48A98F8616980C /* LogMacro.framework */,
+				88A04D446E1F435DC2AFC126 /* Moya.framework */,
+				56C60B9ED392DCCCFE3BB096 /* RxMoya.framework */,
+				FC40D006E1705654090E3E6A /* RxSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,7 +305,8 @@
 		B8F8EEEAD586953FD1EBF096 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A1EDE0D6962DC9EE00EC71C7 /* Base.swift */,
+				CD9516575A7F940C16D505E7 /* DomainType.swift */,
+				6420625E233727FF80D8BE57 /* NetworkError.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -218,6 +330,7 @@
 				543E23A4DBD255EF899D4F67 /* Resources */,
 				94BC7A37F20D54CCA9114702 /* Frameworks */,
 				A13DCF71E2A30729AF84F09C /* Embed Frameworks */,
+				ADFADDBC91FFFF1FF947DA8F /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -238,6 +351,7 @@
 				1DB396F46BC79FF1A3BDDE8E /* Resources */,
 				7248FF24D317F39847EA5458 /* Frameworks */,
 				825B4768E9037432C9031ECC /* Embed Frameworks */,
+				6DC4BB38EF366837F61807E9 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -258,6 +372,7 @@
 				07C437416BCB17A1283D88BE /* Resources */,
 				AFE12A9A88D7F1467DB370F4 /* Frameworks */,
 				BBEA7168B913B1B0B8B0423A /* Embed Frameworks */,
+				EC5C4CEED4FF268FB6A856C2 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -278,6 +393,7 @@
 				760B3EC811CC60C6C7011294 /* Resources */,
 				A883ED2C154777CA14232A84 /* Frameworks */,
 				8AE8D35E52D6626B9A6431C1 /* Embed Frameworks */,
+				0F34282EAE4DC09396BF948F /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -299,6 +415,7 @@
 				3157190FEE020B520BDD10B4 /* Resources */,
 				61B61EFB751EB12D9206B19C /* Frameworks */,
 				DC5E80D7B63DEB4DB9206A5A /* Embed Frameworks */,
+				606D2E4DB89FFDB63923AD8B /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -376,6 +493,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB4755D8CAC7963A7AEA12A /* Alamofire_Alamofire.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +504,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A51A528FD9229FE20844A4 /* Base.swift in Sources */,
+				B57985D039DBC98354F5CA44 /* DomainType.swift in Sources */,
+				A49E0DCBC75C7F3087C17CD9 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +513,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D429C950E4E34B05B157CA57 /* Base.swift in Sources */,
+				122102FE33887C00D0D1A626 /* DomainType.swift in Sources */,
+				F7A48FC3EA43091D084E84BD /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +530,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249B7E27642CB8EEAC3080AB /* Base.swift in Sources */,
+				19503B7DC6501566E6CD9673 /* DomainType.swift in Sources */,
+				A36F25D62FB7A0D0B1EE350A /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +539,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380DCA58604EC641101AD257 /* Base.swift in Sources */,
+				E0790C916E7CE5E54B7CFF20 /* DomainType.swift in Sources */,
+				A4341FD3CEAC71ED98472D5D /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +565,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -452,6 +578,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations_Debug;
 				SDKROOT = iphoneos;
@@ -481,6 +618,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -490,6 +631,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations_Prod;
 				SDKROOT = iphoneos;
@@ -519,6 +671,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -528,6 +684,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations_Debug;
 				SDKROOT = iphoneos;
@@ -553,6 +720,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -562,6 +733,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations;
 				SDKROOT = iphoneos;
@@ -582,12 +764,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/FoundationsTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations.FoundationsTests;
 				PRODUCT_NAME = FoundationsTests;
@@ -611,6 +808,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -620,6 +821,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations;
 				SDKROOT = iphoneos;
@@ -649,6 +861,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -658,6 +874,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations_Stage;
 				SDKROOT = iphoneos;
@@ -683,6 +910,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -692,6 +923,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations_Prod;
 				SDKROOT = iphoneos;
@@ -765,12 +1007,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/FoundationsTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations.FoundationsTests;
 				PRODUCT_NAME = FoundationsTests;
@@ -798,6 +1055,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Foundations-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -807,6 +1068,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Foundations;
 				PRODUCT_NAME = Foundations_Stage;
 				SDKROOT = iphoneos;

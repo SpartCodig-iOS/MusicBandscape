@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0450ADFBB506A1D7CE762ED0 /* Foundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD71438C1E6E73F49CA99F /* Foundations.framework */; };
+		0CC6DB83D6E45ABE845C5033 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEB6C1C0D2D0737044CBC85 /* Moya.framework */; };
+		205C469A1A66F340BFC9AA51 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC760C796FE246840BE8278B /* RxMoya.framework */; };
 		24657E36CC62292D14E4A658 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D231E9EF830B7E53D1EA8D0 /* Test.swift */; };
 		545551BCC861A702C47E2C82 /* Foundations.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 45FD71438C1E6E73F49CA99F /* Foundations.framework */; };
 		58CF295EECF7CEF11A88967E /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D5AC172276CD51B4D7B6CA /* Networking.framework */; };
+		623D44376B2D1C4BA13C9891 /* CombineMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B1367FE7CECA5468279FE /* CombineMoya.framework */; };
 		65E6625115D04DB6C60BD63D /* Foundations.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 45FD71438C1E6E73F49CA99F /* Foundations.framework */; };
 		6DDFE2BE580CE3C376E64317 /* NetworkExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80142F4B9AD1A6168ED953EE /* NetworkExported.swift */; };
+		6E8E7C1499D8D924CBD297C8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C558AC1672AA35B5CE7EC6 /* RxSwift.framework */; };
+		73587A96A5D70B12FDE7DF83 /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E1F54A401A414CFF171CE9 /* EventLimiter.framework */; };
+		7615A3EF36085B615A998D3D /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBA11CFC8F3137105176953 /* LogMacro.framework */; };
+		7B0DE5EC43C270B2E0EEA8D4 /* Alamofire_Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 763E25FA7733CA9DC8696455 /* Alamofire_Alamofire.bundle */; };
 		8F0A16A03779572A45993165 /* NetworkExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80142F4B9AD1A6168ED953EE /* NetworkExported.swift */; };
+		9F67AD97B03C797FC8E4B585 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DA16E616AD9FA92AF3B3F1 /* CFNetwork.framework */; };
+		B82D33F9CA3175FBBCBF7AAA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EB3C5E5DBD88FFEF205C68 /* Alamofire.framework */; };
+		B970A4BE7CA7675D24D485F6 /* Alamofire_Alamofire.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 763E25FA7733CA9DC8696455 /* Alamofire_Alamofire.bundle */; };
 		C53259D07C7921BDE686DE35 /* Foundations.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 45FD71438C1E6E73F49CA99F /* Foundations.framework */; };
+		C7E406610A8D52B02C4391F2 /* AsyncMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552BE31E625164A001D1254 /* AsyncMoya.framework */; };
+		E1CD0DC424503338E1E52DAE /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4544A7A91278BF515BDAEADA /* OSLog.framework */; };
 		F619EF8386DDB6E7A135664E /* Foundations.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 45FD71438C1E6E73F49CA99F /* Foundations.framework */; };
 		F7C7E5A24D542E8027B329DA /* NetworkExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80142F4B9AD1A6168ED953EE /* NetworkExported.swift */; };
 		FD24EF0A7BF8884B9C6AFAA3 /* NetworkExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80142F4B9AD1A6168ED953EE /* NetworkExported.swift */; };
@@ -121,21 +133,42 @@
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D12317887289861C522E015F /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				B970A4BE7CA7675D24D485F6 /* Alamofire_Alamofire.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00D5AC172276CD51B4D7B6CA /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13525008021394917353096F /* NetworkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NetworkingTests-Info.plist"; sourceTree = "<group>"; };
+		232B1367FE7CECA5468279FE /* CombineMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EB3C5E5DBD88FFEF205C68 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEB6C1C0D2D0737044CBC85 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C558AC1672AA35B5CE7EC6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		414B0FAA67ED0CA24A545838 /* Networking_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4544A7A91278BF515BDAEADA /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
 		45FD71438C1E6E73F49CA99F /* Foundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Foundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5552BE31E625164A001D1254 /* AsyncMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D231E9EF830B7E53D1EA8D0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		763E25FA7733CA9DC8696455 /* Alamofire_Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire_Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8A15992743705E1E8144D4 /* Networking-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Networking-Prod-Info.plist"; sourceTree = "<group>"; };
 		80142F4B9AD1A6168ED953EE /* NetworkExported.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExported.swift; sourceTree = "<group>"; };
 		837DF319B7F4BA2833A8B23F /* Networking-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Networking-Debug-Info.plist"; sourceTree = "<group>"; };
+		92E1F54A401A414CFF171CE9 /* EventLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95586702619AFCD66C00D94E /* Networking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Networking-Info.plist"; sourceTree = "<group>"; };
 		B4DAB5356F2C66003A3BA515 /* NetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7065F4239BA919C0F302F5A /* Networking_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DFEB6735524667A9236E41 /* Networking-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Networking-Stage-Info.plist"; sourceTree = "<group>"; };
+		CC760C796FE246840BE8278B /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DA16E616AD9FA92AF3B3F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		EEBA11CFC8F3137105176953 /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06252AF65B28BCA204004FC /* Networking_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -144,8 +177,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F67AD97B03C797FC8E4B585 /* CFNetwork.framework in Frameworks */,
+				E1CD0DC424503338E1E52DAE /* OSLog.framework in Frameworks */,
+				B82D33F9CA3175FBBCBF7AAA /* Alamofire.framework in Frameworks */,
+				C7E406610A8D52B02C4391F2 /* AsyncMoya.framework in Frameworks */,
+				623D44376B2D1C4BA13C9891 /* CombineMoya.framework in Frameworks */,
+				73587A96A5D70B12FDE7DF83 /* EventLimiter.framework in Frameworks */,
 				0450ADFBB506A1D7CE762ED0 /* Foundations.framework in Frameworks */,
+				7615A3EF36085B615A998D3D /* LogMacro.framework in Frameworks */,
+				0CC6DB83D6E45ABE845C5033 /* Moya.framework in Frameworks */,
 				58CF295EECF7CEF11A88967E /* Networking.framework in Frameworks */,
+				205C469A1A66F340BFC9AA51 /* RxMoya.framework in Frameworks */,
+				6E8E7C1499D8D924CBD297C8 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +223,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E7DF17347A7394F3734E2C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5DA16E616AD9FA92AF3B3F1 /* CFNetwork.framework */,
+				4544A7A91278BF515BDAEADA /* OSLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2CA8969779CAD7210C5D966D /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,18 +291,28 @@
 			children = (
 				7E643809634282CE5E4D803C /* Project */,
 				AFBC324CB1CEBDA5706F4E34 /* Products */,
+				0E7DF17347A7394F3734E2C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		AFBC324CB1CEBDA5706F4E34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				763E25FA7733CA9DC8696455 /* Alamofire_Alamofire.bundle */,
+				26EB3C5E5DBD88FFEF205C68 /* Alamofire.framework */,
+				5552BE31E625164A001D1254 /* AsyncMoya.framework */,
+				232B1367FE7CECA5468279FE /* CombineMoya.framework */,
+				92E1F54A401A414CFF171CE9 /* EventLimiter.framework */,
 				45FD71438C1E6E73F49CA99F /* Foundations.framework */,
+				EEBA11CFC8F3137105176953 /* LogMacro.framework */,
+				2FEB6C1C0D2D0737044CBC85 /* Moya.framework */,
 				414B0FAA67ED0CA24A545838 /* Networking_Debug.framework */,
 				B7065F4239BA919C0F302F5A /* Networking_Prod.framework */,
 				F06252AF65B28BCA204004FC /* Networking_Stage.framework */,
 				00D5AC172276CD51B4D7B6CA /* Networking.framework */,
 				B4DAB5356F2C66003A3BA515 /* NetworkingTests.xctest */,
+				CC760C796FE246840BE8278B /* RxMoya.framework */,
+				32C558AC1672AA35B5CE7EC6 /* RxSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,6 +399,7 @@
 				0250463EEF0BF0D0E5F2D530 /* Resources */,
 				1E0CC9ED941C2A318D84DDCE /* Frameworks */,
 				91802F57CFB9639C7F423B15 /* Embed Frameworks */,
+				D12317887289861C522E015F /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -408,6 +471,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B0DE5EC43C270B2E0EEA8D4 /* Alamofire_Alamofire.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +567,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -512,6 +580,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking;
 				SDKROOT = iphoneos;
@@ -541,6 +620,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -550,6 +633,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking_Prod;
 				SDKROOT = iphoneos;
@@ -579,6 +673,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -588,6 +686,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking_Prod;
 				SDKROOT = iphoneos;
@@ -608,12 +717,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/NetworkingTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking.NetworkingTests;
 				PRODUCT_NAME = NetworkingTests;
@@ -637,6 +761,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -646,6 +774,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking_Stage;
 				SDKROOT = iphoneos;
@@ -724,6 +863,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -733,6 +876,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking_Debug;
 				SDKROOT = iphoneos;
@@ -762,6 +916,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -771,6 +929,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking_Debug;
 				SDKROOT = iphoneos;
@@ -796,6 +965,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -805,6 +978,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking_Stage;
 				SDKROOT = iphoneos;
@@ -834,6 +1018,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Networking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -843,6 +1031,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking;
 				PRODUCT_NAME = Networking;
 				SDKROOT = iphoneos;
@@ -922,12 +1121,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/NetworkingTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Networking.NetworkingTests;
 				PRODUCT_NAME = NetworkingTests;

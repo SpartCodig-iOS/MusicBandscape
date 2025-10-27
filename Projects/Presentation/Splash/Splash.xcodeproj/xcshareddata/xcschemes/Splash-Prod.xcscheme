@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731284097D03F7AE7DAF61C7"
-               BuildableName = "DesignSystem_DesignSystem_Prod.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Prod"
-               ReferencedContainer = "container:DesignSystem.xcodeproj">
+               BlueprintIdentifier = "C5348F67A0F980DA71F5F163"
+               BuildableName = "Splash_Prod.framework"
+               BlueprintName = "Splash-Prod"
+               ReferencedContainer = "container:Splash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731284097D03F7AE7DAF61C7"
-            BuildableName = "DesignSystem_DesignSystem_Prod.bundle"
-            BlueprintName = "DesignSystem_DesignSystem_Prod"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "C5348F67A0F980DA71F5F163"
+            BuildableName = "Splash_Prod.framework"
+            BlueprintName = "Splash-Prod"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731284097D03F7AE7DAF61C7"
-            BuildableName = "DesignSystem_DesignSystem_Prod.bundle"
-            BlueprintName = "DesignSystem_DesignSystem_Prod"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "C5348F67A0F980DA71F5F163"
+            BuildableName = "Splash_Prod.framework"
+            BlueprintName = "Splash-Prod"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

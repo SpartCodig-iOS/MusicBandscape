@@ -13,7 +13,8 @@ let project = Project.makeAppModule(
   dependencies: [
     .SPM.composableArchitecture,
     .SPM.weaveDI,
-    .SPM.tcaCoordinator
+    .SPM.tcaCoordinator,
+    .SPM.asyncMoya
   ],
   sources: ["Sources/**"]
 )

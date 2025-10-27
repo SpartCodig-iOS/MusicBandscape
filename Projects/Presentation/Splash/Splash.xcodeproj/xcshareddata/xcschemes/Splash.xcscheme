@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "707910BA6BE9907351D0858D"
-               BuildableName = "DesignSystem_DesignSystem_Debug.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Debug"
-               ReferencedContainer = "container:DesignSystem.xcodeproj">
+               BlueprintIdentifier = "B281B9912FBE9374CDC0824D"
+               BuildableName = "Splash.framework"
+               BlueprintName = "Splash"
+               ReferencedContainer = "container:Splash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,9 +26,19 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      disableMainThreadChecker = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9165A57EA536D2AB06CC46C8"
+               BuildableName = "SplashTests.xctest"
+               BlueprintName = "SplashTests"
+               ReferencedContainer = "container:Splash.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -44,10 +54,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "707910BA6BE9907351D0858D"
-            BuildableName = "DesignSystem_DesignSystem_Debug.bundle"
-            BlueprintName = "DesignSystem_DesignSystem_Debug"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "B281B9912FBE9374CDC0824D"
+            BuildableName = "Splash.framework"
+            BlueprintName = "Splash"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +70,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "707910BA6BE9907351D0858D"
-            BuildableName = "DesignSystem_DesignSystem_Debug.bundle"
-            BlueprintName = "DesignSystem_DesignSystem_Debug"
-            ReferencedContainer = "container:DesignSystem.xcodeproj">
+            BlueprintIdentifier = "B281B9912FBE9374CDC0824D"
+            BuildableName = "Splash.framework"
+            BlueprintName = "Splash"
+            ReferencedContainer = "container:Splash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

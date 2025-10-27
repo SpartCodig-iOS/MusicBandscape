@@ -60,6 +60,9 @@
          location = "group:Presentation"
          name = "Presentation">
          <FileRef
+            location = "group:Home/Home.xcodeproj">
+         </FileRef>
+         <FileRef
             location = "group:Presentation/Presentation.xcodeproj">
          </FileRef>
          <FileRef

@@ -84,6 +84,48 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2A717419231F3C0B8A3E0F06"
+               BuildableName = "Alamofire.framework"
+               BlueprintName = "Alamofire"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "87EA802785C2DA6B58134CC2"
+               BuildableName = "Alamofire_Alamofire.bundle"
+               BlueprintName = "Alamofire_Alamofire"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D07133F9438377A9718CCF25"
+               BuildableName = "AsyncMoya.framework"
+               BlueprintName = "AsyncMoya"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/AsyncMoya/AsyncMoya.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "7CB5E98E45FAAF594F8A0F1E"
                BuildableName = "CasePaths.framework"
                BlueprintName = "CasePaths"
@@ -130,6 +172,20 @@
                BuildableName = "Clocks.framework"
                BlueprintName = "Clocks"
                ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-clocks/swift-clocks.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B380ABDE7CD6BADA20CCE0CB"
+               BuildableName = "CombineMoya.framework"
+               BlueprintName = "CombineMoya"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Moya/Moya.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -462,10 +518,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C777EA7684CF3B97BE76C38C"
-               BuildableName = "DesignSystem_DesignSystem.bundle"
-               BlueprintName = "DesignSystem_DesignSystem"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
+               BlueprintIdentifier = "8B7F7C5C5BC308F0FECD514E"
+               BuildableName = "Detail.framework"
+               BlueprintName = "Detail"
+               ReferencedContainer = "container:Projects/Presentation/Detail/Detail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -476,10 +532,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "707910BA6BE9907351D0858D"
-               BuildableName = "DesignSystem_DesignSystem_Debug.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Debug"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
+               BlueprintIdentifier = "1958D663106B76E750FE451C"
+               BuildableName = "Detail_Debug.framework"
+               BlueprintName = "Detail-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Detail/Detail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -490,10 +546,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731284097D03F7AE7DAF61C7"
-               BuildableName = "DesignSystem_DesignSystem_Prod.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Prod"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
+               BlueprintIdentifier = "F161DAF939E82C9C7232DCA3"
+               BuildableName = "Detail_Prod.framework"
+               BlueprintName = "Detail-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Detail/Detail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -504,10 +560,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36DB180B3BF086646401D7DF"
-               BuildableName = "DesignSystem_DesignSystem_Stage.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Stage"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
+               BlueprintIdentifier = "F6C1C1AA5A5079CA593F4FCC"
+               BuildableName = "Detail_Stage.framework"
+               BlueprintName = "Detail-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Detail/Detail.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "378027671B59764DC5831691"
+               BuildableName = "DetailTests.xctest"
+               BlueprintName = "DetailTests"
+               ReferencedContainer = "container:Projects/Presentation/Detail/Detail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -658,6 +728,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3029886F808755EB526816EB"
+               BuildableName = "EventLimiter.framework"
+               BlueprintName = "EventLimiter"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/EventLimiter/EventLimiter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "1BB2F3B874D5162454B43154"
                BuildableName = "FlowStacks.framework"
                BlueprintName = "FlowStacks"
@@ -732,6 +816,76 @@
                BuildableName = "FoundationsTests.xctest"
                BlueprintName = "FoundationsTests"
                ReferencedContainer = "container:Projects/Core/Network/Foundations/Foundations.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "52E844066D197E3B81FA748F"
+               BuildableName = "Home.framework"
+               BlueprintName = "Home"
+               ReferencedContainer = "container:Projects/Presentation/Home/Home.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "26FDE348D508A4A8815C43A2"
+               BuildableName = "Home_Debug.framework"
+               BlueprintName = "Home-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Home/Home.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CAB974688005DECF5E74A73A"
+               BuildableName = "Home_Prod.framework"
+               BlueprintName = "Home-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Home/Home.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D301E001B520AAA16EC3D9D5"
+               BuildableName = "Home_Stage.framework"
+               BlueprintName = "Home-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Home/Home.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AF31213DA71B06E9B09EA3F0"
+               BuildableName = "HomeTests.xctest"
+               BlueprintName = "HomeTests"
+               ReferencedContainer = "container:Projects/Presentation/Home/Home.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -886,6 +1040,20 @@
                BuildableName = "ModelTests.xctest"
                BlueprintName = "ModelTests"
                ReferencedContainer = "container:Projects/Core/Data/Model/Model.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A4DFF0D3EE507E4032CBEC48"
+               BuildableName = "Moya.framework"
+               BlueprintName = "Moya"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Moya/Moya.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1232,6 +1400,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5023327BBF6D14FE88DF5B24"
+               BuildableName = "RxMoya.framework"
+               BlueprintName = "RxMoya"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Moya/Moya.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8347C3C08CE16ABDA172FCE3"
+               BuildableName = "RxSwift.framework"
+               BlueprintName = "RxSwift"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/RxSwift/RxSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "F2B641F230465A1CF012FDED"
                BuildableName = "Service.framework"
                BlueprintName = "Service"
@@ -1404,6 +1600,76 @@
                BuildableName = "Sharing2.framework"
                BlueprintName = "Sharing2"
                ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-sharing/swift-sharing.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B281B9912FBE9374CDC0824D"
+               BuildableName = "Splash.framework"
+               BlueprintName = "Splash"
+               ReferencedContainer = "container:Projects/Presentation/Splash/Splash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "098F8F29D6A8253E83E50261"
+               BuildableName = "Splash_Debug.framework"
+               BlueprintName = "Splash-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Splash/Splash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C5348F67A0F980DA71F5F163"
+               BuildableName = "Splash_Prod.framework"
+               BlueprintName = "Splash-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Splash/Splash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "179E506C0ADB4824BA017552"
+               BuildableName = "Splash_Stage.framework"
+               BlueprintName = "Splash-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Splash/Splash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9165A57EA536D2AB06CC46C8"
+               BuildableName = "SplashTests.xctest"
+               BlueprintName = "SplashTests"
+               ReferencedContainer = "container:Projects/Presentation/Splash/Splash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -2023,6 +2289,17 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "378027671B59764DC5831691"
+               BuildableName = "DetailTests.xctest"
+               BlueprintName = "DetailTests"
+               ReferencedContainer = "container:Projects/Presentation/Detail/Detail.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "03D903CD4D01BDA717836266"
                BuildableName = "DomainInterfaceTests.xctest"
                BlueprintName = "DomainInterfaceTests"
@@ -2049,6 +2326,17 @@
                BuildableName = "FoundationsTests.xctest"
                BlueprintName = "FoundationsTests"
                ReferencedContainer = "container:Projects/Core/Network/Foundations/Foundations.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AF31213DA71B06E9B09EA3F0"
+               BuildableName = "HomeTests.xctest"
+               BlueprintName = "HomeTests"
+               ReferencedContainer = "container:Projects/Presentation/Home/Home.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -2126,6 +2414,17 @@
                BuildableName = "SharedTests.xctest"
                BlueprintName = "SharedTests"
                ReferencedContainer = "container:Projects/Shared/Shared/Shared.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9165A57EA536D2AB06CC46C8"
+               BuildableName = "SplashTests.xctest"
+               BlueprintName = "SplashTests"
+               ReferencedContainer = "container:Projects/Presentation/Splash/Splash.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

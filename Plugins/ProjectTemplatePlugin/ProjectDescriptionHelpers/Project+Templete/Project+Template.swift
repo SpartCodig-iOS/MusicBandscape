@@ -25,7 +25,7 @@ public extension Project {
     entitlements: ProjectDescription.Entitlements? = nil,
     schemes: [ProjectDescription.Scheme] = []
   ) -> Project {
-
+    
     let appTarget: Target = .target(
       name: name,
       destinations: destinations,
@@ -39,7 +39,7 @@ public extension Project {
       scripts: scripts,
       dependencies: dependencies
     )
-
+    
     let appProdTarget: Target = .target(
       name: "\(name)-Prod",
       destinations: destinations,
@@ -53,8 +53,8 @@ public extension Project {
       scripts: scripts,
       dependencies: dependencies
     )
-
-
+    
+    
     let appStageTarget: Target = .target(
       name: "\(name)-Stage",
       destinations: destinations,
@@ -68,8 +68,8 @@ public extension Project {
       scripts: scripts,
       dependencies: dependencies
     )
-
-
+    
+    
     let appDevTarget: Target = .target(
       name: "\(name)-Debug",
       destinations: destinations,
@@ -83,7 +83,7 @@ public extension Project {
       scripts: scripts,
       dependencies: dependencies
     )
-
+    
     let appTestTarget : Target = .target(
       name: "\(name)Tests",
       destinations: destinations,
@@ -94,9 +94,9 @@ public extension Project {
       sources: ["\(name)Tests/Sources/**"],
       dependencies: [.target(name: name)]
     )
-
+    
     let targets = [appTarget, appDevTarget, appStageTarget, appProdTarget ,appTestTarget]
-
+    
     return Project(
       name: name,
       options: .options(
@@ -109,7 +109,7 @@ public extension Project {
       schemes: schemes
     )
   }
-
+  
   static func makeModule(
     name: String = Environment.appName,
     bundleId: String,
@@ -201,25 +201,36 @@ extension Scheme {
     
   }
   
-
+  public static func makeTestPlanScheme(target: ConfigurationName, name: String) -> Scheme {
+    return Scheme.scheme(
+      name: name,
+      shared: true,
+      buildAction: .buildAction(targets: ["\(name)", "\(name)Tests"]),
+      testAction: .testPlans(["\(name)Tests/Sources/\(name)TestPlan.xctestplan"]),
+      runAction: .runAction(configuration: "Debug"),
+      archiveAction: .archiveAction(configuration: "Debug"),
+      profileAction: .profileAction(configuration: "Debug"),
+      analyzeAction: .analyzeAction(configuration: "Debug")
+    )
+  }
 }
 
 
 public extension Scheme {
-    static func scheme(name: String, environment: ConfiguratuonEnviroment) -> Scheme {
-      let appName = Project.Environment.appName
-        let schemeName = switch environment {
-        case .prod: appName
-        case .dev, .stage: "\(appName)-\(environment.name)"
-        }
-
-        return .scheme(
-            name: schemeName,
-            buildAction: .buildAction(targets: [.target(name)]),
-            runAction: .runAction(configuration: .init(stringLiteral: environment.name)),
-            archiveAction: .archiveAction(configuration: .release),
-            profileAction: .profileAction(configuration: .release),
-            analyzeAction: .analyzeAction(configuration: .debug)
-        )
+  static func scheme(name: String, environment: ConfiguratuonEnviroment) -> Scheme {
+    let appName = Project.Environment.appName
+    let schemeName = switch environment {
+      case .prod: appName
+      case .dev, .stage: "\(appName)-\(environment.name)"
     }
+    
+    return .scheme(
+      name: schemeName,
+      buildAction: .buildAction(targets: [.target(name)]),
+      runAction: .runAction(configuration: .init(stringLiteral: environment.name)),
+      archiveAction: .archiveAction(configuration: .release),
+      profileAction: .profileAction(configuration: .release),
+      analyzeAction: .analyzeAction(configuration: .debug)
+    )
+  }
 }

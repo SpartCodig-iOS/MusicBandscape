@@ -54,50 +54,46 @@ extension Settings {
     configurations: [
       .debug(
         name: .debug,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.dev)
       ),
       .debug(
         name: .stage,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appStageName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appStageName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.stage)
       ),
       .release(
         name: .release,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.release)
       ),
       .release(
         name: .prod,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appProdName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appProdName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.prod)
       ),
-
-    ], defaultSettings: .recommended
+    ],
+    defaultSettings: .recommended
   )
   
   public static func appBaseSetting(appName: String) -> Settings {

@@ -11,7 +11,6 @@ import SwiftUI
 
 import ComposableArchitecture
 
-
 @Reducer
 public struct SplashReducer {
   public init() {}
@@ -45,6 +44,7 @@ public struct SplashReducer {
 
 
   // MARK: - 앱내에서 사용하는 액션
+  @CasePathable
   public enum InnerAction: Equatable {
     case startAnimationSequence
     case updateLogo(opacity: CGFloat, scale: CGFloat)
@@ -54,6 +54,7 @@ public struct SplashReducer {
   }
 
   // MARK: - NavigationAction
+  @CasePathable
   public enum NavigationAction: Equatable {
     case presentMain
 
@@ -130,7 +131,7 @@ extension SplashReducer {
           try await clock.sleep(for: .seconds(2))
           await send(.navigation(.presentMain))
         }
-        .cancellable(id: CancelID.animation)
+        .cancellable(id: CancelID.animation, cancelInFlight: true)
 
       case let .updateLogo(opacity, scale):
         state.logoOpacity = opacity

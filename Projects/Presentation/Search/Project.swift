@@ -2,18 +2,18 @@ import Foundation
 import ProjectDescription
 import DependencyPlugin
 import ProjectTemplatePlugin
+import ProjectTemplatePlugin
 import DependencyPackagePlugin
 
 let project = Project.makeAppModule(
-  name: "Presentation",
-  bundleId: .appBundleID(name: ".Presentation"),
+  name: "Search",
+  bundleId: .appBundleID(name: ".Search"),
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-    .Presentation(implements: .Splash),
-    .Presentation(implements: .Home),
     .Presentation(implements: .Detail),
-    .Presentation(implements: .Search),
+    .Core(implements: .Core),
+    .Shared(implements: .Shared),
   ],
   sources: ["Sources/**"]
 )

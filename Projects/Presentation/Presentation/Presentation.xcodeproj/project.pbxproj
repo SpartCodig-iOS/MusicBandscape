@@ -31,10 +31,14 @@
 		461B7923C5885A691102455A /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F03CD23882DA025CC86817 /* IdentifiedCollections.framework */; };
 		49F6D986954C901DC50E5A49 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232AE6BF7A1AFCF0B9B823FD /* Sharing1.framework */; };
 		4E660B1501EE176BAAEAEA27 /* PresentationExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60918107A83F4DDE9D417D /* PresentationExported.swift */; };
+		507D5CF0C9368A9995F8C346 /* Search.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BBD8EA71D55024889942740 /* Search.framework */; };
 		5248ACB941821BF3F91EA6D7 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB201D0E8BE1D1547639F88 /* Dependencies.framework */; };
 		54B649D24AB621D8E9044D06 /* Home.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = D8A7AC209392899E86BB7CDB /* Home.framework */; };
 		56FCE4DA807E3179DEFAF470 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D09AE76BE920545555A /* Core.framework */; };
 		59F11625F203DCDD137E6944 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0595BAB78E7CD48075AF15B0 /* Model.framework */; };
+		5AC3A887821F18F0E754782A /* Search.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BBD8EA71D55024889942740 /* Search.framework */; };
+		5AC827149AD48A6F79CF63DA /* Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBD8EA71D55024889942740 /* Search.framework */; };
+		5FDC0FCB99B2157AAEDFF35D /* Search.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BBD8EA71D55024889942740 /* Search.framework */; };
 		610E66B1C269EBC709E677F2 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32DB353133F1D17C0F625336 /* swift-sharing_Sharing.bundle */; };
 		6596CD1618805254CB7F40D2 /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD6E248067073EB598B6D86 /* PerceptionCore.framework */; };
 		69F501FFCECF1AB16A4D4752 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AE4EAEE40294F0A26F2B8 /* Presentation.framework */; };
@@ -55,6 +59,7 @@
 		9817995B59A87456AC4FAFBE /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C1426AC84D7DD283CE6A67 /* Perception.framework */; };
 		996AEC4FE0BFF1A9467213F1 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DA26FE7C09459795F68303 /* Clocks.framework */; };
 		99ED14160CCB43FDE651C307 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF73C9599C25FE868248ED /* Test.swift */; };
+		9B3391FE21A8B69CBF3D89A5 /* Search.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BBD8EA71D55024889942740 /* Search.framework */; };
 		A61EBC1D0EBE7174C206C498 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9691EC204490112CA94915 /* CombineSchedulers.framework */; };
 		A86F784BF54F7B2E520F174C /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20933EA2BA8C344219E3B1FD /* UIKitNavigationShim.framework */; };
 		ABF8F449B19C3462BD42A592 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D35546BA6932409F8FF5020 /* RxMoya.framework */; };
@@ -110,6 +115,7 @@
 			files = (
 				14DAD3FC298095990C5B1E92 /* Detail.framework in Dependencies */,
 				3EFAE440F52C82155605ECEA /* Home.framework in Dependencies */,
+				507D5CF0C9368A9995F8C346 /* Search.framework in Dependencies */,
 				EC2D67DCAC8BF67040034401 /* Splash.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -122,6 +128,7 @@
 			files = (
 				B584B787DA06633F36954C60 /* Detail.framework in Dependencies */,
 				54B649D24AB621D8E9044D06 /* Home.framework in Dependencies */,
+				9B3391FE21A8B69CBF3D89A5 /* Search.framework in Dependencies */,
 				2E51D64D30DF720ED92D75D5 /* Splash.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -134,6 +141,7 @@
 			files = (
 				E7CBAEF8338E806EEA5F4FDC /* Detail.framework in Dependencies */,
 				DFF831C7D749689730C26A6C /* Home.framework in Dependencies */,
+				5FDC0FCB99B2157AAEDFF35D /* Search.framework in Dependencies */,
 				7685A7198512E2DA052B2C07 /* Splash.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -166,6 +174,7 @@
 			files = (
 				DBDF5AD2B4E0C7B00CDBED24 /* Detail.framework in Dependencies */,
 				10BFCBDE3F3DA3E08F06E2E1 /* Home.framework in Dependencies */,
+				5AC3A887821F18F0E754782A /* Search.framework in Dependencies */,
 				038F4E4797CB365217FCCBF9 /* Splash.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -223,6 +232,7 @@
 		32DB353133F1D17C0F625336 /* swift-sharing_Sharing.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-sharing_Sharing.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342AE4EAEE40294F0A26F2B8 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		375AA2720EF90234325320FB /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBD8EA71D55024889942740 /* Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C60918107A83F4DDE9D417D /* PresentationExported.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationExported.swift; sourceTree = "<group>"; };
 		3EBF73C9599C25FE868248ED /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		40385C989FA3C085C6B32CBD /* EventLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -321,6 +331,7 @@
 				03AACEC517F47A8E595AB9AF /* Repository.framework in Frameworks */,
 				ABF8F449B19C3462BD42A592 /* RxMoya.framework in Frameworks */,
 				CF2FD6EA7BDF7A79A3D44A02 /* RxSwift.framework in Frameworks */,
+				5AC827149AD48A6F79CF63DA /* Search.framework in Frameworks */,
 				EF37DF3F1678952A881FE872 /* Service.framework in Frameworks */,
 				315228127069BB806DAE9F24 /* Shared.framework in Frameworks */,
 				8D23DE0BD5A9E91111F24602 /* Sharing.framework in Frameworks */,
@@ -466,6 +477,7 @@
 				984C2842981AA76BB051604E /* Repository.framework */,
 				1D35546BA6932409F8FF5020 /* RxMoya.framework */,
 				CFA78759AF8280F2478F2F44 /* RxSwift.framework */,
+				3BBD8EA71D55024889942740 /* Search.framework */,
 				CF3D9435F3E4322BD6B9160E /* Service.framework */,
 				DED236801C3C6EBF9BB755A4 /* Shared.framework */,
 				497184139D240D91EF50C77C /* Sharing.framework */,

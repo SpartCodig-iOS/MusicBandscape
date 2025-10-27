@@ -18,6 +18,7 @@
 		095340E0B267BE3E2F7D4FE5 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B081EA03877CDCBBF9BE37 /* CombineSchedulers.framework */; };
 		095E1C34AD98B15576EDA183 /* TuistBundle+MusicBandscapeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5174E23FF503454B351D0 /* TuistBundle+MusicBandscapeStage.swift */; };
 		09698CF6617F6A4076D432CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A68474E15E389ED55BAE0 /* ContentView.swift */; };
+		0E526578A5572BDF464E6D70 /* Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77A0AD95B700A22B517761 /* Search.framework */; };
 		0F0DC4BDAC74D383908779E8 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8A6C266799AA0040D02D3C /* ComposableArchitecture.framework */; };
 		0F80058EE9FBCBC7D0F40DA6 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6917459D148660C9C70CD13A /* API.framework */; };
 		103C1E47CE9302D7E2C1E1F6 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413317E40D5AE9F8B00F11B4 /* Model.framework */; };
@@ -160,11 +161,13 @@
 		848782307FF545C29EEA71EC /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79EEE27CCE4F5746C6818F5 /* LogMacro.framework */; };
 		84E223E0CB9EA5A910F18B8C /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D006C847C2DA20A43AABF87B /* UIKitNavigationShim.framework */; };
 		8503C6FB429209F16F95F286 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411F373429BD20116338B0AA /* Repository.framework */; };
+		851B56A66E31F7280ACA461A /* Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77A0AD95B700A22B517761 /* Search.framework */; };
 		88E75B2B4F5EF77708D49096 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D81E49B01245A23526EAA /* Home.framework */; };
 		88FC846179FBE9E5AFD559FF /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14C8BBC1AA0C2769371AC2B /* CasePathsCore.framework */; };
 		8A5898D4E30A48B591EBA05A /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E5215AD6585588E565D635 /* EventLimiter.framework */; };
 		8D0164DFA69BB946CF649A88 /* Alamofire_Alamofire.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3137B03D6FE498BCE89B5E2A /* Alamofire_Alamofire.bundle */; };
 		8D303EA61135134B93CA432E /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D006C847C2DA20A43AABF87B /* UIKitNavigationShim.framework */; };
+		8DA1373B7A50AC023C45523A /* Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77A0AD95B700A22B517761 /* Search.framework */; };
 		8F6860F4062E92BCEE77AF3E /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFBAD740D0240ED8AB5B996 /* SwiftUINavigation.framework */; };
 		92C8B757E860A286B9534288 /* DataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52627BE6269218B735B5E759 /* DataInterface.framework */; };
 		933DCAEF7C53E560ECEF84E2 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4569B0A760683D02BA6841B0 /* swift-sharing_Sharing.bundle */; };
@@ -255,6 +258,7 @@
 		E1A6C412FD7E833C4C2B9999 /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE0F8B39244CF15BDE3E932 /* UseCase.framework */; };
 		E210B0A931C1FF64519094A3 /* Splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7469DE63483013B7B833EC /* Splash.framework */; };
 		E29F5F61E6FEC178BB9FC5DD /* MusicBandscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */; };
+		E3907464FE57CE9A22DAC744 /* Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77A0AD95B700A22B517761 /* Search.framework */; };
 		E40BD2B2AF4EEFCF26ABD48D /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9411676F514298935939D705 /* Networking.framework */; };
 		E43C826A264FCD8A0B8CA776 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E571D9E22D19F4C209EFD50A /* DataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52627BE6269218B735B5E759 /* DataInterface.framework */; };
@@ -477,6 +481,7 @@
 		9DF508258988278547FE5B80 /* CombineMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E151F04AB4CBB63289F7271 /* MusicBandscape_Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBandscape_Prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A606187803BB35995C539CBE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		AA77A0AD95B700A22B517761 /* Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8A6C266799AA0040D02D3C /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF727E6387CE846197F0C57E /* MusicBandscape_Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBandscape_Stage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB49684525727EFB0970AF8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -560,6 +565,7 @@
 				28AB0A7E3710415E6C2C378B /* Repository.framework in Frameworks */,
 				F603206E69DAEF2E6DBC60AE /* RxMoya.framework in Frameworks */,
 				34B112E33FF22C09C02D3A76 /* RxSwift.framework in Frameworks */,
+				0E526578A5572BDF464E6D70 /* Search.framework in Frameworks */,
 				A974B14C3A1D6B7A271D071B /* Service.framework in Frameworks */,
 				62CA2FBB50D76CCCC2326C7D /* Shared.framework in Frameworks */,
 				4092C1E5AAB583D68A729F59 /* Sharing.framework in Frameworks */,
@@ -617,6 +623,7 @@
 				8503C6FB429209F16F95F286 /* Repository.framework in Frameworks */,
 				EA1BEDA046EE1B95B2CA9208 /* RxMoya.framework in Frameworks */,
 				22902484E3BDBD14FDD2E6CF /* RxSwift.framework in Frameworks */,
+				E3907464FE57CE9A22DAC744 /* Search.framework in Frameworks */,
 				D144B3AD310BEF3600826F88 /* Service.framework in Frameworks */,
 				D5C60A087093A7288543A24B /* Shared.framework in Frameworks */,
 				2C5187E0291D57929DD4F836 /* Sharing.framework in Frameworks */,
@@ -674,6 +681,7 @@
 				F2F03065DD539FD481A2E12C /* Repository.framework in Frameworks */,
 				21F27F18D8004F22E0DD91A4 /* RxMoya.framework in Frameworks */,
 				B4A168D48DED5F717DCD37D4 /* RxSwift.framework in Frameworks */,
+				851B56A66E31F7280ACA461A /* Search.framework in Frameworks */,
 				2EB19116E83244076587A072 /* Service.framework in Frameworks */,
 				02999AE872F2D7264BFB9644 /* Shared.framework in Frameworks */,
 				D9520494BF429BCFD8A0202D /* Sharing.framework in Frameworks */,
@@ -731,6 +739,7 @@
 				A25532A961ECF73CF77713B9 /* Repository.framework in Frameworks */,
 				C0AD5C8671D79F527F74F98B /* RxMoya.framework in Frameworks */,
 				F69C0CB73F21D42046C3F76C /* RxSwift.framework in Frameworks */,
+				8DA1373B7A50AC023C45523A /* Search.framework in Frameworks */,
 				ACDD61A4F6CEB6F6D42562DD /* Service.framework in Frameworks */,
 				60ECA104DFE0D556B08C937C /* Shared.framework in Frameworks */,
 				CC03D39B7CE48BE4BB1B48FB /* Sharing.framework in Frameworks */,
@@ -820,6 +829,7 @@
 				411F373429BD20116338B0AA /* Repository.framework */,
 				395E5488BE9250C59B36DF9C /* RxMoya.framework */,
 				C13D89327BE43AEDA4158E57 /* RxSwift.framework */,
+				AA77A0AD95B700A22B517761 /* Search.framework */,
 				9A2D171B46B205C23D969EB9 /* Service.framework */,
 				D707E92A8606642B65BD396E /* Shared.framework */,
 				76A534AB24BB749761EA470B /* Sharing.framework */,

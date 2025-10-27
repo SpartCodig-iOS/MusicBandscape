@@ -24,6 +24,7 @@ public extension ModulePath {
     case Splash
     case Home
     case Detail
+    case Search
 
 
     public static let name: String = "Presentation"

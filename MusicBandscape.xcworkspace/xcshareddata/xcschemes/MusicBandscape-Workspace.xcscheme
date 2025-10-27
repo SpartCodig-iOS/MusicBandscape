@@ -1428,6 +1428,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C8340F58B0B1AD7EA1B1F833"
+               BuildableName = "Search.framework"
+               BlueprintName = "Search"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ADF6FD6557B86CF1D0D142F4"
+               BuildableName = "Search_Debug.framework"
+               BlueprintName = "Search-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC9735B9FBE423AE69AD2C5D"
+               BuildableName = "Search_Prod.framework"
+               BlueprintName = "Search-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "07BC18765727814C00E81BA3"
+               BuildableName = "Search_Stage.framework"
+               BlueprintName = "Search-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5025AE41A60E1D1B5B67EC7D"
+               BuildableName = "SearchTests.xctest"
+               BlueprintName = "SearchTests"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "F2B641F230465A1CF012FDED"
                BuildableName = "Service.framework"
                BlueprintName = "Service"
@@ -2392,6 +2462,17 @@
                BuildableName = "RepositoryTests.xctest"
                BlueprintName = "RepositoryTests"
                ReferencedContainer = "container:Projects/Core/Data/Repository/Repository.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5025AE41A60E1D1B5B67EC7D"
+               BuildableName = "SearchTests.xctest"
+               BlueprintName = "SearchTests"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

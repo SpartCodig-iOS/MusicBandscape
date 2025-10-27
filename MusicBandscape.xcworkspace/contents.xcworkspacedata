@@ -69,6 +69,9 @@
             location = "group:Presentation/Presentation.xcodeproj">
          </FileRef>
          <FileRef
+            location = "group:Search/Search.xcodeproj">
+         </FileRef>
+         <FileRef
             location = "group:Splash/Splash.xcodeproj">
          </FileRef>
       </Group>

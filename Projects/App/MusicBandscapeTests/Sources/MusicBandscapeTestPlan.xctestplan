@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "EF54D80E-8A66-4254-9BC1-D4B56D4DE045",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/Presentation\/Splash\/Splash.xcodeproj",
+        "identifier" : "9165A57EA536D2AB06CC46C8",
+        "name" : "SplashTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core\/Data\/Repository\/Repository.xcodeproj",
+        "identifier" : "E227DA11F88E56EFAEBAD447",
+        "name" : "RepositoryTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core\/Domain\/UseCase\/UseCase.xcodeproj",
+        "identifier" : "3DF3057AD58FAE5A14CAF9E4",
+        "name" : "UseCaseTests"
+      }
+    }
+  ],
+  "version" : 1
+}

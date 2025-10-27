@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A6B9B2FAF099CEF68CE2E8A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD426096958CD6D41CCA85 /* Colors.swift */; };
 		122A224CBF11F5202EDE4E1F /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		1BF049B1BD1E6B50D4676CAC /* CircularArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907986DA2159ABCE5F83E0E /* CircularArrowButton.swift */; };
 		1E5D2C4A211714DEC0AA0E56 /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57A51400075BF17E23E57FD /* Extension+Color.swift */; };
 		1F4BF4D83DEBABCF9477B5A4 /* TuistFonts+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF20F019AC6C1E3B3D87AF8 /* TuistFonts+DesignSystemProd.swift */; };
 		2789723E88C4DA0FD079CC94 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
@@ -19,19 +20,24 @@
 		36B4268421AB9CDA58103A7B /* TuistAssets+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0FABFF623E11D22F6BDCC /* TuistAssets+DesignSystemDebug.swift */; };
 		432FEB3278C92F742A195CE8 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		5535A46BBF316AB4582FB4C9 /* TuistBundle+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */; };
+		673A91F4C9D6C837480BB622 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E5CB97F75AD6E700519A3 /* SkeletonView.swift */; };
 		683B9C0B090D319ECE7EB598 /* TuistFonts+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */; };
 		6927446AB5EE7188AD1D0B39 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		6950736E5EE4DAD2C1C383D0 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E5CB97F75AD6E700519A3 /* SkeletonView.swift */; };
 		6CBFFDE6727988688C659C02 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
 		6DC10A7B6418AC05BD0B6AC6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD426096958CD6D41CCA85 /* Colors.swift */; };
 		6F92DE23678F9A6267051535 /* Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC35B0255CD661A69E96324 /* Extension+Image.swift */; };
 		80991F64A6AF11F01236591F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD426096958CD6D41CCA85 /* Colors.swift */; };
 		8355C7F5099237875CB9E02D /* Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC35B0255CD661A69E96324 /* Extension+Image.swift */; };
+		897B988C3728455AE5DC7EC3 /* CircularArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907986DA2159ABCE5F83E0E /* CircularArrowButton.swift */; };
 		8AD14825495899390CB752DA /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */; };
+		90D63D803B7C7AF6A8AFB62A /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E5CB97F75AD6E700519A3 /* SkeletonView.swift */; };
 		9FB151873E728668BCAA4B0A /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57A51400075BF17E23E57FD /* Extension+Color.swift */; };
 		A2CEB3ECFE3AFCFBB6509C79 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B67F5AD336FFDED9C31245F /* Test.swift */; };
 		A2D5F30304A4ADD3278E9047 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B935A678F91D07045536FA /* PretendardFont.swift */; };
 		A3C09BA185C2FA4CF365B5A1 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
 		A4088C965C82018F1A81A682 /* Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC35B0255CD661A69E96324 /* Extension+Image.swift */; };
+		A6339BDF9771B885471FEDC0 /* CircularArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907986DA2159ABCE5F83E0E /* CircularArrowButton.swift */; };
 		A75C82EA8D5C36365B2FA1D4 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		ABAFDB030E94712397F1DE0A /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		ABB14811E13F7B1ECCF8B086 /* TuistAssets+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5263BC75B281154AC0B5A7B /* TuistAssets+DesignSystem.swift */; };
@@ -39,7 +45,9 @@
 		AF941BD7FA43B591A68B5E49 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		BD878E42E01BA5FA93F29FDE /* TuistBundle+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38EF5B36E88588961AB7E44 /* TuistBundle+DesignSystemDebug.swift */; };
 		C438E92FA9121880084AE9AA /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */; };
+		C469D69EF1010B7DA557496D /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E5CB97F75AD6E700519A3 /* SkeletonView.swift */; };
 		C83CACD5B5F275224A93814E /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
+		C9E612950523D25FB1F8CF11 /* CircularArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907986DA2159ABCE5F83E0E /* CircularArrowButton.swift */; };
 		CF23E568617BA29AD1F6DC31 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */; };
 		D34856BC0CD7243696B3CD01 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */; };
 		D4BBBE665283FCFF21AF1E1E /* TuistFonts+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61786D0EB738723AB6A3E52 /* TuistFonts+DesignSystemStage.swift */; };
@@ -125,6 +133,7 @@
 		1609C54BDDFC80336CF0C360 /* TuistAssets+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemStage.swift"; sourceTree = "<group>"; };
 		27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemStage.swift"; sourceTree = "<group>"; };
 		286D4EE69896CE34670D1AE0 /* DesignSystem_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2907986DA2159ABCE5F83E0E /* CircularArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrowButton.swift; sourceTree = "<group>"; };
 		2EF20F019AC6C1E3B3D87AF8 /* TuistFonts+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystemProd.swift"; sourceTree = "<group>"; };
 		365911FA35B2B70671D60856 /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
 		469F4B641DBB710B1B90BAD8 /* DesignSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemTests-Info.plist"; sourceTree = "<group>"; };
@@ -136,6 +145,7 @@
 		7EF38864C69153237B1B4234 /* DesignSystem-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Debug-Info.plist"; sourceTree = "<group>"; };
 		8080BDCE77FA8041E648FFE0 /* DesignSystem-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Prod-Info.plist"; sourceTree = "<group>"; };
 		8374AFD4C591FD586AC84128 /* DesignSystem_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872E5CB97F75AD6E700519A3 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
 		8937FA9427EEA938B58C5B3E /* DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		8E80CBF5486DD48CEF7D4361 /* TuistAssets+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemProd.swift"; sourceTree = "<group>"; };
 		9B0C3E527CEC0A57D2B99BFB /* TuistBundle+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemProd.swift"; sourceTree = "<group>"; };
@@ -195,9 +205,11 @@
 		0E1288659896D0CFF98DA5AA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8BC136006E1D0234B84A94B8 /* Button */,
 				EE53A850990E859B77A63149 /* Color */,
 				A5D8A7BA4E4303B862C68866 /* Font */,
 				3D56AC3DF263FFE10ECDAF91 /* Image */,
+				5D445DBA741A52C229EB1A9E /* Skeleton */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -238,6 +250,14 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		5D445DBA741A52C229EB1A9E /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				872E5CB97F75AD6E700519A3 /* SkeletonView.swift */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
 		786F17AF2FB2F3D1598E0C72 /* FontAsset */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +285,14 @@
 				D5FD3537E28AE857DC09D214 /* Sources */,
 			);
 			path = Derived;
+			sourceTree = "<group>";
+		};
+		8BC136006E1D0234B84A94B8 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				2907986DA2159ABCE5F83E0E /* CircularArrowButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		9C29548CCBEAF62FB7951500 /* Resources */ = {
@@ -523,12 +551,14 @@
 				36B4268421AB9CDA58103A7B /* TuistAssets+DesignSystemDebug.swift in Sources */,
 				BD878E42E01BA5FA93F29FDE /* TuistBundle+DesignSystemDebug.swift in Sources */,
 				683B9C0B090D319ECE7EB598 /* TuistFonts+DesignSystemDebug.swift in Sources */,
+				897B988C3728455AE5DC7EC3 /* CircularArrowButton.swift in Sources */,
 				80991F64A6AF11F01236591F /* Colors.swift in Sources */,
 				E2C51F74A3D71B4974AD712D /* Extension+Color.swift in Sources */,
 				E6222805F95FECDB842557D2 /* PretendardFont.swift in Sources */,
 				30C3159302CFDD0DF5C7693F /* PretendardFontFamily.swift in Sources */,
 				F244C880769775813B98E17D /* Extension+Image.swift in Sources */,
 				AD8836C636E43E59E7DB750E /* ImageAsset.swift in Sources */,
+				673A91F4C9D6C837480BB622 /* SkeletonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,12 +569,14 @@
 				29B83E78203A842E17186969 /* TuistAssets+DesignSystemProd.swift in Sources */,
 				FA17A19D49963C814439E27E /* TuistBundle+DesignSystemProd.swift in Sources */,
 				1F4BF4D83DEBABCF9477B5A4 /* TuistFonts+DesignSystemProd.swift in Sources */,
+				1BF049B1BD1E6B50D4676CAC /* CircularArrowButton.swift in Sources */,
 				6DC10A7B6418AC05BD0B6AC6 /* Colors.swift in Sources */,
 				F3862284686A6F20FC08AEA4 /* Extension+Color.swift in Sources */,
 				F28419D1493CD6CC003EDF76 /* PretendardFont.swift in Sources */,
 				D34856BC0CD7243696B3CD01 /* PretendardFontFamily.swift in Sources */,
 				6F92DE23678F9A6267051535 /* Extension+Image.swift in Sources */,
 				6CBFFDE6727988688C659C02 /* ImageAsset.swift in Sources */,
+				90D63D803B7C7AF6A8AFB62A /* SkeletonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +587,14 @@
 				ABB14811E13F7B1ECCF8B086 /* TuistAssets+DesignSystem.swift in Sources */,
 				F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */,
 				2C2A6F1B0843699ACFE53D23 /* TuistFonts+DesignSystem.swift in Sources */,
+				C9E612950523D25FB1F8CF11 /* CircularArrowButton.swift in Sources */,
 				0A6B9B2FAF099CEF68CE2E8A /* Colors.swift in Sources */,
 				1E5D2C4A211714DEC0AA0E56 /* Extension+Color.swift in Sources */,
 				A2D5F30304A4ADD3278E9047 /* PretendardFont.swift in Sources */,
 				8AD14825495899390CB752DA /* PretendardFontFamily.swift in Sources */,
 				8355C7F5099237875CB9E02D /* Extension+Image.swift in Sources */,
 				C83CACD5B5F275224A93814E /* ImageAsset.swift in Sources */,
+				C469D69EF1010B7DA557496D /* SkeletonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,12 +605,14 @@
 				DF26B81FBD6FDC0158FA47C7 /* TuistAssets+DesignSystemStage.swift in Sources */,
 				5535A46BBF316AB4582FB4C9 /* TuistBundle+DesignSystemStage.swift in Sources */,
 				D4BBBE665283FCFF21AF1E1E /* TuistFonts+DesignSystemStage.swift in Sources */,
+				A6339BDF9771B885471FEDC0 /* CircularArrowButton.swift in Sources */,
 				2C0E6DEC77A119676F966BF1 /* Colors.swift in Sources */,
 				9FB151873E728668BCAA4B0A /* Extension+Color.swift in Sources */,
 				FF6F0997DBE31841F5D2484F /* PretendardFont.swift in Sources */,
 				CF23E568617BA29AD1F6DC31 /* PretendardFontFamily.swift in Sources */,
 				A4088C965C82018F1A81A682 /* Extension+Image.swift in Sources */,
 				F16B378FA89AF6BB63790180 /* ImageAsset.swift in Sources */,
+				6950736E5EE4DAD2C1C383D0 /* SkeletonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

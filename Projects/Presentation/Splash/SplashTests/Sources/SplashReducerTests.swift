@@ -20,7 +20,7 @@ extension Tag {
 @MainActor
 @Suite("Splash ReducerTest - 애니메이션  실행", .tags(.unit, .reducer))
 struct SplashReducerTests {
-  @Test("애니메이션 시퀀스가 올바른 순서로 진행", )
+  @Test("애니메이션 시퀀스가 올바른 순서로 진행" )
   func animationSequence_runsInOrder() async throws {
     let clock = TestClock()
 

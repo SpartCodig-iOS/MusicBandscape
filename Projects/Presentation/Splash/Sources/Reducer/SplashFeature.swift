@@ -61,7 +61,7 @@ public struct SplashReducer {
   }
 
 
-  private enum CancelID { case animation }
+  private enum CancelID: Hashable { case animation }
 
   @Dependency(\.continuousClock) var clock
 

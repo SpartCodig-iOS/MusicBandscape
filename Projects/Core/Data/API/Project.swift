@@ -11,7 +11,9 @@ let project = Project.makeAppModule(
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-
+    .Network(implements: .Networking),
+    
   ],
-  sources: ["Sources/**"]
+  sources: ["Sources/**"],
+  infoPlist: .moduleInfoPlist
 )

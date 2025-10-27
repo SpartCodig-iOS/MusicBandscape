@@ -11,7 +11,9 @@ let project = Project.makeAppModule(
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-
+    .SPM.asyncMoya,
+    .Network(implements: .Networking),
+    .Data(implements: .API)
   ],
   sources: ["Sources/**"]
 )

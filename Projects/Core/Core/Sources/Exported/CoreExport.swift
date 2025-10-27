@@ -7,3 +7,4 @@
 
 @_exported import UseCase
 @_exported import Network
+@_exported import Entity

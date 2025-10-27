@@ -12,7 +12,8 @@ let project = Project.makeAppModule(
   settings:  .settings(),
   dependencies: [
     .Network(implements: .Networking),
-    .Data(implements: .DataInterface)
+    .Data(implements: .DataInterface),
+    .Data(implements: .Service)
   ],
   sources: ["Sources/**"]
 )

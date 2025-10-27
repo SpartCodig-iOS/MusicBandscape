@@ -7,12 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C179C50C350A46353A16552 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		08F22BF5A4AA52A128BB1B82 /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 31DFD964165DEDB3D59A47AD /* AsyncMoya.framework */; };
+		08F77FD6DE4E215DD4E32A64 /* API.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6540F18A92242DF633B90D64 /* API.framework */; };
+		19D2E5C34F726418AFE71E01 /* API.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6540F18A92242DF633B90D64 /* API.framework */; };
+		22D242B134F5B6A8A32E15BF /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D14E81046E0EDA166110285 /* RxMoya.framework */; };
 		3C3DA87E8BECAB9DDB4BCB5D /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDFE229DFD7957E8AC64F6F /* Service.framework */; };
-		55CFED0C556294FF98B7DC7B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		3E3708439743A2C547ED2492 /* MusicSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4FEF4703DFB8A526662E0 /* MusicSearchService.swift */; };
+		4076084473C31650E202BE04 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
+		47FC5E42D9834B9396DCEBAC /* API.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6540F18A92242DF633B90D64 /* API.framework */; };
+		4E826607AE71154E5DED8059 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5D0A50675F4214269A1E8C /* Moya.framework */; };
+		5E8F9B07396157DD468615A9 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A05329346434BB988BB12F74 /* Networking.framework */; };
+		60E5E8A6990835086C9E8E06 /* Alamofire_Alamofire.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 829B01728ED34A27080BAED0 /* Alamofire_Alamofire.bundle */; };
+		61316F3746EFE6C53038DE45 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05329346434BB988BB12F74 /* Networking.framework */; };
+		6C6ED816C134180808202765 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1B5EDC0770CED17685915E /* CFNetwork.framework */; };
+		6D0EFA0CE8F5AF49C82D441B /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CA37CD5135A269A3E8B4C /* EventLimiter.framework */; };
+		7CCC2AF836AA226F43D96D69 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD9486798A0D863BB013E5 /* OSLog.framework */; };
+		80EFAB8A52BEA669C1B9F4D2 /* AsyncMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DFD964165DEDB3D59A47AD /* AsyncMoya.framework */; };
 		8279A0344BCCCB23F8D07ADA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA233B5E4422F71B1E2790B8 /* Test.swift */; };
-		C9897CC8537ABDA7B20CA166 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
-		E349F88B9335E82E1E48BED5 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		843C6AEBBD6B72FD0CD8CA69 /* MusicSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4FEF4703DFB8A526662E0 /* MusicSearchService.swift */; };
+		889DD39EC5C731443684AAF0 /* MusicSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4FEF4703DFB8A526662E0 /* MusicSearchService.swift */; };
+		8F0B075E16F581A93F0F2950 /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 31DFD964165DEDB3D59A47AD /* AsyncMoya.framework */; };
+		8FC02317926D2E1626741F28 /* Foundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5F4A58F852E3E9AB2C612B /* Foundations.framework */; };
+		929618209892E127DBC393C4 /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 31DFD964165DEDB3D59A47AD /* AsyncMoya.framework */; };
+		94692EDF2CEFD2E8ABCB552C /* Alamofire_Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 829B01728ED34A27080BAED0 /* Alamofire_Alamofire.bundle */; };
+		994173BFEE3E0BD171E595D5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21A286E6E06F7B25DE62E94 /* RxSwift.framework */; };
+		9C463465532AB05D8FCE2664 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6540F18A92242DF633B90D64 /* API.framework */; };
+		A1DEAC5E79ADE9B898A29434 /* CombineMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4252AD026DC875E998C68C29 /* CombineMoya.framework */; };
+		A38E04F1E3342BDAFF6EAD94 /* AsyncMoya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 31DFD964165DEDB3D59A47AD /* AsyncMoya.framework */; };
+		A518AF62E3434BFA01D26682 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A05329346434BB988BB12F74 /* Networking.framework */; };
+		CF6860A22642142D4D681090 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25124380C7599FF946C2474 /* Alamofire.framework */; };
+		D8375EA81533102047B7F323 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A05329346434BB988BB12F74 /* Networking.framework */; };
+		EEE15AEC0E9C888A589038F7 /* API.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6540F18A92242DF633B90D64 /* API.framework */; };
+		F57FEB886529599781347F1A /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A05329346434BB988BB12F74 /* Networking.framework */; };
+		FBD23A1822182F559DFBDC36 /* MusicSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4FEF4703DFB8A526662E0 /* MusicSearchService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +62,28 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2613D1F1E4C4DEE2BD94FF /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				60E5E8A6990835086C9E8E06 /* Alamofire_Alamofire.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		43672DB00161FEA57F65B408 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				08F77FD6DE4E215DD4E32A64 /* API.framework in Dependencies */,
+				08F22BF5A4AA52A128BB1B82 /* AsyncMoya.framework in Dependencies */,
+				A518AF62E3434BFA01D26682 /* Networking.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5A4B9E41609D6261A34EF004 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -66,6 +115,30 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B31AB9DAB84DF68E142679F /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				EEE15AEC0E9C888A589038F7 /* API.framework in Dependencies */,
+				A38E04F1E3342BDAFF6EAD94 /* AsyncMoya.framework in Dependencies */,
+				5E8F9B07396157DD468615A9 /* Networking.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D2E9552C3D1506E8E42EB8ED /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				19D2E5C34F726418AFE71E01 /* API.framework in Dependencies */,
+				8F0B075E16F581A93F0F2950 /* AsyncMoya.framework in Dependencies */,
+				F57FEB886529599781347F1A /* Networking.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E135B70B4BAD281F11E29459 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,21 +149,47 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9A743867ABF14264AA4F46D /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				47FC5E42D9834B9396DCEBAC /* API.framework in Dependencies */,
+				929618209892E127DBC393C4 /* AsyncMoya.framework in Dependencies */,
+				D8375EA81533102047B7F323 /* Networking.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00FFF298924B1BF14FBF4331 /* Service-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Prod-Info.plist"; sourceTree = "<group>"; };
 		259ABF995B5D27470E829C10 /* ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27118BD665B186D6882DF66A /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB4FEF4703DFB8A526662E0 /* MusicSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSearchService.swift; sourceTree = "<group>"; };
+		31DFD964165DEDB3D59A47AD /* AsyncMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D19142035B122118FB9153 /* ServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ServiceTests-Info.plist"; sourceTree = "<group>"; };
+		3E5F4A58F852E3E9AB2C612B /* Foundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Foundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4252AD026DC875E998C68C29 /* CombineMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AE8778D00783FC72E9C397 /* Service_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D14E81046E0EDA166110285 /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6540F18A92242DF633B90D64 /* API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656243C0336CD9A5FB069256 /* Service_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A1B62620FE2F19FABD7BF1 /* Service-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Debug-Info.plist"; sourceTree = "<group>"; };
 		79814A227CE0F11AA0C03131 /* Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Info.plist"; sourceTree = "<group>"; };
 		7EDFE229DFD7957E8AC64F6F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829B01728ED34A27080BAED0 /* Alamofire_Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire_Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD9486798A0D863BB013E5 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
+		A02CA37CD5135A269A3E8B4C /* EventLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05329346434BB988BB12F74 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B432785FB9ED34C4A18C0C4C /* Service_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA233B5E4422F71B1E2790B8 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		C3C4EB962B1FA0CC1DE387EB /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		CB5D0A50675F4214269A1E8C /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D066B46F236811258B579745 /* Service-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Stage-Info.plist"; sourceTree = "<group>"; };
+		E21A286E6E06F7B25DE62E94 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1B5EDC0770CED17685915E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		F25124380C7599FF946C2474 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +225,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6ED816C134180808202765 /* CFNetwork.framework in Frameworks */,
+				7CCC2AF836AA226F43D96D69 /* OSLog.framework in Frameworks */,
+				9C463465532AB05D8FCE2664 /* API.framework in Frameworks */,
+				CF6860A22642142D4D681090 /* Alamofire.framework in Frameworks */,
+				80EFAB8A52BEA669C1B9F4D2 /* AsyncMoya.framework in Frameworks */,
+				A1DEAC5E79ADE9B898A29434 /* CombineMoya.framework in Frameworks */,
+				6D0EFA0CE8F5AF49C82D441B /* EventLimiter.framework in Frameworks */,
+				8FC02317926D2E1626741F28 /* Foundations.framework in Frameworks */,
+				4076084473C31650E202BE04 /* LogMacro.framework in Frameworks */,
+				4E826607AE71154E5DED8059 /* Moya.framework in Frameworks */,
+				61316F3746EFE6C53038DE45 /* Networking.framework in Frameworks */,
+				22D242B134F5B6A8A32E15BF /* RxMoya.framework in Frameworks */,
+				994173BFEE3E0BD171E595D5 /* RxSwift.framework in Frameworks */,
 				3C3DA87E8BECAB9DDB4BCB5D /* Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +256,7 @@
 		57FF25C92193FDC6FC2E9956 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C3C4EB962B1FA0CC1DE387EB /* Base.swift */,
+				2CB4FEF4703DFB8A526662E0 /* MusicSearchService.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -152,6 +264,18 @@
 		6EF9FDD21B7717FD4262395A /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				829B01728ED34A27080BAED0 /* Alamofire_Alamofire.bundle */,
+				F25124380C7599FF946C2474 /* Alamofire.framework */,
+				6540F18A92242DF633B90D64 /* API.framework */,
+				31DFD964165DEDB3D59A47AD /* AsyncMoya.framework */,
+				4252AD026DC875E998C68C29 /* CombineMoya.framework */,
+				A02CA37CD5135A269A3E8B4C /* EventLimiter.framework */,
+				3E5F4A58F852E3E9AB2C612B /* Foundations.framework */,
+				27118BD665B186D6882DF66A /* LogMacro.framework */,
+				CB5D0A50675F4214269A1E8C /* Moya.framework */,
+				A05329346434BB988BB12F74 /* Networking.framework */,
+				5D14E81046E0EDA166110285 /* RxMoya.framework */,
+				E21A286E6E06F7B25DE62E94 /* RxSwift.framework */,
 				49AE8778D00783FC72E9C397 /* Service_Debug.framework */,
 				656243C0336CD9A5FB069256 /* Service_Prod.framework */,
 				B432785FB9ED34C4A18C0C4C /* Service_Stage.framework */,
@@ -191,6 +315,15 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
+		951DAE26418A9AE539BF6194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B5EDC0770CED17685915E /* CFNetwork.framework */,
+				8EBD9486798A0D863BB013E5 /* OSLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		97CFFBEEA2425324063A8623 /* ServiceTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +337,7 @@
 			children = (
 				7D2A1FAC224A4161D0DD025B /* Project */,
 				6EF9FDD21B7717FD4262395A /* Products */,
+				951DAE26418A9AE539BF6194 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +352,7 @@
 				A2AA66D5428A52814A8CF2E2 /* Resources */,
 				4E5B44339E15D9D7286508BD /* Frameworks */,
 				5A4B9E41609D6261A34EF004 /* Embed Frameworks */,
+				43672DB00161FEA57F65B408 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -238,6 +373,7 @@
 				220D40C297E32C07E0E4144B /* Resources */,
 				B9E255F78ED125E38CFE6433 /* Frameworks */,
 				7916ECC01EDD8BCB71C5F2CE /* Embed Frameworks */,
+				7B31AB9DAB84DF68E142679F /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -258,6 +394,7 @@
 				DBB59024C51A6B1A99F072A5 /* Resources */,
 				ED4007158FAD7C7CFF0D3491 /* Frameworks */,
 				E135B70B4BAD281F11E29459 /* Embed Frameworks */,
+				2E2613D1F1E4C4DEE2BD94FF /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -279,6 +416,7 @@
 				099BBED0A3D302533934CC25 /* Resources */,
 				34B55B2B9613E5178446EFC1 /* Frameworks */,
 				11D2D814492A2F170FB62D24 /* Embed Frameworks */,
+				E9A743867ABF14264AA4F46D /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -299,6 +437,7 @@
 				5DB916BB3D046F2698257E14 /* Resources */,
 				E46B5D6AB1628CA99D638546 /* Frameworks */,
 				5B36A939A245B5A27F657AD1 /* Embed Frameworks */,
+				D2E9552C3D1506E8E42EB8ED /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -376,6 +515,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94692EDF2CEFD2E8ABCB552C /* Alamofire_Alamofire.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C179C50C350A46353A16552 /* Base.swift in Sources */,
+				843C6AEBBD6B72FD0CD8CA69 /* MusicSearchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CFED0C556294FF98B7DC7B /* Base.swift in Sources */,
+				FBD23A1822182F559DFBDC36 /* MusicSearchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9897CC8537ABDA7B20CA166 /* Base.swift in Sources */,
+				3E3708439743A2C547ED2492 /* MusicSearchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E349F88B9335E82E1E48BED5 /* Base.swift in Sources */,
+				889DD39EC5C731443684AAF0 /* MusicSearchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +583,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -452,6 +596,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service_Prod;
 				SDKROOT = iphoneos;
@@ -477,6 +632,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -486,6 +645,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service;
 				SDKROOT = iphoneos;
@@ -511,6 +681,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -520,6 +694,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service_Stage;
 				SDKROOT = iphoneos;
@@ -544,12 +729,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ServiceTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service.ServiceTests;
 				PRODUCT_NAME = ServiceTests;
@@ -632,6 +832,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -641,6 +845,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service;
 				SDKROOT = iphoneos;
@@ -670,6 +885,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -679,6 +898,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service_Stage;
 				SDKROOT = iphoneos;
@@ -704,6 +934,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -713,6 +947,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service_Prod;
 				SDKROOT = iphoneos;
@@ -742,6 +987,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -751,6 +1000,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service_Debug;
 				SDKROOT = iphoneos;
@@ -775,12 +1035,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ServiceTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service.ServiceTests;
 				PRODUCT_NAME = ServiceTests;
@@ -861,6 +1136,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -870,6 +1149,17 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Service;
 				PRODUCT_NAME = Service_Debug;
 				SDKROOT = iphoneos;

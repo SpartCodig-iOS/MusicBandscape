@@ -27,6 +27,7 @@ public struct HomeCoordinatorView: View {
 
         case .detail(let detailStore):
           DetailView(store: detailStore)
+            .navigationBarBackButtonHidden()
       }
     }
   }

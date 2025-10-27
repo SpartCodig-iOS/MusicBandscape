@@ -10,6 +10,7 @@ import Foundation
 import ComposableArchitecture
 
 import Core
+import LogMacro
 
 @Reducer
 public struct DetailReducer {
@@ -19,10 +20,13 @@ public struct DetailReducer {
   public struct State: Equatable {
 
     @Shared var musicItem: MusicItem?
+    var isLoading: Bool
     public init(
-      musicItem: MusicItem?
+      musicItem: MusicItem?,
+      isLoading: Bool = true
     ) {
       self._musicItem = Shared(wrappedValue: musicItem, .inMemory("MusicItem"))
+      self.isLoading = isLoading
     }
   }
 
@@ -38,26 +42,32 @@ public struct DetailReducer {
   //MARK: - ViewAction
   @CasePathable
   public enum View {
-
+    case onAppear
   }
-
 
 
   //MARK: - AsyncAction 비동기 처리 액션
   public enum AsyncAction: Equatable {
-
+    case searchDetailMusic
   }
 
   //MARK: - 앱내에서 사용하는 액션
-  public enum InnerAction: Equatable {
+  public enum InnerAction {
+    case detailMusicResponse(Result<MusicItem, Error>)
   }
 
   //MARK: - NavigationAction
   public enum NavigationAction: Equatable {
-
+    case backToHome
 
   }
 
+  private enum CancelID: Hashable {
+    case detailScreen
+  }
+
+  @Dependency(\.continuousClock) var clock
+  @Dependency(MusicSearchUseCase.self) var musicSearchUseCase
 
   public var body: some Reducer<State, Action> {
     BindingReducer()
@@ -88,7 +98,9 @@ extension DetailReducer {
     action: View
   ) -> Effect<Action> {
     switch action {
-
+      case .onAppear:
+        state.isLoading = true
+        return .send(.async(.searchDetailMusic))
     }
   }
 
@@ -97,7 +109,23 @@ extension DetailReducer {
     action: AsyncAction
   ) -> Effect<Action> {
     switch action {
+      case .searchDetailMusic:
+        return .run { [musicItem = state.musicItem] send in
+          try? await clock.sleep(for: .seconds(2))
 
+          let searchDetailMusicResult = await Result {
+            try await musicSearchUseCase.fetchTrackDetail(id: musicItem?.trackId ?? .zero)
+          }
+
+          switch searchDetailMusicResult {
+            case .success(let musicDetailData):
+              await send(.inner(.detailMusicResponse(.success(musicDetailData))))
+
+            case .failure(let error):
+              await send(.inner(.detailMusicResponse(.failure(error))))
+          }
+        }
+        .cancellable(id: CancelID.detailScreen, cancelInFlight: true)
     }
   }
 
@@ -106,7 +134,8 @@ extension DetailReducer {
     action: NavigationAction
   ) -> Effect<Action> {
     switch action {
-
+      case .backToHome:
+        return .none
     }
   }
 
@@ -115,8 +144,16 @@ extension DetailReducer {
     action: InnerAction
   ) -> Effect<Action> {
     switch action {
+      case .detailMusicResponse(let result):
+        switch result {
+          case .success(let data):
+            state.$musicItem.withLock { $0 = data }
 
+          case .failure(let error):
+            #logError("데이터가져오기 실패", error.localizedDescription)
+        }
+        state.isLoading = false
+        return .none
     }
   }
 }
-

@@ -26,7 +26,7 @@ public struct NavigationArrowButton: View {
         .scaledToFit()
         .frame(width: 12, height: 20)
         .font(.pretendardFont(family: .semiBold, size: 20))
-        .foregroundStyle(.white)
+        .foregroundStyle(.gray)
         .onTapGesture(perform: backAction)
 
       Spacer()

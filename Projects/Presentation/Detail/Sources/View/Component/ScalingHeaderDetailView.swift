@@ -10,17 +10,20 @@ import DesignSystem
 
 struct ScalingHeaderDetailView<Content: View>: View {
   let headerURL: URL?
+  let isLoading: Bool
   let headerHeight: CGFloat
   let content: Content
   let backAction: () -> Void
 
   init(
     headerURL: URL?,
+    isLoading: Bool,
     headerHeight: CGFloat = 400,
     backAction: @escaping () -> Void = {},
     @ViewBuilder content: () -> Content
   ) {
     self.headerURL = headerURL
+    self.isLoading = isLoading
     self.headerHeight = headerHeight
     self.content = content()
     self.backAction = backAction
@@ -34,23 +37,7 @@ struct ScalingHeaderDetailView<Content: View>: View {
             GeometryReader { geo in
               let offset = geo.frame(in: .global).minY
               let height = offset > 0 ? headerHeight + offset : headerHeight
-              AsyncImage(url: headerURL) { phase in
-                switch phase {
-                  case .empty:
-                    Color.gray.opacity(0.2)
-                  case .success(let image):
-                    image
-                      .resizable()
-                      .scaledToFill()
-                  case .failure:
-                    Image(systemName: "music.note")
-                      .resizable()
-                      .scaledToFit()
-                      .foregroundColor(.gray)
-                  @unknown default:
-                    Color.clear
-                }
-              }
+              headerContent
               .frame(width: outerGeo.size.width, height: height)
               .clipped()
               .offset(y: offset > 0 ? -offset : 0)
@@ -73,6 +60,31 @@ struct ScalingHeaderDetailView<Content: View>: View {
         .padding(.top, outerGeo.safeAreaInsets.top + 20)
       }
       .ignoresSafeArea(edges: .top)
+    }
+  }
+
+  @ViewBuilder
+  private var headerContent: some View {
+    if isLoading {
+      SkeletonView(width: nil, height: headerHeight)
+    } else {
+      AsyncImage(url: headerURL) { phase in
+        switch phase {
+          case .empty:
+            SkeletonView(width: nil, height: headerHeight)
+          case .success(let image):
+            image
+              .resizable()
+              .scaledToFill()
+          case .failure:
+            Image(systemName: "music.note")
+              .resizable()
+              .scaledToFit()
+              .foregroundColor(.gray)
+          @unknown default:
+            Color.clear
+        }
+      }
     }
   }
 }

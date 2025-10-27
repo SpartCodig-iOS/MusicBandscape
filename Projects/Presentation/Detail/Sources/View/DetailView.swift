@@ -12,7 +12,7 @@ import ComposableArchitecture
 import Shared
 import Core
 
-
+@ViewAction(for: DetailReducer.self)
 public struct DetailView: View {
   @Perception.Bindable public var store: StoreOf<DetailReducer>
 
@@ -24,20 +24,29 @@ public struct DetailView: View {
     WithPerceptionTracking {
       ScalingHeaderDetailView(
         headerURL: store.musicItem?.highResolutionArtworkURL,
+        isLoading: store.isLoading,
         headerHeight: 400,
         backAction: {
-          // Your navigation logic for going back
+          store.send(.navigation(.backToHome))
         }
       ) {
-        VStack {
-          sectionHeaderContent(item: store.musicItem ??  .detailMusicItem)
+        VStack(alignment: .leading, spacing: 24) {
+          if store.isLoading {
+            DetailSectionHeaderSkeletonView()
+          } else if let item = store.musicItem {
+            sectionHeaderContent(item: item)
+          }
 
-          aboutAlbumInfoView(item: store.musicItem ?? .detailMusicItem)
+          if store.isLoading {
+            DetailAboutAlbumSkeletonView()
+          } else if let item = store.musicItem {
+            aboutAlbumInfoView(item: item)
+          }
         }
       }
       .background(Color.black.ignoresSafeArea())
       .onAppear {
-        print("DetailView: item \(store.musicItem as Any)")
+        send(.onAppear)
       }
     }
   }
@@ -55,7 +64,7 @@ extension DetailView {
 
       HStack {
         Text(item.album)
-          .font(.pretendardFont(family: .semiBold, size: 40))
+          .font(.pretendardFont(family: .semiBold, size: 30))
           .foregroundStyle(.white)
 
         Spacer()
@@ -103,5 +112,3 @@ extension DetailView {
     }
   }
 }
-
-

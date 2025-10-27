@@ -26,7 +26,6 @@ public struct HomeView: View {
         let contentWidth = max(proxy.size.width - (horizontalPadding * 2), 0)
         let cardHeight = min(200, max(200, contentWidth / 1.2))
         let searchBarHeight: CGFloat = 68
-        let sectionSpacing: CGFloat = 20
 
         ZStack(alignment: .top) {
           Color.backgroundBlack
@@ -76,7 +75,6 @@ public struct HomeView: View {
 }
 
 extension HomeView {
-
   @ViewBuilder
   private func musicSeasonView() -> some View {
     LazyVStack {

@@ -26,4 +26,12 @@ public final class MockMusicSearchRepository: MusicSearchRepositoryProtocol, @un
     self.receivedQueries.append(search)           // 호출 파라미터 검증용
     return try result.get()
   }
+  public func searchMedia(
+    query: String,
+    entity: String
+    media: String,
+  ) async throws -> [ITunesTrack] {
+    self.receivedQueries.append("\(query)|\(media)|\(entity)")
+    return try result.get()
+  }
 }

@@ -3,85 +3,85 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032E2923B00BFC5EAB76C5F7 /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA500C554BA5FC819BE7596 /* SearchResultItem.swift */; };
+		0554EE2B028EAB2732AC4224 /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A28B51C9D38E2AEBE05C2 /* NoResultsView.swift */; };
 		05933ABED45C661592F54152 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125BD6F6F900FE0F16E9AFC8 /* Shared.framework */; };
-		06481D2E4F627C162688339D /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525BAFF03CD2C26A14D8B16 /* SearchResultsList.swift */; };
+		068014758BD4189A50A22581 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC0F518C8B647D636403B3 /* SearchReducer.swift */; };
+		07DA6B029D914657E2BD2542 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36834DC20C5C8180C9CD59A6 /* SearchCoordinator.swift */; };
+		083AAE5467B64C2FE21F2F30 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36834DC20C5C8180C9CD59A6 /* SearchCoordinator.swift */; };
 		0E2A94606D5F8C733A10766B /* Detail.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B31AC52543F492AE4A5EB683 /* Detail.framework */; };
-		1003BC347CE80FD609B7CE8F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFD50A47879D048BA8F46 /* SearchBar.swift */; };
+		0E42EB3E01DD94FB0B5FBA9F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832D284A74D4E6414910CF20 /* SearchBar.swift */; };
+		0FACF8A0863F9D6BF520EF77 /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9FEC7F58C61D434418E21 /* SearchBackground.swift */; };
+		1462AE0EE40801CC09B49189 /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA5C52ECA881681BEF82BE5 /* SearchResultsList.swift */; };
 		177E90F24CFE83F52AE55F63 /* Detail.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B31AC52543F492AE4A5EB683 /* Detail.framework */; };
-		1D57D02BEDDEF830F0984A33 /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C977E6439EB1EAD0CCFECD /* NoResultsView.swift */; };
-		20A973B9608A05731FF4DE7A /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6F51D707A50942378463 /* SearchReducer.swift */; };
+		19835A581563202293853651 /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9FEC7F58C61D434418E21 /* SearchBackground.swift */; };
+		1A59905ACAB58BB186CEE65F /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA500C554BA5FC819BE7596 /* SearchResultItem.swift */; };
+		1E0C983238AE5DDB78E2AFA1 /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E7F194DDDBCAF03F13AB6 /* SearchCategoryFilter.swift */; };
+		1F2CF817A3A94BAACADA14CB /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36834DC20C5C8180C9CD59A6 /* SearchCoordinator.swift */; };
 		213869C3D7CFC1BEBA5AEDEB /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382AEFFC63FBC3CADB8C4886 /* Core.framework */; };
-		26DCC88E07910FCABCEC1C18 /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C977E6439EB1EAD0CCFECD /* NoResultsView.swift */; };
-		2C8205EBF0B30DCCA6868AFD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFD50A47879D048BA8F46 /* SearchBar.swift */; };
-		2E57FD2A97AF9BE0AB20ACA1 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6F51D707A50942378463 /* SearchReducer.swift */; };
+		21AEA66E1AC77285E6E9139B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFC64244B37FAB1CA8F104 /* SearchView.swift */; };
+		2679B42119011AADA9D53D5E /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294650406D2FE2875E45ADC /* SearchCoordinatorView.swift */; };
+		2E3F7B82CE323BFF013C8E89 /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E7F194DDDBCAF03F13AB6 /* SearchCategoryFilter.swift */; };
+		2EA1CF2AB1B63A42B459351E /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ABA4834C26FDBBC507545 /* TrendingCard.swift */; };
 		3145CF92191F3C7627A72610 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125BD6F6F900FE0F16E9AFC8 /* Shared.framework */; };
-		33E2C374F5D39323405178AC /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6F51D707A50942378463 /* SearchReducer.swift */; };
-		411DB93FB2980E2FDBEE0BEB /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4658E104CCD7ABBB7F171 /* RecentSearchesSection.swift */; };
-		41ABAC471A27D123C96A229A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEA27C216CC6FBAA1FB90A /* SearchView.swift */; };
+		37722F4E4E97B64B17CD6452 /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ABA4834C26FDBBC507545 /* TrendingCard.swift */; };
+		3E0576AAE0C8B4FC66F34A6F /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294650406D2FE2875E45ADC /* SearchCoordinatorView.swift */; };
+		3E34368C30ABED5249008C16 /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294650406D2FE2875E45ADC /* SearchCoordinatorView.swift */; };
 		431E534326BD22ABCFB7EC89 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125BD6F6F900FE0F16E9AFC8 /* Shared.framework */; };
-		45EBD766F6D2CAC789195321 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6F51D707A50942378463 /* SearchReducer.swift */; };
-		4BCF1B2F5BB0FA9E116F60C1 /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851CD49169680D8B0A2DEE0 /* SearchBackground.swift */; };
+		47597AE2E4543CD5CEC83027 /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA500C554BA5FC819BE7596 /* SearchResultItem.swift */; };
+		4834DF582F5F5B08413382A1 /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A28B51C9D38E2AEBE05C2 /* NoResultsView.swift */; };
 		4C68C53E026692506551213C /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD73DA1FF53C3EE20E8E80D9 /* swift-sharing_Sharing.bundle */; };
 		4EDD946657CC53EA96711227 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125BD6F6F900FE0F16E9AFC8 /* Shared.framework */; };
-		50BD54570251EC0F9E5D918B /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851CD49169680D8B0A2DEE0 /* SearchBackground.swift */; };
+		50E33F7AA1B30ECEF6D9569F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832D284A74D4E6414910CF20 /* SearchBar.swift */; };
 		529B3290558325314CDCE555 /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = BD73DA1FF53C3EE20E8E80D9 /* swift-sharing_Sharing.bundle */; };
+		5433E98671951FFF1552A219 /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294650406D2FE2875E45ADC /* SearchCoordinatorView.swift */; };
 		58C772B95CE23DD892454DFC /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382AEFFC63FBC3CADB8C4886 /* Core.framework */; };
-		593BDEC684EE77B984D9C8A3 /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019AA94E4C9155C66756A8D /* SearchResultItem.swift */; };
-		5F21A5C726C7DDFF931B73FF /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC5B1485AB5F6919E9344C /* TrendingSection.swift */; };
-		687E54F67152F2D98DF45425 /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5B9B64E867041DD01036 /* TrendingCard.swift */; };
-		6A6CED6B565AD72A61EB6F7C /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC5B1485AB5F6919E9344C /* TrendingSection.swift */; };
-		6A9CB853FE3AF88256408A9E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFD50A47879D048BA8F46 /* SearchBar.swift */; };
-		6EFE5DCE30CA4A64D8F9D90E /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019AA94E4C9155C66756A8D /* SearchResultItem.swift */; };
-		73AE5A8D9BB0DB51A782BF11 /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019AA94E4C9155C66756A8D /* SearchResultItem.swift */; };
+		5BBED3B611CE47950FDE55E3 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC0F518C8B647D636403B3 /* SearchReducer.swift */; };
+		6460877AAE9310DF18A29F73 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC0F518C8B647D636403B3 /* SearchReducer.swift */; };
+		660279A8778DB4CA4963C6A0 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFC64244B37FAB1CA8F104 /* SearchView.swift */; };
+		66244C086D79D4B416E241CB /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96594EE4D7660BAD30E00EA1 /* TrendingSection.swift */; };
+		6AE8802B8093A592B2776A11 /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96594EE4D7660BAD30E00EA1 /* TrendingSection.swift */; };
+		6D110964F271BB40F9EA1256 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832D284A74D4E6414910CF20 /* SearchBar.swift */; };
 		73C8C9C729F36E591D8819B7 /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EC584C6ED40CBE84C34F4F6 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
-		78357B786D54DD2BBC5AED34 /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CE9A7C0BC5CDE23DD53DFF /* SearchCategoryFilter.swift */; };
-		791CE5B6449FEEB52C61AC27 /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5B9B64E867041DD01036 /* TrendingCard.swift */; };
-		79F68670DA2062B1BCB220D4 /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525BAFF03CD2C26A14D8B16 /* SearchResultsList.swift */; };
 		7B73E952D730B962AF145AF3 /* Detail.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B31AC52543F492AE4A5EB683 /* Detail.framework */; };
-		7FA51E1D2EB05698006F0095 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E1C2EB05681006F0095 /* SearchCoordinator.swift */; };
-		7FA51E1E2EB05698006F0095 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E1C2EB05681006F0095 /* SearchCoordinator.swift */; };
-		7FA51E1F2EB05698006F0095 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E1C2EB05681006F0095 /* SearchCoordinator.swift */; };
-		7FA51E202EB05698006F0095 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E1C2EB05681006F0095 /* SearchCoordinator.swift */; };
-		7FA51E222EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E212EB0574A006F0095 /* SearchCoordinatorView.swift */; };
-		7FA51E232EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E212EB0574A006F0095 /* SearchCoordinatorView.swift */; };
-		7FA51E242EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E212EB0574A006F0095 /* SearchCoordinatorView.swift */; };
-		7FA51E252EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA51E212EB0574A006F0095 /* SearchCoordinatorView.swift */; };
-		82D81AFEDD4059EFFE61C98D /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC5B1485AB5F6919E9344C /* TrendingSection.swift */; };
-		86A0F383238BFF7F90A05AA1 /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4658E104CCD7ABBB7F171 /* RecentSearchesSection.swift */; };
-		87B82A7F468F732604F14A11 /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CE9A7C0BC5CDE23DD53DFF /* SearchCategoryFilter.swift */; };
-		897D4522D9A85BC57E94DAA4 /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4658E104CCD7ABBB7F171 /* RecentSearchesSection.swift */; };
-		899C42859E2619E618A5420C /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019AA94E4C9155C66756A8D /* SearchResultItem.swift */; };
+		7D6BFCF1A2C6EC2413E8312D /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A57AD355AB93D4E292BD /* RecentSearchesSection.swift */; };
+		84048AD51C15B9352C8AE379 /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA5C52ECA881681BEF82BE5 /* SearchResultsList.swift */; };
+		84E9BED6FB8EF5937F2AA5E0 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36834DC20C5C8180C9CD59A6 /* SearchCoordinator.swift */; };
+		88D5E8ACE42E4EC8D6021DB8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFC64244B37FAB1CA8F104 /* SearchView.swift */; };
 		8A4429053A94EE4A35BBB3F6 /* Alamofire_Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCEB0430E005F10DFFE17636 /* Alamofire_Alamofire.bundle */; };
 		8BBDB2AE6124D2EDC3E67DF7 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 8EC584C6ED40CBE84C34F4F6 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
-		981E74F1E1B1DD4A1398129F /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5B9B64E867041DD01036 /* TrendingCard.swift */; };
-		9B9776F9BDC279D426B8C5FF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEA27C216CC6FBAA1FB90A /* SearchView.swift */; };
-		9D0C35DF83F68C9CE29BD027 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEA27C216CC6FBAA1FB90A /* SearchView.swift */; };
+		92E21A2B2BDCCCE34E9F7813 /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96594EE4D7660BAD30E00EA1 /* TrendingSection.swift */; };
+		9D253C4A9A1B57889B8F2953 /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A57AD355AB93D4E292BD /* RecentSearchesSection.swift */; };
+		9E7B6D31A8E9C6F32B34879A /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A28B51C9D38E2AEBE05C2 /* NoResultsView.swift */; };
 		9EB903A194357CC77F455275 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382AEFFC63FBC3CADB8C4886 /* Core.framework */; };
-		9F9EFE2BCF86CF84D8511318 /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4658E104CCD7ABBB7F171 /* RecentSearchesSection.swift */; };
 		9FB2495E093C488736BCD44C /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382AEFFC63FBC3CADB8C4886 /* Core.framework */; };
-		A1A6F5574B1F18BF72875AC7 /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5B9B64E867041DD01036 /* TrendingCard.swift */; };
+		A5F96BA39BB2AFDEFDE31B5A /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ABA4834C26FDBBC507545 /* TrendingCard.swift */; };
+		A70DE8D6C224C4D36913787B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FFC64244B37FAB1CA8F104 /* SearchView.swift */; };
+		AA531DC1B2CECA3CE6E43876 /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A57AD355AB93D4E292BD /* RecentSearchesSection.swift */; };
 		AC04590E07695AE7A806FAD9 /* Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEA3ABCBA70F49C90FFC61F /* Search.framework */; };
-		ADBDB025AD8F71518AB6A12D /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851CD49169680D8B0A2DEE0 /* SearchBackground.swift */; };
-		B0FF2B34B9943E47329645A5 /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C977E6439EB1EAD0CCFECD /* NoResultsView.swift */; };
-		B255F81EB9786CC39625B86E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFD50A47879D048BA8F46 /* SearchBar.swift */; };
 		B69BA5C7B4F7607CBCE8E36B /* Alamofire_Alamofire.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = CCEB0430E005F10DFFE17636 /* Alamofire_Alamofire.bundle */; };
-		BAD563055BEFF062E0EF7F90 /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525BAFF03CD2C26A14D8B16 /* SearchResultsList.swift */; };
+		B768B8E59D8D8382F5259414 /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96594EE4D7660BAD30E00EA1 /* TrendingSection.swift */; };
+		B76DF1968F84B3159E775540 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC0F518C8B647D636403B3 /* SearchReducer.swift */; };
+		BDF946D802337DD7A2D1A177 /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E7F194DDDBCAF03F13AB6 /* SearchCategoryFilter.swift */; };
 		BE7F955DA751839B6BC7C2FE /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382AEFFC63FBC3CADB8C4886 /* Core.framework */; };
-		C9F2568A95E46F561266FDB8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEA27C216CC6FBAA1FB90A /* SearchView.swift */; };
-		CA7E6EF5CCC3FA4BF795A554 /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CE9A7C0BC5CDE23DD53DFF /* SearchCategoryFilter.swift */; };
+		CF593945E307DECEEF7DB3B1 /* RecentSearchesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A57AD355AB93D4E292BD /* RecentSearchesSection.swift */; };
 		D0EA90B8060F7AEF7E302BEF /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540DEDA624DD8A539F5875E /* Test.swift */; };
-		DD24CA70686F943CC508EE3F /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851CD49169680D8B0A2DEE0 /* SearchBackground.swift */; };
-		E5345ABE1B5E7256A9918BFF /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525BAFF03CD2C26A14D8B16 /* SearchResultsList.swift */; };
-		E77EE57BA39B361F82985241 /* TrendingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC5B1485AB5F6919E9344C /* TrendingSection.swift */; };
+		D23694761C0710DF26F0141F /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E7F194DDDBCAF03F13AB6 /* SearchCategoryFilter.swift */; };
+		D33E8C016483DFE6D2C23AEF /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A28B51C9D38E2AEBE05C2 /* NoResultsView.swift */; };
+		D5BA731850FA95B2327B7337 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832D284A74D4E6414910CF20 /* SearchBar.swift */; };
+		D71D569E6C008A1F0E49FB7E /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9FEC7F58C61D434418E21 /* SearchBackground.swift */; };
+		DE749EB0521960A9773EF9EA /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA500C554BA5FC819BE7596 /* SearchResultItem.swift */; };
 		ED15806F779DDC9CF33114BC /* Detail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31AC52543F492AE4A5EB683 /* Detail.framework */; };
+		F697D07F3868C4859C39DE7F /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA5C52ECA881681BEF82BE5 /* SearchResultsList.swift */; };
 		F7C51787E550DFFA78FDC365 /* Detail.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B31AC52543F492AE4A5EB683 /* Detail.framework */; };
-		F7F5A991B44E4619BEDC1BDE /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C977E6439EB1EAD0CCFECD /* NoResultsView.swift */; };
+		F80BC0E5885317066A4B89D7 /* SearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA5C52ECA881681BEF82BE5 /* SearchResultsList.swift */; };
 		F87AF19EBB604A1197E6B440 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125BD6F6F900FE0F16E9AFC8 /* Shared.framework */; };
-		FE085F9106F81C08B2C9CE6D /* SearchCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CE9A7C0BC5CDE23DD53DFF /* SearchCategoryFilter.swift */; };
+		F996E8A8E379D2DF6BC5C0F1 /* SearchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9FEC7F58C61D434418E21 /* SearchBackground.swift */; };
+		FF8512DCE45686236DB51683 /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585ABA4834C26FDBBC507545 /* TrendingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,36 +200,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0019AA94E4C9155C66756A8D /* SearchResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultItem.swift; sourceTree = "<group>"; };
-		0525BAFF03CD2C26A14D8B16 /* SearchResultsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsList.swift; sourceTree = "<group>"; };
 		125BD6F6F900FE0F16E9AFC8 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14BEA27C216CC6FBAA1FB90A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		1851CD49169680D8B0A2DEE0 /* SearchBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBackground.swift; sourceTree = "<group>"; };
-		18DC6F51D707A50942378463 /* SearchReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchReducer.swift; sourceTree = "<group>"; };
 		1CE78830EFDE634DA1AB3A4A /* SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23309DCBDB6DD5358D0CCBB9 /* Search_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Search_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36834DC20C5C8180C9CD59A6 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
 		382AEFFC63FBC3CADB8C4886 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40CE9A7C0BC5CDE23DD53DFF /* SearchCategoryFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategoryFilter.swift; sourceTree = "<group>"; };
 		47506C2B8CF716A0AD1E9198 /* Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Search-Info.plist"; sourceTree = "<group>"; };
-		4ADCFD50A47879D048BA8F46 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		52A9264304AC4A55660FC942 /* Search_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Search_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5540DEDA624DD8A539F5875E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		66BC5B1485AB5F6919E9344C /* TrendingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingSection.swift; sourceTree = "<group>"; };
-		67FF5B9B64E867041DD01036 /* TrendingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCard.swift; sourceTree = "<group>"; };
-		7FA51E1C2EB05681006F0095 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
-		7FA51E212EB0574A006F0095 /* SearchCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinatorView.swift; sourceTree = "<group>"; };
+		585ABA4834C26FDBBC507545 /* TrendingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCard.swift; sourceTree = "<group>"; };
+		5BD6A57AD355AB93D4E292BD /* RecentSearchesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchesSection.swift; sourceTree = "<group>"; };
+		5FA5C52ECA881681BEF82BE5 /* SearchResultsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsList.swift; sourceTree = "<group>"; };
+		6294650406D2FE2875E45ADC /* SearchCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinatorView.swift; sourceTree = "<group>"; };
+		67FFC64244B37FAB1CA8F104 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		76C9FEC7F58C61D434418E21 /* SearchBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBackground.swift; sourceTree = "<group>"; };
+		830A28B51C9D38E2AEBE05C2 /* NoResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultsView.swift; sourceTree = "<group>"; };
+		832D284A74D4E6414910CF20 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		89062292A5D1E146E816F07A /* Search-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Search-Prod-Info.plist"; sourceTree = "<group>"; };
 		8EC584C6ED40CBE84C34F4F6 /* swift-composable-architecture_ComposableArchitecture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-composable-architecture_ComposableArchitecture.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96594EE4D7660BAD30E00EA1 /* TrendingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingSection.swift; sourceTree = "<group>"; };
 		9F7B90DCA916662065A4C6E0 /* Search-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Search-Debug-Info.plist"; sourceTree = "<group>"; };
-		A6C977E6439EB1EAD0CCFECD /* NoResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultsView.swift; sourceTree = "<group>"; };
 		AEB09945E74C5CE5FAE1DE10 /* Search_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Search_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31AC52543F492AE4A5EB683 /* Detail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Detail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD73DA1FF53C3EE20E8E80D9 /* swift-sharing_Sharing.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-sharing_Sharing.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D2C478D13AE32E718DB078 /* Search-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Search-Stage-Info.plist"; sourceTree = "<group>"; };
 		CCEB0430E005F10DFFE17636 /* Alamofire_Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire_Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEA3ABCBA70F49C90FFC61F /* Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00E7F194DDDBCAF03F13AB6 /* SearchCategoryFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategoryFilter.swift; sourceTree = "<group>"; };
+		EBAC0F518C8B647D636403B3 /* SearchReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchReducer.swift; sourceTree = "<group>"; };
 		EE36648F12CA828C3FD7A48B /* SearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SearchTests-Info.plist"; sourceTree = "<group>"; };
-		EEE4658E104CCD7ABBB7F171 /* RecentSearchesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchesSection.swift; sourceTree = "<group>"; };
+		FBA500C554BA5FC819BE7596 /* SearchResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,54 +309,37 @@
 			path = SearchTests;
 			sourceTree = "<group>";
 		};
-		7FA51E182EB05645006F0095 /* Coordinator */ = {
+		2145FAEF6757D082FF289DF4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7FA51E1B2EB05669006F0095 /* View */,
-				7FA51E1A2EB05660006F0095 /* Reducer */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		7FA51E192EB05652006F0095 /* Main  */ = {
-			isa = PBXGroup;
-			children = (
-				BAF3739E7D294E740A187FA3 /* Reducer */,
-				A07F42847C6A3E69314ECA87 /* View */,
-			);
-			path = "Main ";
-			sourceTree = "<group>";
-		};
-		7FA51E1A2EB05660006F0095 /* Reducer */ = {
-			isa = PBXGroup;
-			children = (
-				7FA51E1C2EB05681006F0095 /* SearchCoordinator.swift */,
-			);
-			path = Reducer;
-			sourceTree = "<group>";
-		};
-		7FA51E1B2EB05669006F0095 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				7FA51E212EB0574A006F0095 /* SearchCoordinatorView.swift */,
+				48A127E674006B317BBDFD31 /* Component */,
+				67FFC64244B37FAB1CA8F104 /* SearchView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		82707C71AF0064F2904C82AA /* Component */ = {
+		48A127E674006B317BBDFD31 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				A6C977E6439EB1EAD0CCFECD /* NoResultsView.swift */,
-				EEE4658E104CCD7ABBB7F171 /* RecentSearchesSection.swift */,
-				1851CD49169680D8B0A2DEE0 /* SearchBackground.swift */,
-				4ADCFD50A47879D048BA8F46 /* SearchBar.swift */,
-				40CE9A7C0BC5CDE23DD53DFF /* SearchCategoryFilter.swift */,
-				0019AA94E4C9155C66756A8D /* SearchResultItem.swift */,
-				0525BAFF03CD2C26A14D8B16 /* SearchResultsList.swift */,
-				67FF5B9B64E867041DD01036 /* TrendingCard.swift */,
-				66BC5B1485AB5F6919E9344C /* TrendingSection.swift */,
+				830A28B51C9D38E2AEBE05C2 /* NoResultsView.swift */,
+				5BD6A57AD355AB93D4E292BD /* RecentSearchesSection.swift */,
+				76C9FEC7F58C61D434418E21 /* SearchBackground.swift */,
+				832D284A74D4E6414910CF20 /* SearchBar.swift */,
+				E00E7F194DDDBCAF03F13AB6 /* SearchCategoryFilter.swift */,
+				FBA500C554BA5FC819BE7596 /* SearchResultItem.swift */,
+				5FA5C52ECA881681BEF82BE5 /* SearchResultsList.swift */,
+				585ABA4834C26FDBBC507545 /* TrendingCard.swift */,
+				96594EE4D7660BAD30E00EA1 /* TrendingSection.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		84BFA334710650A3234CA462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6294650406D2FE2875E45ADC /* SearchCoordinatorView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		854023328EC09B4DB800D64A /* Derived */ = {
@@ -367,13 +350,13 @@
 			path = Derived;
 			sourceTree = "<group>";
 		};
-		A07F42847C6A3E69314ECA87 /* View */ = {
+		913934DE0D0A54111950D94B /* Main  */ = {
 			isa = PBXGroup;
 			children = (
-				82707C71AF0064F2904C82AA /* Component */,
-				14BEA27C216CC6FBAA1FB90A /* SearchView.swift */,
+				CC9821B2A67BE0AFDAFB9C9D /* Reducer */,
+				2145FAEF6757D082FF289DF4 /* View */,
 			);
-			path = View;
+			path = "Main ";
 			sourceTree = "<group>";
 		};
 		A265AAF9885BC77A31761249 = {
@@ -396,10 +379,10 @@
 			path = InfoPlists;
 			sourceTree = "<group>";
 		};
-		BAF3739E7D294E740A187FA3 /* Reducer */ = {
+		BDB1368703B3042CDEC595F0 /* Reducer */ = {
 			isa = PBXGroup;
 			children = (
-				18DC6F51D707A50942378463 /* SearchReducer.swift */,
+				36834DC20C5C8180C9CD59A6 /* SearchCoordinator.swift */,
 			);
 			path = Reducer;
 			sourceTree = "<group>";
@@ -422,11 +405,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CB52ED1F5386EFCE6F08FF58 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BDB1368703B3042CDEC595F0 /* Reducer */,
+				84BFA334710650A3234CA462 /* View */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CC9821B2A67BE0AFDAFB9C9D /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				EBAC0F518C8B647D636403B3 /* SearchReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
 		F71AEF5F9FDF9F2A91959397 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7FA51E192EB05652006F0095 /* Main  */,
-				7FA51E182EB05645006F0095 /* Coordinator */,
+				CB52ED1F5386EFCE6F08FF58 /* Coordinator */,
+				913934DE0D0A54111950D94B /* Main  */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -547,6 +547,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 731940972587373E5B45F8C7 /* Build configuration list for PBXProject "Search" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -616,19 +618,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A973B9608A05731FF4DE7A /* SearchReducer.swift in Sources */,
-				7FA51E1E2EB05698006F0095 /* SearchCoordinator.swift in Sources */,
-				B0FF2B34B9943E47329645A5 /* NoResultsView.swift in Sources */,
-				897D4522D9A85BC57E94DAA4 /* RecentSearchesSection.swift in Sources */,
-				ADBDB025AD8F71518AB6A12D /* SearchBackground.swift in Sources */,
-				7FA51E232EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */,
-				B255F81EB9786CC39625B86E /* SearchBar.swift in Sources */,
-				CA7E6EF5CCC3FA4BF795A554 /* SearchCategoryFilter.swift in Sources */,
-				593BDEC684EE77B984D9C8A3 /* SearchResultItem.swift in Sources */,
-				06481D2E4F627C162688339D /* SearchResultsList.swift in Sources */,
-				A1A6F5574B1F18BF72875AC7 /* TrendingCard.swift in Sources */,
-				82D81AFEDD4059EFFE61C98D /* TrendingSection.swift in Sources */,
-				9B9776F9BDC279D426B8C5FF /* SearchView.swift in Sources */,
+				07DA6B029D914657E2BD2542 /* SearchCoordinator.swift in Sources */,
+				3E0576AAE0C8B4FC66F34A6F /* SearchCoordinatorView.swift in Sources */,
+				6460877AAE9310DF18A29F73 /* SearchReducer.swift in Sources */,
+				D33E8C016483DFE6D2C23AEF /* NoResultsView.swift in Sources */,
+				7D6BFCF1A2C6EC2413E8312D /* RecentSearchesSection.swift in Sources */,
+				19835A581563202293853651 /* SearchBackground.swift in Sources */,
+				D5BA731850FA95B2327B7337 /* SearchBar.swift in Sources */,
+				1E0C983238AE5DDB78E2AFA1 /* SearchCategoryFilter.swift in Sources */,
+				032E2923B00BFC5EAB76C5F7 /* SearchResultItem.swift in Sources */,
+				F697D07F3868C4859C39DE7F /* SearchResultsList.swift in Sources */,
+				A5F96BA39BB2AFDEFDE31B5A /* TrendingCard.swift in Sources */,
+				66244C086D79D4B416E241CB /* TrendingSection.swift in Sources */,
+				660279A8778DB4CA4963C6A0 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,19 +646,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EBD766F6D2CAC789195321 /* SearchReducer.swift in Sources */,
-				7FA51E202EB05698006F0095 /* SearchCoordinator.swift in Sources */,
-				1D57D02BEDDEF830F0984A33 /* NoResultsView.swift in Sources */,
-				411DB93FB2980E2FDBEE0BEB /* RecentSearchesSection.swift in Sources */,
-				DD24CA70686F943CC508EE3F /* SearchBackground.swift in Sources */,
-				7FA51E252EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */,
-				2C8205EBF0B30DCCA6868AFD /* SearchBar.swift in Sources */,
-				87B82A7F468F732604F14A11 /* SearchCategoryFilter.swift in Sources */,
-				6EFE5DCE30CA4A64D8F9D90E /* SearchResultItem.swift in Sources */,
-				E5345ABE1B5E7256A9918BFF /* SearchResultsList.swift in Sources */,
-				687E54F67152F2D98DF45425 /* TrendingCard.swift in Sources */,
-				5F21A5C726C7DDFF931B73FF /* TrendingSection.swift in Sources */,
-				C9F2568A95E46F561266FDB8 /* SearchView.swift in Sources */,
+				84E9BED6FB8EF5937F2AA5E0 /* SearchCoordinator.swift in Sources */,
+				2679B42119011AADA9D53D5E /* SearchCoordinatorView.swift in Sources */,
+				B76DF1968F84B3159E775540 /* SearchReducer.swift in Sources */,
+				9E7B6D31A8E9C6F32B34879A /* NoResultsView.swift in Sources */,
+				AA531DC1B2CECA3CE6E43876 /* RecentSearchesSection.swift in Sources */,
+				0FACF8A0863F9D6BF520EF77 /* SearchBackground.swift in Sources */,
+				0E42EB3E01DD94FB0B5FBA9F /* SearchBar.swift in Sources */,
+				D23694761C0710DF26F0141F /* SearchCategoryFilter.swift in Sources */,
+				DE749EB0521960A9773EF9EA /* SearchResultItem.swift in Sources */,
+				F80BC0E5885317066A4B89D7 /* SearchResultsList.swift in Sources */,
+				FF8512DCE45686236DB51683 /* TrendingCard.swift in Sources */,
+				6AE8802B8093A592B2776A11 /* TrendingSection.swift in Sources */,
+				88D5E8ACE42E4EC8D6021DB8 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,19 +666,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E57FD2A97AF9BE0AB20ACA1 /* SearchReducer.swift in Sources */,
-				7FA51E1F2EB05698006F0095 /* SearchCoordinator.swift in Sources */,
-				F7F5A991B44E4619BEDC1BDE /* NoResultsView.swift in Sources */,
-				9F9EFE2BCF86CF84D8511318 /* RecentSearchesSection.swift in Sources */,
-				50BD54570251EC0F9E5D918B /* SearchBackground.swift in Sources */,
-				7FA51E222EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */,
-				6A9CB853FE3AF88256408A9E /* SearchBar.swift in Sources */,
-				FE085F9106F81C08B2C9CE6D /* SearchCategoryFilter.swift in Sources */,
-				73AE5A8D9BB0DB51A782BF11 /* SearchResultItem.swift in Sources */,
-				79F68670DA2062B1BCB220D4 /* SearchResultsList.swift in Sources */,
-				981E74F1E1B1DD4A1398129F /* TrendingCard.swift in Sources */,
-				6A6CED6B565AD72A61EB6F7C /* TrendingSection.swift in Sources */,
-				41ABAC471A27D123C96A229A /* SearchView.swift in Sources */,
+				083AAE5467B64C2FE21F2F30 /* SearchCoordinator.swift in Sources */,
+				5433E98671951FFF1552A219 /* SearchCoordinatorView.swift in Sources */,
+				068014758BD4189A50A22581 /* SearchReducer.swift in Sources */,
+				4834DF582F5F5B08413382A1 /* NoResultsView.swift in Sources */,
+				CF593945E307DECEEF7DB3B1 /* RecentSearchesSection.swift in Sources */,
+				D71D569E6C008A1F0E49FB7E /* SearchBackground.swift in Sources */,
+				6D110964F271BB40F9EA1256 /* SearchBar.swift in Sources */,
+				BDF946D802337DD7A2D1A177 /* SearchCategoryFilter.swift in Sources */,
+				1A59905ACAB58BB186CEE65F /* SearchResultItem.swift in Sources */,
+				84048AD51C15B9352C8AE379 /* SearchResultsList.swift in Sources */,
+				37722F4E4E97B64B17CD6452 /* TrendingCard.swift in Sources */,
+				92E21A2B2BDCCCE34E9F7813 /* TrendingSection.swift in Sources */,
+				A70DE8D6C224C4D36913787B /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,19 +686,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33E2C374F5D39323405178AC /* SearchReducer.swift in Sources */,
-				7FA51E1D2EB05698006F0095 /* SearchCoordinator.swift in Sources */,
-				26DCC88E07910FCABCEC1C18 /* NoResultsView.swift in Sources */,
-				86A0F383238BFF7F90A05AA1 /* RecentSearchesSection.swift in Sources */,
-				4BCF1B2F5BB0FA9E116F60C1 /* SearchBackground.swift in Sources */,
-				7FA51E242EB0574E006F0095 /* SearchCoordinatorView.swift in Sources */,
-				1003BC347CE80FD609B7CE8F /* SearchBar.swift in Sources */,
-				78357B786D54DD2BBC5AED34 /* SearchCategoryFilter.swift in Sources */,
-				899C42859E2619E618A5420C /* SearchResultItem.swift in Sources */,
-				BAD563055BEFF062E0EF7F90 /* SearchResultsList.swift in Sources */,
-				791CE5B6449FEEB52C61AC27 /* TrendingCard.swift in Sources */,
-				E77EE57BA39B361F82985241 /* TrendingSection.swift in Sources */,
-				9D0C35DF83F68C9CE29BD027 /* SearchView.swift in Sources */,
+				1F2CF817A3A94BAACADA14CB /* SearchCoordinator.swift in Sources */,
+				3E34368C30ABED5249008C16 /* SearchCoordinatorView.swift in Sources */,
+				5BBED3B611CE47950FDE55E3 /* SearchReducer.swift in Sources */,
+				0554EE2B028EAB2732AC4224 /* NoResultsView.swift in Sources */,
+				9D253C4A9A1B57889B8F2953 /* RecentSearchesSection.swift in Sources */,
+				F996E8A8E379D2DF6BC5C0F1 /* SearchBackground.swift in Sources */,
+				50E33F7AA1B30ECEF6D9569F /* SearchBar.swift in Sources */,
+				2E3F7B82CE323BFF013C8E89 /* SearchCategoryFilter.swift in Sources */,
+				47597AE2E4543CD5CEC83027 /* SearchResultItem.swift in Sources */,
+				1462AE0EE40801CC09B49189 /* SearchResultsList.swift in Sources */,
+				2EA1CF2AB1B63A42B459351E /* TrendingCard.swift in Sources */,
+				B768B8E59D8D8382F5259414 /* TrendingSection.swift in Sources */,
+				21AEA66E1AC77285E6E9139B /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,7 +742,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search_Debug;
 				SDKROOT = iphoneos;
@@ -748,7 +768,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -845,7 +868,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search_Debug;
 				SDKROOT = iphoneos;
@@ -883,7 +924,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search.SearchTests;
 				PRODUCT_NAME = SearchTests;
 				SDKROOT = iphoneos;
@@ -925,7 +984,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search_Stage;
 				SDKROOT = iphoneos;
@@ -933,7 +1010,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -971,7 +1051,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search;
 				SDKROOT = iphoneos;
@@ -1016,7 +1114,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search_Prod;
 				SDKROOT = iphoneos;
@@ -1024,7 +1140,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1062,7 +1181,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search;
 				SDKROOT = iphoneos;
@@ -1070,7 +1207,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1108,7 +1248,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search_Prod;
 				SDKROOT = iphoneos;
@@ -1206,7 +1364,25 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search;
 				PRODUCT_NAME = Search_Stage;
 				SDKROOT = iphoneos;
@@ -1244,14 +1420,35 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Search.SearchTests;
 				PRODUCT_NAME = SearchTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

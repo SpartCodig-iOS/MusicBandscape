@@ -1400,6 +1400,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A57DF7FAED265CC780DD5AEE"
+               BuildableName = "RootTab.framework"
+               BlueprintName = "RootTab"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "72FA08FD2BDC50438419AAB7"
+               BuildableName = "RootTab_Debug.framework"
+               BlueprintName = "RootTab-Debug"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "119A41C36F9F57A3C548D3FC"
+               BuildableName = "RootTab_Prod.framework"
+               BlueprintName = "RootTab-Prod"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "582CF93C48A4A951B5798CC5"
+               BuildableName = "RootTab_Stage.framework"
+               BlueprintName = "RootTab-Stage"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5E21E9921D0FCCDAEAA45BEC"
+               BuildableName = "RootTabTests.xctest"
+               BlueprintName = "RootTabTests"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "5023327BBF6D14FE88DF5B24"
                BuildableName = "RxMoya.framework"
                BlueprintName = "RxMoya"
@@ -2462,6 +2532,17 @@
                BuildableName = "RepositoryTests.xctest"
                BlueprintName = "RepositoryTests"
                ReferencedContainer = "container:Projects/Core/Data/Repository/Repository.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5E21E9921D0FCCDAEAA45BEC"
+               BuildableName = "RootTabTests.xctest"
+               BlueprintName = "RootTabTests"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

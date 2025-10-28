@@ -76,4 +76,55 @@ struct MockMusicSearchRepositoryTests {
 
     #expect(repository.receivedQueries == ["유다빈밴드"])
   }
+  @Test("searchMusic 실패 시 에러를 던져야 함 (with filters)")
+  func testSearchMusicWithFiltersFailure() async throws {
+    let repository = MockMusicSearchRepository()
+    // given
+    repository.setResult(.failure(MockMusicSearchRepository.MockError.forced))
+
+      try await repository.searchMedia(
+    // when / then
+    await #expect(throws: MockMusicSearchRepository.MockError.forced) {
+        query: "fail",
+        media: "music",
+        entity: "song"
+      )
+    }
+  }
+
+  @Test("searchMusic 호출 시 모든 파라미터가 기록되어야 함 (with filters)")
+  func testSearchMusicWithFiltersReceivedParameters() async throws {
+  }
+    ])
+      "Avengers|movie|movieArtist"
+      "Taylor Swift|music|album",
+    #expect(repository.receivedQueries == [
+
+    )
+      entity: "movieArtist"
+      media: "movie",
+      query: "Avengers",
+    _ = try await repository.searchMedia(
+    // 두 번째 호출
+    let repository = MockMusicSearchRepository(result: .success([]))
+    _ = try await repository.searchMedia(
+      media: "music",
+      query: "IU",
+      entity: "song"
+    )
+
+    #expect(repository.receivedQueries == ["IU|music|song"])
+  }
+  @Test("searchMusic 다양한 media, entity 조합 테스트 (with filters)")
+
+  func testSearchMusicWithFiltersDifferentParameters() async throws {
+    let repository = MockMusicSearchRepository(result: .success([]))
+
+    // 첫 번째 호출
+    _ = try await repository.searchMedia(
+      query: "Taylor Swift",
+      media: "music",
+      entity: "album"
+    )
+
 }

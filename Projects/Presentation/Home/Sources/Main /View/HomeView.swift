@@ -59,7 +59,9 @@ public struct HomeView: View {
           .scrollIndicators(.hidden)
 
           VStack(spacing: 8) {
-            SearchBarView()
+            SearchBarView {
+              store.send(.navigation(.tapSearch))
+            }
               .padding(.horizontal, horizontalPadding)
           }
           .padding(.top, proxy.safeAreaInsets.top + 4)

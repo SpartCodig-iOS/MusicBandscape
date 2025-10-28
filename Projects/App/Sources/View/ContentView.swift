@@ -3,6 +3,7 @@ import Presentation
 import Splash
 import ComposableArchitecture
 
+
 public struct ContentView: View {
     public init() {}
 
@@ -51,4 +52,17 @@ public struct ContentView: View {
         DetailReducer()
       })
   )
+}
+
+#Preview("검색 화면") {
+  SearchView(store: .init(initialState: SearchReducer.State(), reducer: {
+    SearchReducer()
+  }))
+}
+
+
+#Preview("rootTab") {
+  RootTabBarView(store: .init(initialState: RootTabReducer.State(), reducer: {
+    RootTabReducer()
+  }))
 }

@@ -21,13 +21,20 @@ public struct NavigationArrowButton: View {
 
   public var body: some View {
     HStack {
-      Image(systemName: "chevron.left")
-        .resizable()
-        .scaledToFit()
-        .frame(width: 12, height: 20)
-        .font(.pretendardFont(family: .semiBold, size: 20))
-        .foregroundStyle(.gray)
-        .onTapGesture(perform: backAction)
+      Button(action: {
+        backAction()
+      }) {
+        Image(systemName: "chevron.left")
+          .resizable()
+          .scaledToFit()
+          .frame(width: 16, height: 24)
+          .font(.pretendardFont(family: .semiBold, size: 20))
+          .foregroundStyle(.white)
+          .padding(16)
+          .background(Color.lightGray100.opacity(0.6))
+          .clipShape(Circle())
+      }
+      .buttonStyle(PlainButtonStyle())
 
       Spacer()
 

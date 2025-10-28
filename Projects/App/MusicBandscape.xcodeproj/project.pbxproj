@@ -29,6 +29,7 @@
 		119D99F19D1455C10FA8003F /* AsyncMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480A5664FAB6068DDCE71572 /* AsyncMoya.framework */; };
 		11D46C35D4DA034AC02E0D28 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633D81E49B01245A23526EAA /* Home.framework */; };
 		12C97453E70BA04E84FCD72F /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D69065C85EC798035AC4AB9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		133406D9542ACE794D903B4D /* RootTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDECE91037372D4BB0145D6 /* RootTab.framework */; };
 		13613CEA220E35AE3D27FDC5 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C13D89327BE43AEDA4158E57 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		16CC3434FAD35867903E78F4 /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3316577AFAD65218F8A2C92 /* UIKitNavigation.framework */; };
 		16DAC66076E00401E1A7E49B /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DDFC2DF9F3C204A6914AC8 /* CasePaths.framework */; };
@@ -53,6 +54,7 @@
 		22902484E3BDBD14FDD2E6CF /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13D89327BE43AEDA4158E57 /* RxSwift.framework */; };
 		249D8DA61CF53AF69AA4C463 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6917459D148660C9C70CD13A /* API.framework */; };
 		24F1FEADC3D5EC01CE0491D4 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		255F08C66546E0F460B0C542 /* RootTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDECE91037372D4BB0145D6 /* RootTab.framework */; };
 		2690A55EF6B269628E8A5E38 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C16DECD42832FD64B818E8 /* CustomDump.framework */; };
 		28AB0A7E3710415E6C2C378B /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411F373429BD20116338B0AA /* Repository.framework */; };
 		29345DEC8E3241483FDB996F /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFB49684525727EFB0970AF8 /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -81,6 +83,7 @@
 		3D65EBCFA5858D42901C74CB /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC763095584133896B334 /* AppReducer.swift */; };
 		3E4A6A42D1187D90A3295DA2 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE6209A123984B3049F45D6 /* OrderedCollections.framework */; };
 		3EF7D51083FC1BCFE254FFB4 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B081EA03877CDCBBF9BE37 /* CombineSchedulers.framework */; };
+		3F2D461C59624D77090E321B /* RootTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDECE91037372D4BB0145D6 /* RootTab.framework */; };
 		4092C1E5AAB583D68A729F59 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A534AB24BB749761EA470B /* Sharing.framework */; };
 		40C0A0B24CAA6F054E2A094D /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71EAB450CC1B9A4574705B7 /* Dependencies.framework */; };
 		411C3359354A01F2DF746588 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C13D89327BE43AEDA4158E57 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -98,6 +101,7 @@
 		4ED6D2374A2EC5623A46C25D /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D006C847C2DA20A43AABF87B /* UIKitNavigationShim.framework */; };
 		532B4DB0CC5C8E7C740EEEA4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9667DEBDA963F835C11D7C43 /* Alamofire.framework */; };
 		53E34108E0045F59D09C7102 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79EEE27CCE4F5746C6818F5 /* LogMacro.framework */; };
+		5512619D315BF3ABE0EE5F48 /* RootTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDECE91037372D4BB0145D6 /* RootTab.framework */; };
 		5577B019AB39BCC38C8E4BAD /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E5215AD6585588E565D635 /* EventLimiter.framework */; };
 		56D4728B61D9E85DEC86ACFA /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB317F5B4B2AB2E48EE33CE /* PerceptionCore.framework */; };
 		5841FE4CB6F2FB088D9CDB72 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656A76A3F9531FBAF5913CE9 /* OSLog.framework */; };
@@ -508,6 +512,7 @@
 		D707E92A8606642B65BD396E /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D832A4B430AA3814E6204086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDC077BB211E002675BC4ECC /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDECE91037372D4BB0145D6 /* RootTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RootTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE6209A123984B3049F45D6 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D5A80744E6B95AD36B124D /* MusicBandscape_Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBandscape_Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C124EB35DE5EF18DF6A461 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
@@ -563,6 +568,7 @@
 				56D4728B61D9E85DEC86ACFA /* PerceptionCore.framework in Frameworks */,
 				5BF20279A167123B42FA7D78 /* Presentation.framework in Frameworks */,
 				28AB0A7E3710415E6C2C378B /* Repository.framework in Frameworks */,
+				3F2D461C59624D77090E321B /* RootTab.framework in Frameworks */,
 				F603206E69DAEF2E6DBC60AE /* RxMoya.framework in Frameworks */,
 				34B112E33FF22C09C02D3A76 /* RxSwift.framework in Frameworks */,
 				0E526578A5572BDF464E6D70 /* Search.framework in Frameworks */,
@@ -621,6 +627,7 @@
 				5C0AC2BF1A2748C2E821D3E3 /* PerceptionCore.framework in Frameworks */,
 				EB356288F593E8D5322C9878 /* Presentation.framework in Frameworks */,
 				8503C6FB429209F16F95F286 /* Repository.framework in Frameworks */,
+				133406D9542ACE794D903B4D /* RootTab.framework in Frameworks */,
 				EA1BEDA046EE1B95B2CA9208 /* RxMoya.framework in Frameworks */,
 				22902484E3BDBD14FDD2E6CF /* RxSwift.framework in Frameworks */,
 				E3907464FE57CE9A22DAC744 /* Search.framework in Frameworks */,
@@ -679,6 +686,7 @@
 				B345022AA79812B5088CEAD7 /* PerceptionCore.framework in Frameworks */,
 				F0FB73620EB0C81C8809EE70 /* Presentation.framework in Frameworks */,
 				F2F03065DD539FD481A2E12C /* Repository.framework in Frameworks */,
+				255F08C66546E0F460B0C542 /* RootTab.framework in Frameworks */,
 				21F27F18D8004F22E0DD91A4 /* RxMoya.framework in Frameworks */,
 				B4A168D48DED5F717DCD37D4 /* RxSwift.framework in Frameworks */,
 				851B56A66E31F7280ACA461A /* Search.framework in Frameworks */,
@@ -737,6 +745,7 @@
 				34FC252CD5691A4DC067D36D /* PerceptionCore.framework in Frameworks */,
 				49DAA98F1E5AD6646FB071EE /* Presentation.framework in Frameworks */,
 				A25532A961ECF73CF77713B9 /* Repository.framework in Frameworks */,
+				5512619D315BF3ABE0EE5F48 /* RootTab.framework in Frameworks */,
 				C0AD5C8671D79F527F74F98B /* RxMoya.framework in Frameworks */,
 				F69C0CB73F21D42046C3F76C /* RxSwift.framework in Frameworks */,
 				8DA1373B7A50AC023C45523A /* Search.framework in Frameworks */,
@@ -827,6 +836,7 @@
 				7EB317F5B4B2AB2E48EE33CE /* PerceptionCore.framework */,
 				C573F4851906C8B99E226721 /* Presentation.framework */,
 				411F373429BD20116338B0AA /* Repository.framework */,
+				DEDECE91037372D4BB0145D6 /* RootTab.framework */,
 				395E5488BE9250C59B36DF9C /* RxMoya.framework */,
 				C13D89327BE43AEDA4158E57 /* RxSwift.framework */,
 				AA77A0AD95B700A22B517761 /* Search.framework */,

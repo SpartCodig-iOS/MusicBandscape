@@ -11,7 +11,7 @@ import API
 import Moya
 
 public enum MusicSearchService {
-  case searchMusic(query: String)
+  case searchMusic(query: String, media: String, entity: String)
   case detailMusic(id: String)
 }
 
@@ -44,12 +44,16 @@ extension MusicSearchService: BaseTargetType {
   
   public var parameters: [String : Any]? {
     switch self {
-      case .searchMusic(let query):
+      case .searchMusic(
+        let query,
+        let media,
+        let entity
+      ):
         let parameters: [String: Any] = [
           "term": query,
           "country": "KR",
-          "media": "music",
-          "entity": "song"
+          "media": media,
+          "entity": entity
         ]
       return parameters
 

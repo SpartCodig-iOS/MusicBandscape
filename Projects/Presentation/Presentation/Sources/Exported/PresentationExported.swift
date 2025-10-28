@@ -11,3 +11,4 @@
 @_exported import Home
 @_exported import Detail
 @_exported import Search
+@_exported import RootTab

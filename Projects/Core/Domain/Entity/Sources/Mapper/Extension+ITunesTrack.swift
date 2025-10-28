@@ -16,6 +16,22 @@ public extension ITunesTrack {
       return nil
     }
 
+    // wrapperType과 kind를 사용해서 MediaType 결정
+    let mediaType: MediaType = {
+      guard let kind = kind else { return .other }
+
+      switch kind.lowercased() {
+      case "song":
+        return .music
+      case "feature-movie", "movie":
+        return .movie
+      case "podcast":
+        return .podcast
+      default:
+        return .other
+      }
+    }()
+
     return MusicItem(
       trackId: trackId,
       trackName: trackName,
@@ -25,7 +41,8 @@ public extension ITunesTrack {
       previewURL: previewUrl,
       releaseDate: releaseDate,
       aboutAlbumInfo: collectionCensoredName,
-      genre: primaryGenreName
+      genre: primaryGenreName,
+      mediaType: mediaType
     )
   }
 }

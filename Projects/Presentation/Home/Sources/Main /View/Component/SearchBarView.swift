@@ -2,7 +2,13 @@ import SwiftUI
 import DesignSystem
 
 public struct SearchBarView: View {
-  public init() {}
+  private var action: () -> Void = { }
+
+  public init(
+    action: @escaping () -> Void
+  ) {
+    self.action = action
+  }
 
   public var body: some View {
     HStack(spacing: 10) {
@@ -27,6 +33,7 @@ public struct SearchBarView: View {
         )
         .shadow(color: .black.opacity(0.2), radius: 3, y: 2)
     )
-    .contentShape(Rectangle()) 
+    .contentShape(Rectangle())
+    .onTapGesture(perform: action)
   }
 }

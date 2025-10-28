@@ -53,6 +53,7 @@ public struct HomeReducer {
   @CasePathable
   public enum NavigationAction: Equatable {
     case musicCardTapped(item: MusicItem)
+    case tapSearch
   }
 
   @Dependency(MusicSearchUseCase.self) var musicSearchUseCase
@@ -142,6 +143,9 @@ extension HomeReducer {
     switch action {
       case .musicCardTapped(let item):
         state.$detailMusicItem.withLock { $0 = item }
+        return .none
+
+      case .tapSearch:
         return .none
     }
   }

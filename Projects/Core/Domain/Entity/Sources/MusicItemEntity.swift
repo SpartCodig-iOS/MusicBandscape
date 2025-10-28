@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+
 public struct MusicItem: Identifiable, Equatable {
   public var id = UUID()
   public let trackId: Int
@@ -18,6 +20,7 @@ public struct MusicItem: Identifiable, Equatable {
   public let releaseDate: String
   public let aboutAlbumInfo: String
   public let genre: String
+  public let mediaType: MediaType
 
   public init(
     trackId: Int,
@@ -28,7 +31,8 @@ public struct MusicItem: Identifiable, Equatable {
     previewURL: URL? = nil,
     releaseDate: String,
     aboutAlbumInfo: String = "",
-    genre: String
+    genre: String,
+    mediaType: MediaType = .music
   ) {
     self.trackId = trackId
     self.trackName = trackName
@@ -39,6 +43,7 @@ public struct MusicItem: Identifiable, Equatable {
     self.releaseDate = releaseDate
     self.aboutAlbumInfo = aboutAlbumInfo
     self.genre = genre
+    self.mediaType = mediaType
   }
 }
 
@@ -79,7 +84,44 @@ public extension MusicItem {
       previewURL: URL(string: "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/0e/1e/210e1e3f-2b94-eca8-8a9b-19403bd2ef71/mzaf_5723681619052556286.plus.aac.p.m4a"),
       releaseDate: "2025-09-15T12:00:00Z",
       aboutAlbumInfo: "CODA",
-      genre: "록"
+      genre: "록",
+      mediaType: .music
     )
+  }
+}
+
+
+// MARK: - Array Extension for Filtering
+public extension Array where Element == MusicItem {
+  func filterByCategory(_ category: SearchCategory) -> [MusicItem] {
+    switch category {
+    case .all:
+      return self
+    case .music:
+      return filter { $0.mediaType == .music }
+    case .movies:
+      return filter { $0.mediaType == .movie }
+    case .podcast:
+      return filter { $0.mediaType == .podcast }
+    case .etc:
+      return filter { $0.mediaType == .other }
+    }
+  }
+
+  var musicCount: Int { filter { $0.mediaType == .music }.count }
+  var movieCount: Int { filter { $0.mediaType == .movie }.count }
+  var podcastCount: Int { filter { $0.mediaType == .podcast }.count }
+  var etcCount: Int { filter { $0.mediaType == .other }.count }
+
+  /// 최신 순으로 정렬 (releaseDate 기준 내림차순)
+  func sortedByLatest() -> [MusicItem] {
+    return sorted { lhs, rhs in
+      guard let lhsDate = lhs.releaseDateValue,
+            let rhsDate = rhs.releaseDateValue else {
+        // 날짜가 없는 경우 맨 뒤로
+        return lhs.releaseDateValue != nil
+      }
+      return lhsDate > rhsDate // 최신이 먼저 오도록
+    }
   }
 }

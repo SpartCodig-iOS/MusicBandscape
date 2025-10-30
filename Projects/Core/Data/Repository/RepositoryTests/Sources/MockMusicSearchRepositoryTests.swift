@@ -1,5 +1,5 @@
 //
-//  MusicSearchRepositoryTests.swift
+//  MockMusicSearchRepositoryTests.swift
 //  Repository
 //
 //  Created by Wonji Suh  on 10/25/25.
@@ -15,10 +15,11 @@ extension Tag {
   @Tag static var mock: Self
   @Tag static var unit: Self
   @Tag static var repository: Self
+  @Tag static var moyaStub: Self
 }
 
 @Suite("MusicSearchRepository Unit Tests", .tags(.unit, .mock, .repository))
-struct MusicSearchRepositoryTests {
+struct MockMusicSearchRepositoryTests {
 
   // 🎯 1) 성공 케이스 테스트
   @Test("검색 성공 시 결과가 올바르게 반환 ")

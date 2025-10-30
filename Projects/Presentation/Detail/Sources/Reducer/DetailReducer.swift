@@ -5,7 +5,6 @@
 //  Created by Wonji Suh  on 10/27/25.
 //
 
-
 import Foundation
 import ComposableArchitecture
 
@@ -47,16 +46,19 @@ public struct DetailReducer {
 
 
   //MARK: - AsyncAction 비동기 처리 액션
+  @CasePathable
   public enum AsyncAction: Equatable {
     case searchDetailMusic
   }
 
   //MARK: - 앱내에서 사용하는 액션
+  @CasePathable
   public enum InnerAction {
     case detailMusicResponse(Result<MusicItem, Error>)
   }
 
   //MARK: - NavigationAction
+  @CasePathable
   public enum NavigationAction: Equatable {
     case backToHome
 

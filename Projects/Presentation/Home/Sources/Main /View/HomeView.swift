@@ -41,7 +41,7 @@ public struct HomeView: View {
                   MusicCarouselSkeletonView(height: cardHeight)
                 } else {
                   MusicCardCarousel(
-                    items: store.popularMusicModel,
+                    items: Array(store.popularMusicModel),
                     cardHeight: cardHeight,
                     tapAction: { item in
                       store.send(.navigation(.musicCardTapped(item: item)), animation: .easeIn)
@@ -78,14 +78,16 @@ extension HomeView {
   @ViewBuilder
   private func musicSeasonView() -> some View {
     LazyVStack {
-      ForEach(MusicSeason.allCases.filter { $0 != .popular}) { season in
-        if store.state.items(for: season).isEmpty {
+      ForEach(MusicSeason.allCases.filter { $0 != .popular }) { season in
+        let items = store.state.items(for: season)
+
+        if items.isEmpty {
           MusicSectionSkeletonView()
             .padding(.top, 10)
         } else {
           MusicListSectionView(
             title: season.title,
-            items: store.state.items(for: season),
+            items: Array(items),    
             tapAction: { item in
               store.send(.navigation(.musicCardTapped(item: item)), animation: .easeIn)
             }
@@ -93,7 +95,6 @@ extension HomeView {
           .padding(.top, 10)
         }
       }
-      
     }
   }
 }

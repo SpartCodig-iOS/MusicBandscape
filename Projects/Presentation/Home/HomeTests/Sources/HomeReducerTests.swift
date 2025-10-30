@@ -16,6 +16,11 @@ import DomainInterface
 import Foundation
 
 
+extension Tag {
+  @Tag static var mock: Self
+  @Tag static var unit: Self
+  @Tag static var reducer: Self
+}
 
 
 private enum DummyError: Error { case fail }
@@ -111,7 +116,7 @@ private enum Fixture {
 }
 
 @MainActor
-@Suite("HomeReducerTests", .tags(.unit, .reducer, .unit))
+@Suite("HomeReducerTests", .tags(.unit, .reducer))
 struct HomeReducerTests {
 
   @Test("onAppear 시 모든 시즌 로드 성공")

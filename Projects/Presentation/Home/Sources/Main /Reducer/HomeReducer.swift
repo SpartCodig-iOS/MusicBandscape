@@ -21,7 +21,7 @@ public struct HomeReducer {
     var summerMusicModel: IdentifiedArrayOf<MusicItem> = []
     var autumnMusicModel: IdentifiedArrayOf<MusicItem> = []
     var winterMusicModel: IdentifiedArrayOf<MusicItem> = []
-    var errorMessage: String? = ""
+    var errorMessage: String?
     @Shared(.inMemory("MusicItem")) var detailMusicItem: MusicItem? = nil
     public init() {}
   }
@@ -64,20 +64,20 @@ public struct HomeReducer {
     BindingReducer()
     Reduce { state, action in
       switch action {
-      case .binding:
-        return .none
+        case .binding:
+          return .none
 
-      case .view(let viewAction):
-        return handleViewAction(state: &state, action: viewAction)
+        case .view(let viewAction):
+          return handleViewAction(state: &state, action: viewAction)
 
-      case .async(let asyncAction):
-        return handleAsyncAction(state: &state, action: asyncAction)
+        case .async(let asyncAction):
+          return handleAsyncAction(state: &state, action: asyncAction)
 
-      case .inner(let innerAction):
-        return handleInnerAction(state: &state, action: innerAction)
+        case .inner(let innerAction):
+          return handleInnerAction(state: &state, action: innerAction)
 
-      case .navigation(let navigationAction):
-        return handleNavigationAction(state: &state, action: navigationAction)
+        case .navigation(let navigationAction):
+          return handleNavigationAction(state: &state, action: navigationAction)
       }
     }
   }
@@ -86,11 +86,11 @@ public struct HomeReducer {
 extension HomeReducer.State {
   public func items(for season: MusicSeason) -> IdentifiedArrayOf<MusicItem> {
     switch season {
-    case .popular: return popularMusicModel
-    case .spring:  return springMusicModel
-    case .summer:  return summerMusicModel
-    case .autumn:  return autumnMusicModel
-    case .winter:  return winterMusicModel
+      case .popular: return popularMusicModel
+      case .spring:  return springMusicModel
+      case .summer:  return summerMusicModel
+      case .autumn:  return autumnMusicModel
+      case .winter:  return winterMusicModel
     }
   }
 }
@@ -101,8 +101,8 @@ extension HomeReducer {
     action: View
   ) -> Effect<Action> {
     switch action {
-    case .onAppear:
-      return .send(.async(.fetchAll))
+      case .onAppear:
+        return .send(.async(.fetchAll))
     }
   }
 
@@ -111,25 +111,25 @@ extension HomeReducer {
     action: AsyncAction
   ) -> Effect<Action> {
     switch action {
-    case .fetchAll:
-      return .merge(
-        MusicSeason.allCases.map { .send(.async(.fetchMusic($0))) }
-      )
-      .debounce(id: HomeCancel(), for: 0.1, scheduler: mainQueue)
+      case .fetchAll:
+        return .merge(
+          MusicSeason.allCases.map { .send(.async(.fetchMusic($0))) }
+        )
+        .debounce(id: HomeCancel(), for: 0.1, scheduler: mainQueue)
 
-    case .fetchMusic(let category):
-      return .run { send in
-        let musicSearchResult = await Result {
-          try await musicSearchUseCase.searchMusic(searchQuery: category.term)
+      case .fetchMusic(let category):
+        return .run { send in
+          let musicSearchResult = await Result {
+            try await musicSearchUseCase.searchMusic(searchQuery: category.term)
+          }
+          switch musicSearchResult {
+            case .success(let musicSearchData):
+              await send(.inner(.fetchMusicResponse(category, .success(musicSearchData))))
+            case .failure(let error):
+              await send(.inner(.fetchMusicResponse(category, .failure(error))))
+          }
         }
-        switch musicSearchResult {
-        case .success(let musicSearchData):
-          await send(.inner(.fetchMusicResponse(category, .success(musicSearchData))))
-        case .failure(let error):
-          await send(.inner(.fetchMusicResponse(category, .failure(error))))
-        }
-      }
-      .cancellable(id: CancelID(category: category), cancelInFlight: true)
+        .cancellable(id: CancelID(category: category), cancelInFlight: true)
     }
   }
 
@@ -138,9 +138,9 @@ extension HomeReducer {
     action: NavigationAction
   ) -> Effect<Action> {
     switch action {
-    case .musicCardTapped(let item):
-      state.$detailMusicItem.withLock { $0 = item }
-      return .none
+      case .musicCardTapped(let item):
+        state.$detailMusicItem.withLock { $0 = item }
+        return .none
     }
   }
 
@@ -149,28 +149,29 @@ extension HomeReducer {
     action: InnerAction
   ) -> Effect<Action> {
     switch action {
-    case let .fetchMusicResponse(category, result):
-      switch result {
-      case .success(let items):
-        let sortedItems = items.sorted {
-          let lhsDate = $0.releaseDateValue ?? .distantPast
-          let rhsDate = $1.releaseDateValue ?? .distantPast
-          return lhsDate > rhsDate
-        }
-        let identified = IdentifiedArray(uniqueElements: sortedItems)
+      case let .fetchMusicResponse(category, result):
+        switch result {
+          case .success(let items):
+            state.errorMessage = nil
+            let sortedItems = items.sorted {
+              let lhsDate = $0.releaseDateValue ?? .distantPast
+              let rhsDate = $1.releaseDateValue ?? .distantPast
+              return lhsDate > rhsDate
+            }
+            let identified = IdentifiedArray(uniqueElements: sortedItems)
 
-        switch category {
-        case .popular: state.popularMusicModel = identified
-        case .spring:  state.springMusicModel  = identified
-        case .summer:  state.summerMusicModel  = identified
-        case .autumn:  state.autumnMusicModel  = identified
-        case .winter:  state.winterMusicModel  = identified
-        }
+            switch category {
+              case .popular: state.popularMusicModel = identified
+              case .spring:  state.springMusicModel  = identified
+              case .summer:  state.summerMusicModel  = identified
+              case .autumn:  state.autumnMusicModel  = identified
+              case .winter:  state.winterMusicModel  = identified
+            }
 
-      case .failure(let error):
-        state.errorMessage = error.localizedDescription
-      }
-      return .none
+          case .failure(let error):
+            state.errorMessage = error.localizedDescription
+        }
+        return .none
     }
   }
 }

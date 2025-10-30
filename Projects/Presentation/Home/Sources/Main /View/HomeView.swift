@@ -24,7 +24,7 @@ public struct HomeView: View {
       WithPerceptionTracking {
         let horizontalPadding: CGFloat = 20
         let contentWidth = max(proxy.size.width - (horizontalPadding * 2), 0)
-        let cardHeight = min(200, max(200, contentWidth / 1.2))
+        let cardHeight: CGFloat = 200
         let searchBarHeight: CGFloat = 68
 
         ZStack(alignment: .top) {

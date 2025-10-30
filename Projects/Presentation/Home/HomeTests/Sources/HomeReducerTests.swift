@@ -50,7 +50,6 @@ extension MusicItem {
     genre: String = "Pop"
   ) -> Self {
     .init(
-//      id: id,
       trackId: trackId,
       trackName: trackName,
       album: album,

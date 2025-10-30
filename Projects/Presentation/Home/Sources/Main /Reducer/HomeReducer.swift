@@ -163,7 +163,10 @@ extension HomeReducer {
               let rhsDate = $1.releaseDateValue ?? .distantPast
               return lhsDate > rhsDate
             }
-            let identified = IdentifiedArray(uniqueElements: sortedItems)
+            let uniqueItems = sortedItems.reduce(into: [MusicItem.ID: MusicItem]()) { dict, item in
+              dict[item.id] = item
+            }.values
+            let identified = IdentifiedArray(uniqueElements: Array(uniqueItems))
 
             switch category {
               case .popular: state.popularMusicModel = identified

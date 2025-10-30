@@ -164,7 +164,6 @@ extension HomeReducer {
               return lhsDate > rhsDate
             }
             var seen = Set<MusicItem.ID>()
-            let identified = IdentifiedArray(uniqueElements: Array(uniqueItems))
             let uniqueItems = sortedItems.filter { seen.insert($0.id).inserted }
             let identified = IdentifiedArray(uniqueElements: uniqueItems)
 

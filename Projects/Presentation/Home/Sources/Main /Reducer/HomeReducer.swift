@@ -23,6 +23,8 @@ public struct HomeReducer {
     var winterMusicModel: IdentifiedArrayOf<MusicItem> = []
     var errorMessage: String?
     @Shared(.inMemory("MusicItem")) var detailMusicItem: MusicItem? = nil
+    var latestFailedSeason: MusicSeason?
+
     public init() {}
   }
 
@@ -152,7 +154,10 @@ extension HomeReducer {
       case let .fetchMusicResponse(category, result):
         switch result {
           case .success(let items):
-            state.errorMessage = nil
+            if state.latestFailedSeason == category {
+              state.latestFailedSeason = nil
+              state.errorMessage = nil
+            }
             let sortedItems = items.sorted {
               let lhsDate = $0.releaseDateValue ?? .distantPast
               let rhsDate = $1.releaseDateValue ?? .distantPast
@@ -169,6 +174,7 @@ extension HomeReducer {
             }
 
           case .failure(let error):
+            state.latestFailedSeason = category
             state.errorMessage = error.localizedDescription
         }
         return .none

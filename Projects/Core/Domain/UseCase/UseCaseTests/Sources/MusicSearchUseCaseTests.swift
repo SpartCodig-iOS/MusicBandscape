@@ -72,7 +72,7 @@ struct MusicSearchUseCaseTests {
     #expect(items.artist == "아이유", "아티스트 매핑 확인")
   }
 
-  @Test("fetchTrackDetail 실패 시 에러처리")
+  @Test("fetchTrackDetail 실패 시 에러처리"
   func testSearchDetailMusicFailureError() async {
     enum StubError: Error { case boom }
     let repo = MockMusicSearchRepository(result: .failure(StubError.boom))

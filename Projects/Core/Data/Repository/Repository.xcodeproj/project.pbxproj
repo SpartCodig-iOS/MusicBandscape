@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,11 +15,11 @@
 		29734DE54DCB5E7218BF8203 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD6BEF4EEDC73B527495BB6 /* RxSwift.framework */; };
 		2C23766DA5EC5A267DB2DE38 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
 		41FC709A51F996C647FD9DFC /* DataInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 0C051AEF60DC4BF2E9179E04 /* DataInterface.framework */; };
-		45A470BE6089489A42DFB579 /* MockMusicSearchRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9223531D5D7DAAC2DAB1C /* MockMusicSearchRepositoryTests.swift */; };
 		45C48AEEAADB0663CA55BCE9 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */; };
 		4878837B4312F041BF286CD0 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = E9256A28824CD986ECC1EF08 /* Networking.framework */; };
 		5FF9785CD2D8ABD53E784222 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA1CFA625141FD7F9B1DB22 /* Alamofire.framework */; };
 		6705DA518DEFDF32D0CD39D8 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */; };
+		6F837F554EA43B635EE2C5CC /* MockMusicSearchRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED9E1BBAF2A605DF08D38F /* MockMusicSearchRepositoryTests.swift */; };
 		7355412663C7423424F3A245 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43CDC33501823FDC6E616D3 /* CFNetwork.framework */; };
 		7BA89C01047091FDCCB28455 /* Alamofire_Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A7366562A815FBE2C7810 /* Alamofire_Alamofire.bundle */; };
 		81C2AF9977596554B4F5A0F2 /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E92682ED2660339A34860 /* MockMusicSearchRepository.swift */; };
@@ -188,6 +188,7 @@
 		67D7E950058188008115D32D /* Repository_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8A7366562A815FBE2C7810 /* Alamofire_Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire_Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB3288BD804BE671D5A9E6C /* RepositoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RepositoryTests-Info.plist"; sourceTree = "<group>"; };
+		7FED9E1BBAF2A605DF08D38F /* MockMusicSearchRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicSearchRepositoryTests.swift; sourceTree = "<group>"; };
 		8434724C7BDFEA2B4A08E1DC /* Repository-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Info.plist"; sourceTree = "<group>"; };
 		9EE453BD6A8A16DC688113B4 /* Repository-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Stage-Info.plist"; sourceTree = "<group>"; };
 		A402D4C6F1E028A1FF6A15B9 /* CombineMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,7 +198,6 @@
 		BC8B445ECB8E6566CF649974 /* API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CC14A70BD175D51D4A7EEB /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B6D597B16E9CDDB21DA680 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
-		C8D9223531D5D7DAAC2DAB1C /* MockMusicSearchRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicSearchRepositoryTests.swift; sourceTree = "<group>"; };
 		E9256A28824CD986ECC1EF08 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43CDC33501823FDC6E616D3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		F9C30B633FFEC1DE967352E8 /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,7 +262,7 @@
 		280ACB745E0A714E9FEB0344 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C8D9223531D5D7DAAC2DAB1C /* MockMusicSearchRepositoryTests.swift */,
+				7FED9E1BBAF2A605DF08D38F /* MockMusicSearchRepositoryTests.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -475,6 +475,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = DAEAABCA4F1BDA57B6C50343 /* Build configuration list for PBXProject "Repository" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -578,7 +580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A470BE6089489A42DFB579 /* MockMusicSearchRepositoryTests.swift in Sources */,
+				6F837F554EA43B635EE2C5CC /* MockMusicSearchRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +615,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
@@ -653,7 +661,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -696,7 +710,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -704,7 +724,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -740,7 +763,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -783,7 +812,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -819,14 +854,23 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -860,7 +904,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -903,7 +953,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -911,7 +967,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -947,7 +1006,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -955,7 +1020,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1103,7 +1171,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -1111,7 +1185,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

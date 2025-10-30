@@ -23,7 +23,7 @@ extension Tag {
 @Suite("MusicSearchUseCase", .tags(.unit, .useCase, .mock))
 struct MusicSearchUseCaseTests {
 
-  @Test("ssearchMusic  검색 성공 시 DTO가 Domain으로 정상 변환")
+  @Test("earchMusic  검색 성공 시 DTO가 Domain으로 정상 변환")
   func testSearchMusicSuccessMapsToDomain() async throws {
     // Given: Mock DTO 데이터 (가짜 iTunes 응답)
     let dto: [Model.ITunesTrack] = [
@@ -72,7 +72,7 @@ struct MusicSearchUseCaseTests {
     #expect(items.artist == "아이유", "아티스트 매핑 확인")
   }
 
-  @Test("searchMusic 실패 시 에러처리")
+  @Test("fetchTrackDetail 실패 시 에러처리")
   func testSearchDetailMusicFailureError() async {
     enum StubError: Error { case boom }
     let repo = MockMusicSearchRepository(result: .failure(StubError.boom))

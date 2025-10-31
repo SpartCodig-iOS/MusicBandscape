@@ -7,8 +7,8 @@
 
 @preconcurrency import DataInterface
 
-public class MockMusicSearchRepository: MusicSearchRepositoryProtocol {
-  
+public final class MockMusicSearchRepository: MusicSearchRepositoryProtocol, @unchecked Sendable {
+
   public enum MockError: Error { case forced }
 
   public var result: Result<[Model.ITunesTrack], Error>

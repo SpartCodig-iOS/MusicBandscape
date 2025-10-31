@@ -35,8 +35,8 @@ struct MockMusicDetailRepositoryTests {
       )
     ]
 
-    let repository = MockMusicDetailRepository()
-    repository.setResult(.success(mockTracks))
+    let repository =  MockMusicDetailRepository()
+     repository.setResult(.success(mockTracks))
 
     // when
     let result = try await repository.fetchDetailMusic(id: "100")
@@ -52,8 +52,8 @@ struct MockMusicDetailRepositoryTests {
   @Test("검색  id 실패 시 에러를 던져야 함.")
   func testFetchIdDetailMusicFailure() async throws {
     // given
-    let repository = MockMusicDetailRepository()
-    repository.setResult(.failure(MockMusicDetailRepository.MockError.forced))
+    let repository =  MockMusicDetailRepository()
+     repository.setResult(.failure(MockMusicDetailRepository.MockError.forced))
 
     // when / then
     await #expect(throws: MockMusicDetailRepository.MockError.forced) {
@@ -63,7 +63,7 @@ struct MockMusicDetailRepositoryTests {
 
   @Test("fetchDetailMusic 호출 시 검색어가 기록되어야 함")
   func testReceivedIdQuery() async throws {
-    let repository = MockMusicDetailRepository(result: .success([]))
+    let repository =  MockMusicDetailRepository(result: .success([]))
     _ = try await repository.fetchDetailMusic(id: "100")
 
     #expect(repository.receivedQueries == ["100"])

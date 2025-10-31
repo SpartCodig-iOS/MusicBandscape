@@ -7,7 +7,7 @@
 
 import DataInterface
 
-public class MockMusicDetailRepository: MusicDetailRepositoryProtocol, Sendable {
+public final class MockMusicDetailRepository: MusicDetailRepositoryProtocol, @unchecked Sendable {
 
   public enum MockError: Error { case forced }
 

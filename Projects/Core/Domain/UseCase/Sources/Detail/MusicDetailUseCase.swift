@@ -44,7 +44,7 @@ extension MusicDetailUseCase: DependencyKey {
     return MusicDetailUseCase(repository: repository)
   }
 
-  public static var testValue = MusicDetailRepository()
+  public static var testValue = MockMusicDetailRepository()
 
   public static var previewValue: MusicDetailUseCaseProtocol {
     let repository  = UnifiedDI.register(MusicDetailRepositoryProtocol.self) {

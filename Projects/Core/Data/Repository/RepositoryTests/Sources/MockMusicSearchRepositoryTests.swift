@@ -43,8 +43,8 @@ struct MockMusicSearchRepositoryTests {
       )
     ]
 
-    let repository = MockMusicSearchRepository()
-    repository.setResult(.success(mockTracks))
+    let repository =  MockMusicSearchRepository()
+    await repository.setResult(.success(mockTracks))
 
     // when
     let result = try await repository.fetchMusic(search: "봄")

@@ -23,7 +23,7 @@ extension MusicSearchService: BaseTargetType {
     switch self {
       case .searchMusic:
         return .searchMusic
-      case .detailMusic(let id):
+      case .detailMusic:
         return .searchDetailMusic
     }
   }

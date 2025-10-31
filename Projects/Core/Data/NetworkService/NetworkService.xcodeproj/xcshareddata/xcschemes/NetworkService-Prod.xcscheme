@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6E0EDD309910261BA164618"
-               BuildableName = "Service_Stage.framework"
-               BlueprintName = "Service-Stage"
-               ReferencedContainer = "container:Service.xcodeproj">
+               BlueprintIdentifier = "40077CE6F54050EBCAC85F36"
+               BuildableName = "NetworkService_Prod.framework"
+               BlueprintName = "NetworkService-Prod"
+               ReferencedContainer = "container:NetworkService.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D6E0EDD309910261BA164618"
-            BuildableName = "Service_Stage.framework"
-            BlueprintName = "Service-Stage"
-            ReferencedContainer = "container:Service.xcodeproj">
+            BlueprintIdentifier = "40077CE6F54050EBCAC85F36"
+            BuildableName = "NetworkService_Prod.framework"
+            BlueprintName = "NetworkService-Prod"
+            ReferencedContainer = "container:NetworkService.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D6E0EDD309910261BA164618"
-            BuildableName = "Service_Stage.framework"
-            BlueprintName = "Service-Stage"
-            ReferencedContainer = "container:Service.xcodeproj">
+            BlueprintIdentifier = "40077CE6F54050EBCAC85F36"
+            BuildableName = "NetworkService_Prod.framework"
+            BlueprintName = "NetworkService-Prod"
+            ReferencedContainer = "container:NetworkService.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

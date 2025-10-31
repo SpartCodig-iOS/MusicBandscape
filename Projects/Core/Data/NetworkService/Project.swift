@@ -5,8 +5,8 @@ import ProjectTemplatePlugin
 import DependencyPackagePlugin
 
 let project = Project.makeAppModule(
-  name: "Service",
-  bundleId: .appBundleID(name: ".Service"),
+  name: "NetworkService",
+  bundleId: .appBundleID(name: ".NetworkService"),
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [

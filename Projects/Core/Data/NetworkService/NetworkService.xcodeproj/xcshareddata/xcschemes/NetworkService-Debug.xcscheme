@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D77B3747602ABAB4CDEEAE5"
-               BuildableName = "Service_Debug.framework"
-               BlueprintName = "Service-Debug"
-               ReferencedContainer = "container:Service.xcodeproj">
+               BlueprintIdentifier = "C395E80BFAC0521EAB3AADA4"
+               BuildableName = "NetworkService_Debug.framework"
+               BlueprintName = "NetworkService-Debug"
+               ReferencedContainer = "container:NetworkService.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D77B3747602ABAB4CDEEAE5"
-            BuildableName = "Service_Debug.framework"
-            BlueprintName = "Service-Debug"
-            ReferencedContainer = "container:Service.xcodeproj">
+            BlueprintIdentifier = "C395E80BFAC0521EAB3AADA4"
+            BuildableName = "NetworkService_Debug.framework"
+            BlueprintName = "NetworkService-Debug"
+            ReferencedContainer = "container:NetworkService.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D77B3747602ABAB4CDEEAE5"
-            BuildableName = "Service_Debug.framework"
-            BlueprintName = "Service-Debug"
-            ReferencedContainer = "container:Service.xcodeproj">
+            BlueprintIdentifier = "C395E80BFAC0521EAB3AADA4"
+            BuildableName = "NetworkService_Debug.framework"
+            BlueprintName = "NetworkService-Debug"
+            ReferencedContainer = "container:NetworkService.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

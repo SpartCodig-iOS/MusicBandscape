@@ -23,7 +23,6 @@ public struct HomeView: View {
     GeometryReader { proxy in
       WithPerceptionTracking {
         let horizontalPadding: CGFloat = 20
-        let contentWidth = max(proxy.size.width - (horizontalPadding * 2), 0)
         let cardHeight: CGFloat = 200
         let searchBarHeight: CGFloat = 68
 

@@ -12,7 +12,12 @@ import Model
 
 public extension ITunesTrack {
   func toDomain() -> MusicItem? {
-    guard let artwork = artworkUrl100 else {
+    guard
+      let trackId,
+      let trackName,
+      let artistName,
+      let artwork = artworkUrl100
+    else {
       return nil
     }
 
@@ -39,9 +44,9 @@ public extension ITunesTrack {
       artist: artistName,
       artworkURL: artwork,
       previewURL: previewUrl,
-      releaseDate: releaseDate,
-      aboutAlbumInfo: collectionCensoredName,
-      genre: primaryGenreName,
+      releaseDate: releaseDate ?? "",
+      aboutAlbumInfo: collectionCensoredName ?? collectionName ?? "",
+      genre: primaryGenreName ?? "",
       mediaType: mediaType
     )
   }

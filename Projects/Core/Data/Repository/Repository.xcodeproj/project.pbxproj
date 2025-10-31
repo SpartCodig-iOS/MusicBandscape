@@ -3,56 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		065CDD9E3F159CCEC6E1A6C0 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D39D8FFA6B36EC82B3C778 /* Repository.framework */; };
 		08A491E1067C93EFC4474817 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CC14A70BD175D51D4A7EEB /* Moya.framework */; };
 		0E8E0386D1DD34B39FB8C982 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8B445ECB8E6566CF649974 /* API.framework */; };
+		0F7FC24EE51D65F16F679DD9 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC502E3FA7AF9B4519D8AA2 /* MusicSearchRepository.swift */; };
+		1493A92373C84B151369E627 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC502E3FA7AF9B4519D8AA2 /* MusicSearchRepository.swift */; };
 		233EAF0D96C6FF11DCB925F5 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = E9256A28824CD986ECC1EF08 /* Networking.framework */; };
 		2346B53A47FF5D90E70215B7 /* DataInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 0C051AEF60DC4BF2E9179E04 /* DataInterface.framework */; };
 		29734DE54DCB5E7218BF8203 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD6BEF4EEDC73B527495BB6 /* RxSwift.framework */; };
-		2C23766DA5EC5A267DB2DE38 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		2B947979ACB693C05AD6B015 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF53AC9F5AB783A89AC1BDB /* MockMusicDetailRepository.swift */; };
+		2DF6D059B5BEA6E0B238E39A /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2241AFC7440EECBBEA5F080 /* NetworkService.framework */; };
 		41FC709A51F996C647FD9DFC /* DataInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 0C051AEF60DC4BF2E9179E04 /* DataInterface.framework */; };
-		45C48AEEAADB0663CA55BCE9 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */; };
+		46B0E414B2BDD688E504C8E0 /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909B7341924E6CE41091993 /* MusicDetailRepository.swift */; };
 		4878837B4312F041BF286CD0 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = E9256A28824CD986ECC1EF08 /* Networking.framework */; };
 		5FF9785CD2D8ABD53E784222 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA1CFA625141FD7F9B1DB22 /* Alamofire.framework */; };
-		6705DA518DEFDF32D0CD39D8 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */; };
+		66D7EC80E7D8F0F121525643 /* NetworkService.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B2241AFC7440EECBBEA5F080 /* NetworkService.framework */; };
+		6C362D38646AAB6377572599 /* NetworkService.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B2241AFC7440EECBBEA5F080 /* NetworkService.framework */; };
 		6F837F554EA43B635EE2C5CC /* MockMusicSearchRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED9E1BBAF2A605DF08D38F /* MockMusicSearchRepositoryTests.swift */; };
+		70D43BE4BC6051CD47CE22C9 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF53AC9F5AB783A89AC1BDB /* MockMusicDetailRepository.swift */; };
+		71DDF859FE56E0D552BBCAA3 /* MockMusicDetailRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE639263A3360A13D18123F6 /* MockMusicDetailRepositoryTests.swift */; };
 		7355412663C7423424F3A245 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43CDC33501823FDC6E616D3 /* CFNetwork.framework */; };
+		755769BF04DD13ACB79CB2C7 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF53AC9F5AB783A89AC1BDB /* MockMusicDetailRepository.swift */; };
 		7BA89C01047091FDCCB28455 /* Alamofire_Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C8A7366562A815FBE2C7810 /* Alamofire_Alamofire.bundle */; };
-		7F1AC7302EB44DE100C82441 /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC72F2EB44DD900C82441 /* MusicDetailRepository.swift */; };
-		7F1AC7312EB44DE100C82441 /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC72F2EB44DD900C82441 /* MusicDetailRepository.swift */; };
-		7F1AC7322EB44DE100C82441 /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC72F2EB44DD900C82441 /* MusicDetailRepository.swift */; };
-		7F1AC7332EB44DE100C82441 /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC72F2EB44DD900C82441 /* MusicDetailRepository.swift */; };
-		7F1AC7362EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC7342EB44E3200C82441 /* MockMusicDetailRepository.swift */; };
-		7F1AC7372EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC7342EB44E3200C82441 /* MockMusicDetailRepository.swift */; };
-		7F1AC7382EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC7342EB44E3200C82441 /* MockMusicDetailRepository.swift */; };
-		7F1AC7392EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC7342EB44E3200C82441 /* MockMusicDetailRepository.swift */; };
-		7F1AC7482EB4518E00C82441 /* MockMusicDetailRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC7472EB4518A00C82441 /* MockMusicDetailRepositoryTests.swift */; };
-		81C2AF9977596554B4F5A0F2 /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E92682ED2660339A34860 /* MockMusicSearchRepository.swift */; };
+		852E363B64C96BBAE2951912 /* MockMusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF53AC9F5AB783A89AC1BDB /* MockMusicDetailRepository.swift */; };
 		8A4EA2436DC81B20486209C6 /* DataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C051AEF60DC4BF2E9179E04 /* DataInterface.framework */; };
 		8D3EE4A12A835297EA66F043 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001E4EB12F1B31552843EC8 /* Model.framework */; };
-		8E479DDB904E8ABBD71E8302 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */; };
+		984F4B7AC3C7C2104F98C5FE /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909B7341924E6CE41091993 /* MusicDetailRepository.swift */; };
 		A2333F1CDF2EE173146917D2 /* Alamofire_Alamofire.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 6C8A7366562A815FBE2C7810 /* Alamofire_Alamofire.bundle */; };
 		A698F595B604CF8C68EA6FF2 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = E9256A28824CD986ECC1EF08 /* Networking.framework */; };
-		A6F8318AFCC8184F57011D50 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */; };
+		B2C509483A0241F46C73DE3B /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909B7341924E6CE41091993 /* MusicDetailRepository.swift */; };
 		B4CC4F2D8A5386E268661131 /* DataInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 0C051AEF60DC4BF2E9179E04 /* DataInterface.framework */; };
+		BB6941E719F034681417B60F /* NetworkService.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B2241AFC7440EECBBEA5F080 /* NetworkService.framework */; };
+		BB87E1D5CABCE54FB184CEBD /* MusicDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3909B7341924E6CE41091993 /* MusicDetailRepository.swift */; };
 		BC3E81878EF9E2A2651B2F87 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CD10CD4A587CB9F328BD12 /* LogMacro.framework */; };
-		C1271844DE5B9D13E9E7CBC0 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		C0BEB24AF27B909091655C5F /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8BB789BCB3B6B00642080 /* MockMusicSearchRepository.swift */; };
 		C1669AB5BB04B11E566D8683 /* AsyncMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A290AEAD111F015CBFDADB /* AsyncMoya.framework */; };
 		CA96831896F9A6B6811C6C3E /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FAE0770B930CBF414B8F54 /* EventLimiter.framework */; };
-		CD59907F5FF407743514DB95 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		CC8F08BF0C4A0BA10A5D29C0 /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8BB789BCB3B6B00642080 /* MockMusicSearchRepository.swift */; };
+		CF31E5E654224F48DE60CFEC /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC502E3FA7AF9B4519D8AA2 /* MusicSearchRepository.swift */; };
 		DA272BEA4FC48206CDC3E121 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C30B633FFEC1DE967352E8 /* RxMoya.framework */; };
-		DB3850164E364C8631CF1E02 /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E92682ED2660339A34860 /* MockMusicSearchRepository.swift */; };
-		DCD884BEF59149765121ADBC /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
 		DEEC771D534965D1D392318A /* Foundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B285930F3594266FEB0BC20 /* Foundations.framework */; };
-		DFE6A1AEA515B11BA230F73B /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E92682ED2660339A34860 /* MockMusicSearchRepository.swift */; };
-		E3B07C5281726FE5EFA47795 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		E495B59E5AA0112995A9FC22 /* MusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC502E3FA7AF9B4519D8AA2 /* MusicSearchRepository.swift */; };
+		E9AFD9DED60E9988784B5B69 /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8BB789BCB3B6B00642080 /* MockMusicSearchRepository.swift */; };
 		EAA7EA5BDD8E847A1A0A5854 /* Networking.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = E9256A28824CD986ECC1EF08 /* Networking.framework */; };
 		ED7ABEC4AB9FBA1707BB2752 /* DataInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 0C051AEF60DC4BF2E9179E04 /* DataInterface.framework */; };
-		F8B52702933627F2493EF0EB /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E92682ED2660339A34860 /* MockMusicSearchRepository.swift */; };
+		EF7ACB950D19290202504C73 /* MockMusicSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8BB789BCB3B6B00642080 /* MockMusicSearchRepository.swift */; };
+		F5448EA7F201F762686A261E /* NetworkService.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B2241AFC7440EECBBEA5F080 /* NetworkService.framework */; };
 		FD0FCD7CCB8F7E01AA5683F1 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B6D597B16E9CDDB21DA680 /* OSLog.framework */; };
 		FEFB0DA0A60E3FBF3A1B1416 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9256A28824CD986ECC1EF08 /* Networking.framework */; };
 		FFDACF7E5B91FBAE76D131B1 /* CombineMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A402D4C6F1E028A1FF6A15B9 /* CombineMoya.framework */; };
@@ -105,8 +105,8 @@
 			dstSubfolderSpec = 16;
 			files = (
 				B4CC4F2D8A5386E268661131 /* DataInterface.framework in Dependencies */,
+				6C362D38646AAB6377572599 /* NetworkService.framework in Dependencies */,
 				233EAF0D96C6FF11DCB925F5 /* Networking.framework in Dependencies */,
-				2C23766DA5EC5A267DB2DE38 /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -147,8 +147,8 @@
 			dstSubfolderSpec = 16;
 			files = (
 				ED7ABEC4AB9FBA1707BB2752 /* DataInterface.framework in Dependencies */,
+				F5448EA7F201F762686A261E /* NetworkService.framework in Dependencies */,
 				EAA7EA5BDD8E847A1A0A5854 /* Networking.framework in Dependencies */,
-				DCD884BEF59149765121ADBC /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -159,8 +159,8 @@
 			dstSubfolderSpec = 16;
 			files = (
 				41FC709A51F996C647FD9DFC /* DataInterface.framework in Dependencies */,
+				66D7EC80E7D8F0F121525643 /* NetworkService.framework in Dependencies */,
 				4878837B4312F041BF286CD0 /* Networking.framework in Dependencies */,
-				CD59907F5FF407743514DB95 /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -171,8 +171,8 @@
 			dstSubfolderSpec = 16;
 			files = (
 				2346B53A47FF5D90E70215B7 /* DataInterface.framework in Dependencies */,
+				BB6941E719F034681417B60F /* NetworkService.framework in Dependencies */,
 				A698F595B604CF8C68EA6FF2 /* Networking.framework in Dependencies */,
-				E3B07C5281726FE5EFA47795 /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -188,31 +188,31 @@
 		19A290AEAD111F015CBFDADB /* AsyncMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B285930F3594266FEB0BC20 /* Foundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Foundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E66E9088F97B1F320BF8B4 /* Repository_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3909B7341924E6CE41091993 /* MusicDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailRepository.swift; sourceTree = "<group>"; };
 		39FAE0770B930CBF414B8F54 /* EventLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF8BB789BCB3B6B00642080 /* MockMusicSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicSearchRepository.swift; sourceTree = "<group>"; };
 		4131E6C825DB8588F94C2088 /* Repository_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA1CFA625141FD7F9B1DB22 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		549C82A8C41E9EBA4FDC62C7 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		588E92682ED2660339A34860 /* MockMusicSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicSearchRepository.swift; sourceTree = "<group>"; };
-		60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSearchRepository.swift; sourceTree = "<group>"; };
 		67D7E950058188008115D32D /* Repository_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8A7366562A815FBE2C7810 /* Alamofire_Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire_Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC502E3FA7AF9B4519D8AA2 /* MusicSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSearchRepository.swift; sourceTree = "<group>"; };
 		7DB3288BD804BE671D5A9E6C /* RepositoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RepositoryTests-Info.plist"; sourceTree = "<group>"; };
-		7F1AC72F2EB44DD900C82441 /* MusicDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailRepository.swift; sourceTree = "<group>"; };
-		7F1AC7342EB44E3200C82441 /* MockMusicDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicDetailRepository.swift; sourceTree = "<group>"; };
-		7F1AC7472EB4518A00C82441 /* MockMusicDetailRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicDetailRepositoryTests.swift; sourceTree = "<group>"; };
 		7FED9E1BBAF2A605DF08D38F /* MockMusicSearchRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicSearchRepositoryTests.swift; sourceTree = "<group>"; };
 		8434724C7BDFEA2B4A08E1DC /* Repository-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Info.plist"; sourceTree = "<group>"; };
 		9EE453BD6A8A16DC688113B4 /* Repository-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Stage-Info.plist"; sourceTree = "<group>"; };
 		A402D4C6F1E028A1FF6A15B9 /* CombineMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD6BEF4EEDC73B527495BB6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B001E4EB12F1B31552843EC8 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2241AFC7440EECBBEA5F080 /* NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CD10CD4A587CB9F328BD12 /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8B445ECB8E6566CF649974 /* API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CC14A70BD175D51D4A7EEB /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B6D597B16E9CDDB21DA680 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
+		CDF53AC9F5AB783A89AC1BDB /* MockMusicDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicDetailRepository.swift; sourceTree = "<group>"; };
 		E9256A28824CD986ECC1EF08 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43CDC33501823FDC6E616D3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		F9C30B633FFEC1DE967352E8 /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE639263A3360A13D18123F6 /* MockMusicDetailRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMusicDetailRepositoryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,11 +246,11 @@
 				BC3E81878EF9E2A2651B2F87 /* LogMacro.framework in Frameworks */,
 				8D3EE4A12A835297EA66F043 /* Model.framework in Frameworks */,
 				08A491E1067C93EFC4474817 /* Moya.framework in Frameworks */,
+				2DF6D059B5BEA6E0B238E39A /* NetworkService.framework in Frameworks */,
 				FEFB0DA0A60E3FBF3A1B1416 /* Networking.framework in Frameworks */,
 				065CDD9E3F159CCEC6E1A6C0 /* Repository.framework in Frameworks */,
 				DA272BEA4FC48206CDC3E121 /* RxMoya.framework in Frameworks */,
 				29734DE54DCB5E7218BF8203 /* RxSwift.framework in Frameworks */,
-				C1271844DE5B9D13E9E7CBC0 /* Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 		280ACB745E0A714E9FEB0344 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7F1AC7472EB4518A00C82441 /* MockMusicDetailRepositoryTests.swift */,
+				FE639263A3360A13D18123F6 /* MockMusicDetailRepositoryTests.swift */,
 				7FED9E1BBAF2A605DF08D38F /* MockMusicSearchRepositoryTests.swift */,
 			);
 			path = Sources;
@@ -283,8 +283,8 @@
 		2D734AC98FF0BE5BAB8E93F5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7F1AC72E2EB44DC500C82441 /* Detail */,
-				7F1AC72D2EB44DB700C82441 /* Search */,
+				A604B1AC0250F705EF021006 /* Detail */,
+				6C146823AECACF85E598936E /* Search */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -316,20 +316,20 @@
 			);
 			sourceTree = "<group>";
 		};
-		7F1AC72D2EB44DB700C82441 /* Search */ = {
+		6C146823AECACF85E598936E /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				588E92682ED2660339A34860 /* MockMusicSearchRepository.swift */,
-				60A1061A0F7A5DEF2B3433B7 /* MusicSearchRepository.swift */,
+				3AF8BB789BCB3B6B00642080 /* MockMusicSearchRepository.swift */,
+				7CC502E3FA7AF9B4519D8AA2 /* MusicSearchRepository.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
 		};
-		7F1AC72E2EB44DC500C82441 /* Detail */ = {
+		A604B1AC0250F705EF021006 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				7F1AC7342EB44E3200C82441 /* MockMusicDetailRepository.swift */,
-				7F1AC72F2EB44DD900C82441 /* MusicDetailRepository.swift */,
+				CDF53AC9F5AB783A89AC1BDB /* MockMusicDetailRepository.swift */,
+				3909B7341924E6CE41091993 /* MusicDetailRepository.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -358,6 +358,7 @@
 				B001E4EB12F1B31552843EC8 /* Model.framework */,
 				C1CC14A70BD175D51D4A7EEB /* Moya.framework */,
 				E9256A28824CD986ECC1EF08 /* Networking.framework */,
+				B2241AFC7440EECBBEA5F080 /* NetworkService.framework */,
 				67D7E950058188008115D32D /* Repository_Debug.framework */,
 				4131E6C825DB8588F94C2088 /* Repository_Prod.framework */,
 				34E66E9088F97B1F320BF8B4 /* Repository_Stage.framework */,
@@ -365,7 +366,6 @@
 				18618E5B5CE8E0BEE5F43988 /* RepositoryTests.xctest */,
 				F9C30B633FFEC1DE967352E8 /* RxMoya.framework */,
 				AFD6BEF4EEDC73B527495BB6 /* RxSwift.framework */,
-				549C82A8C41E9EBA4FDC62C7 /* Service.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -506,6 +506,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = DAEAABCA4F1BDA57B6C50343 /* Build configuration list for PBXProject "Repository" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -573,10 +575,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1AC7372EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */,
-				7F1AC7302EB44DE100C82441 /* MusicDetailRepository.swift in Sources */,
-				DFE6A1AEA515B11BA230F73B /* MockMusicSearchRepository.swift in Sources */,
-				8E479DDB904E8ABBD71E8302 /* MusicSearchRepository.swift in Sources */,
+				755769BF04DD13ACB79CB2C7 /* MockMusicDetailRepository.swift in Sources */,
+				B2C509483A0241F46C73DE3B /* MusicDetailRepository.swift in Sources */,
+				C0BEB24AF27B909091655C5F /* MockMusicSearchRepository.swift in Sources */,
+				CF31E5E654224F48DE60CFEC /* MusicSearchRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,10 +586,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1AC7392EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */,
-				7F1AC7322EB44DE100C82441 /* MusicDetailRepository.swift in Sources */,
-				F8B52702933627F2493EF0EB /* MockMusicSearchRepository.swift in Sources */,
-				45C48AEEAADB0663CA55BCE9 /* MusicSearchRepository.swift in Sources */,
+				70D43BE4BC6051CD47CE22C9 /* MockMusicDetailRepository.swift in Sources */,
+				BB87E1D5CABCE54FB184CEBD /* MusicDetailRepository.swift in Sources */,
+				EF7ACB950D19290202504C73 /* MockMusicSearchRepository.swift in Sources */,
+				1493A92373C84B151369E627 /* MusicSearchRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,10 +597,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1AC7382EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */,
-				7F1AC7312EB44DE100C82441 /* MusicDetailRepository.swift in Sources */,
-				81C2AF9977596554B4F5A0F2 /* MockMusicSearchRepository.swift in Sources */,
-				6705DA518DEFDF32D0CD39D8 /* MusicSearchRepository.swift in Sources */,
+				852E363B64C96BBAE2951912 /* MockMusicDetailRepository.swift in Sources */,
+				984F4B7AC3C7C2104F98C5FE /* MusicDetailRepository.swift in Sources */,
+				CC8F08BF0C4A0BA10A5D29C0 /* MockMusicSearchRepository.swift in Sources */,
+				E495B59E5AA0112995A9FC22 /* MusicSearchRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,10 +608,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1AC7362EB44ED300C82441 /* MockMusicDetailRepository.swift in Sources */,
-				7F1AC7332EB44DE100C82441 /* MusicDetailRepository.swift in Sources */,
-				DB3850164E364C8631CF1E02 /* MockMusicSearchRepository.swift in Sources */,
-				A6F8318AFCC8184F57011D50 /* MusicSearchRepository.swift in Sources */,
+				2B947979ACB693C05AD6B015 /* MockMusicDetailRepository.swift in Sources */,
+				46B0E414B2BDD688E504C8E0 /* MusicDetailRepository.swift in Sources */,
+				E9AFD9DED60E9988784B5B69 /* MockMusicSearchRepository.swift in Sources */,
+				0F7FC24EE51D65F16F679DD9 /* MusicSearchRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +619,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1AC7482EB4518E00C82441 /* MockMusicDetailRepositoryTests.swift in Sources */,
+				71DDF859FE56E0D552BBCAA3 /* MockMusicDetailRepositoryTests.swift in Sources */,
 				6F837F554EA43B635EE2C5CC /* MockMusicSearchRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,7 +655,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
@@ -693,7 +701,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -736,7 +750,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -744,7 +764,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -780,7 +803,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -823,7 +852,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -859,14 +894,23 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -900,7 +944,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -943,7 +993,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -951,7 +1007,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -987,7 +1046,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -995,7 +1060,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1143,7 +1211,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Bandscape.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -1151,7 +1225,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

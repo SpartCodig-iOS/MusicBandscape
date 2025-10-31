@@ -26,10 +26,10 @@
                location = "group:Model/Model.xcodeproj">
             </FileRef>
             <FileRef
-               location = "group:Repository/Repository.xcodeproj">
+               location = "group:NetworkService/NetworkService.xcodeproj">
             </FileRef>
             <FileRef
-               location = "group:Service/Service.xcodeproj">
+               location = "group:Repository/Repository.xcodeproj">
             </FileRef>
          </Group>
          <Group

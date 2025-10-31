@@ -86,7 +86,6 @@ extension RootTabReducer {
     }
   }
 
-
   private func handleScopeAction(
     state: inout State,
     action: ScopeAction

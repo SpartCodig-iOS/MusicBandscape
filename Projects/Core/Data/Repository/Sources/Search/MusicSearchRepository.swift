@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Service
+import NetworkService
 import DataInterface
 
 import AsyncMoya
@@ -17,7 +17,7 @@ public final class MusicSearchRepository: MusicSearchRepositoryProtocol {
   nonisolated public init() {}
 
   public func fetchMusic(search: String) async throws -> [Model.ITunesTrack] {
-    let data = try await provider.requestAsync(
+    let data = try await provider.request(
       .searchMusic(
         query: search,
         media: "'music'",
@@ -28,17 +28,12 @@ public final class MusicSearchRepository: MusicSearchRepositoryProtocol {
     return data.results
   }
 
-  public func fetchDetailMusic(id: String) async throws -> [Model.ITunesTrack] {
-    let data = try await provider.requestAsync(.detailMusic(id: id), decodeTo: ITunesSearchResponseDTO.self)
-    return data.results
-  }
-
   public func searchMedia(
     query: String,
     media: String,
     entity: String
   ) async throws -> [Model.ITunesTrack] {
-    let data = try await provider.requestAsync(
+    let data = try await provider.request(
       .searchMusic(
         query: query,
         media: media,

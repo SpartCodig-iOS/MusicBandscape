@@ -17,13 +17,17 @@ public struct SearchReducer {
 
   @ObservableState
   public struct State: Equatable {
-    public var searchText: String = ""
-    public var recentSearches: [String] = []
-    public var allSearchResults: [MusicItem] = []
-    public var filteredSearchResults: [MusicItem] = []
-    public var isSearching: Bool = false
-    public var currentSearchQuery: String = ""
-    public var selectedCategory: SearchCategory = .all
+     var searchText: String = ""
+     var recentSearches: [String] = []
+     var allSearchResults: [MusicItem] = []
+     var filteredSearchResults: [MusicItem] = []
+     var isSearching: Bool = false
+     var currentSearchQuery: String = ""
+     var selectedCategory: SearchCategory = .all
+     var musicCount: Int = 0
+     var movieCount: Int = 0
+     var podcastCount: Int = 0
+     var etcCount: Int = 0
 
     @Shared(.inMemory("MusicItem")) var detailMusicItem : MusicItem? = nil
 
@@ -112,6 +116,10 @@ extension SearchReducer {
         state.filteredSearchResults = []
         state.currentSearchQuery = ""
         state.selectedCategory = .all
+        state.musicCount = 0
+        state.movieCount = 0
+        state.podcastCount = 0
+        state.etcCount = 0
       }
       return .none
 
@@ -162,6 +170,10 @@ extension SearchReducer {
       state.filteredSearchResults = []
       state.currentSearchQuery = ""
       state.selectedCategory = .all
+      state.musicCount = 0
+      state.movieCount = 0
+      state.podcastCount = 0
+      state.etcCount = 0
       return .none
     }
   }
@@ -227,14 +239,21 @@ extension SearchReducer {
         let sortedResults = results.sortedByLatest()
         state.allSearchResults = sortedResults
         state.filteredSearchResults = sortedResults.filterByCategory(state.selectedCategory)
+        state.musicCount = musicSearchUseCase.getCategoryCount(from: sortedResults, category: .music)
+        state.movieCount = musicSearchUseCase.getCategoryCount(from: sortedResults, category: .movies)
+        state.podcastCount = musicSearchUseCase.getCategoryCount(from: sortedResults, category: .podcast)
+        state.etcCount = musicSearchUseCase.getCategoryCount(from: sortedResults, category: .etc)
       case .failure(let error):
         print("🔥 검색 에러: \(error.localizedDescription)")
         state.allSearchResults = []
         state.filteredSearchResults = []
+        state.musicCount = 0
+        state.movieCount = 0
+        state.podcastCount = 0
+        state.etcCount = 0
       }
 
       return .none
     }
   }
 }
-

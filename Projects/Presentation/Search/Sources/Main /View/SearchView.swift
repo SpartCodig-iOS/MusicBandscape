@@ -57,10 +57,10 @@ public struct SearchView: View {
           if !store.currentSearchQuery.isEmpty {
             SearchCategoryFilter(
               selectedCategory: store.selectedCategory,
-              musicCount: store.allSearchResults.count,
-              movieCount: store.filteredSearchResults.count,
-              podcastCount: store.filteredSearchResults.count,
-              etcCount: store.filteredSearchResults.count,
+              musicCount: store.musicCount,
+              movieCount: store.movieCount,
+              podcastCount: store.podcastCount,
+              etcCount: store.etcCount,
               onCategorySelect: { category in
                 store.send(.view(.selectCategory(category)))
               }

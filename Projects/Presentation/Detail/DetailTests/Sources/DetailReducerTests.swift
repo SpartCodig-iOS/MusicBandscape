@@ -19,7 +19,7 @@ extension Tag {
 
 private enum DummyError: Error { case fail }
 
-private struct StubMusicSearchUseCase: MusicSearchUseCaseProtocol {
+private struct StubMusicDetailUseCase: MusicDetailUseCaseProtocol {
   let searchHandler: @Sendable (String) async throws -> [MusicItem]
   let fetchDetailHandler: @Sendable (Int) async throws -> MusicItem
 
@@ -70,7 +70,7 @@ struct DetailReducerTests {
       DetailReducer()
     } withDependencies: {
       $0.continuousClock = clock
-      $0[MusicSearchUseCase.self] = StubMusicSearchUseCase(
+      $0[MusicDetailUseCase.self] = StubMusicDetailUseCase(
         searchHandler: { _ in [] },
         fetchDetailHandler: { id in
           #expect(id == 777)
@@ -104,7 +104,7 @@ struct DetailReducerTests {
       DetailReducer()
     } withDependencies: {
       $0.continuousClock = clock
-      $0[MusicSearchUseCase.self] = StubMusicSearchUseCase(
+      $0[MusicDetailUseCase.self] = StubMusicDetailUseCase(
         searchHandler: { _ in [] },
         fetchDetailHandler: { _ in throw DummyError.fail }
       )

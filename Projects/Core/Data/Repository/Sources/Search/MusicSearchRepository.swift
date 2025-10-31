@@ -17,12 +17,7 @@ public final class MusicSearchRepository: MusicSearchRepositoryProtocol {
   nonisolated public init() {}
 
   public func fetchMusic(search: String) async throws -> [Model.ITunesTrack] {
-    let data = try await provider.requestAsync(.searchMusic(query: search), decodeTo: ITunesSearchResponseDTO.self)
-    return data.results
-  }
-
-  public func fetchDetailMusic(id: String) async throws -> [Model.ITunesTrack] {
-    let data = try await provider.requestAsync(.detailMusic(id: id), decodeTo: ITunesSearchResponseDTO.self)
+    let data = try await provider.request(.searchMusic(query: search), decodeTo: ITunesSearchResponseDTO.self)
     return data.results
   }
 }

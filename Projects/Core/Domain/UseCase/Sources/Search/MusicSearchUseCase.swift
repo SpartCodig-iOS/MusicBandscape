@@ -28,15 +28,6 @@ public struct MusicSearchUseCase: MusicSearchUseCaseProtocol {
     let dto = try await repository.fetchMusic(search: searchQuery)
     return dto.toDomain()
   }
-
-  public func fetchTrackDetail(id: Int) async throws -> MusicItem {
-    let dtos = try await repository.fetchDetailMusic(id: "\(id)")
-
-    guard let track = dtos.first?.toDomain() else {
-      throw URLError(.badServerResponse)
-    }
-    return track
-  }
 }
 
 

@@ -10,5 +10,4 @@ import Model
 
 public protocol MusicSearchRepositoryProtocol: Sendable {
   func fetchMusic(search: String) async throws -> [ITunesTrack]
-  func fetchDetailMusic(id: String) async throws -> [ITunesTrack]
 }

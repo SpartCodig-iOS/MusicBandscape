@@ -69,7 +69,7 @@ public struct DetailReducer {
   }
 
   @Dependency(\.continuousClock) var clock
-  @Dependency(MusicSearchUseCase.self) var musicSearchUseCase
+  @Dependency(MusicDetailUseCase.self) var musicDetailUseCase
 
   public var body: some Reducer<State, Action> {
     BindingReducer()
@@ -116,7 +116,7 @@ extension DetailReducer {
           try? await clock.sleep(for: .seconds(2))
 
           let searchDetailMusicResult = await Result {
-            try await musicSearchUseCase.fetchTrackDetail(id: musicItem?.trackId ?? .zero)
+            try await musicDetailUseCase.fetchTrackDetail(id: musicItem?.trackId ?? .zero)
           }
 
           switch searchDetailMusicResult {

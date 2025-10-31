@@ -108,7 +108,7 @@ Data/Repository implements DataInterface
 ```
 
 ### Tuist  graph
-<img width="400" height="400" alt="graph" src="https://github.com/user-attachments/assets/5f852cc4-c5f2-417c-b0b6-6b7dae47b76d" />
+<img src="/graph.png" width="500" height="800" alt="graph" />
 
 
 ## 📸 구현 미리보기
@@ -118,6 +118,7 @@ Data/Repository implements DataInterface
 | ![Home](Docs/Screenshots/home.png) | ![Search](Docs/Screenshots/search.png) |
 
 > 스크린샷은 `Docs/Screenshots` 디렉터리에 저장되어 있으며, 최신 UI 상태에 맞춰 교체할 수 있습니다.
+
 
 
 ## 개발 환경

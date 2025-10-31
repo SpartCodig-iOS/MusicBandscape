@@ -25,7 +25,7 @@ extension Tag {
 private enum DummyError: Error { case fail }
 
 private struct StubMusicSearchUseCase: MusicSearchUseCaseProtocol {
-  var searchMusicHandler: @Sendable (String) async throws -> [Core.MusicItem] = { _ in [] }
+  var searchMusicHandler: @Sendable (String) async throws -> [Entity.MusicItem] = { _ in [] }
   var fetchDetailHandler: @Sendable (Int) async throws -> Entity.MusicItem = { _ in .stub() }
   var searchMediaHandler: @Sendable (String, String, String) async throws -> [Entity.MusicItem] = { _,_,_ in [] }
   var getCategoryCountHandler: ([Entity.MusicItem], Entity.SearchCategory) -> Int = { results, category in
@@ -38,9 +38,10 @@ private struct StubMusicSearchUseCase: MusicSearchUseCaseProtocol {
     }
   }
 
-  func searchMusic(searchQuery: String) async throws -> [Core.MusicItem] {
+  func searchMusic(searchQuery: String) async throws -> [Entity.MusicItem]  {
     try await searchMusicHandler(searchQuery)
   }
+  
 
   func fetchTrackDetail(id: Int) async throws -> Entity.MusicItem {
     try await fetchDetailHandler(id)

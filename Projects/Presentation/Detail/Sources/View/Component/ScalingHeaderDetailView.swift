@@ -55,7 +55,6 @@ struct ScalingHeaderDetailView<Content: View>: View {
         }
 
         NavigationArrowButton {
-          print("🔥 ScalingHeaderDetailView: NavigationArrowButton 탭됨")
           store.send(.navigation(.backToHome))
         }
         .padding(.leading, 16)

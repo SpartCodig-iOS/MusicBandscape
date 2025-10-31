@@ -27,7 +27,7 @@ public struct RootTabBarView: View {
         )
           .tabItem {
             Image(systemName: "house")
-            Text(MainTab.home.tabBarTiltle)
+            Text(MainTab.home.tabBarTitle)
           }
           .tag(MainTab.home)
 
@@ -38,7 +38,7 @@ public struct RootTabBarView: View {
         )
           .tabItem {
             Image(systemName: "magnifyingglass")
-            Text(MainTab.search.tabBarTiltle)
+            Text(MainTab.search.tabBarTitle)
           }
           .tag(MainTab.search)
       }

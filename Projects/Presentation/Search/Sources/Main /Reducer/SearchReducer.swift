@@ -120,8 +120,9 @@ extension SearchReducer {
         state.movieCount = 0
         state.podcastCount = 0
         state.etcCount = 0
+        state.isSearching = false
       }
-      return .none
+      return .cancel(id: CancelID.searchMedia)
 
     case .searchSubmitted(let searchText):
       let trimmedText = searchText.trimmingCharacters(in: .whitespacesAndNewlines)

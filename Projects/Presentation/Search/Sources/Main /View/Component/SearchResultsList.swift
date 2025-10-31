@@ -19,10 +19,7 @@ struct SearchResultsList: View {
         SearchResultItem(musicItem: musicItem) {
           onTapMusicItem(musicItem)
         }
-        .background(Color.clear)
-        .onTapGesture {
-          onTapMusicItem(musicItem)
-        }
+        .background(.clear)
       }
     }
   }

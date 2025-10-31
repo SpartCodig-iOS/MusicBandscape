@@ -10,7 +10,7 @@ import Foundation
 public enum MainTab: String, CaseIterable {
   case home, search
 
-  public var tabBarTiltle: String {
+  public var tabBarTitle: String {
     switch self {
       case .home:
         return "홈"

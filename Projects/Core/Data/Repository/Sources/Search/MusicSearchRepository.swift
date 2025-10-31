@@ -20,7 +20,7 @@ public final class MusicSearchRepository: MusicSearchRepositoryProtocol {
     let data = try await provider.request(
       .searchMusic(
         query: search,
-        media: "'music'",
+        media: "music",
         entity: "song"
       ),
       decodeTo: ITunesSearchResponseDTO.self

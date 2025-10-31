@@ -107,9 +107,7 @@ public struct SearchView: View {
             .padding(.top, 16)
           }
           .scrollIndicators(.hidden)
-          .onAppear {
-            UIScrollView.appearance().bounces = false
-          }
+          .scrollBounceBehavior(.basedOnSize)
         }
       }
     }

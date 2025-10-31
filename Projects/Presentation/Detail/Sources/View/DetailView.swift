@@ -15,7 +15,6 @@ import Core
 @ViewAction(for: DetailReducer.self)
 public struct DetailView: View {
   @Perception.Bindable public var store: StoreOf<DetailReducer>
-  @Environment(\.dismiss) var dismiss
 
   public init(store: StoreOf<DetailReducer>) {
     self.store = store

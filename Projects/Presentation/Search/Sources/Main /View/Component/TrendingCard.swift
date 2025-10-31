@@ -9,15 +9,20 @@ import SwiftUI
 import DesignSystem
 import Entity
 
-struct TrendingCard: View {
-  let item: TrendingItem
+public struct TrendingCard: View {
+  private let item: TrendingItem
 
-  var body: some View {
+  public init(
+    item: TrendingItem
+  ) {
+    self.item = item
+  }
+
+  public var body: some View {
     ZStack(alignment: .topLeading) {
-      // 카드 배경
       RoundedRectangle(cornerRadius: 16, style: .continuous)
         .fill(.neutralBlack)
-        .overlay( // 살짝의 윤곽감
+        .overlay(
           RoundedRectangle(cornerRadius: 16, style: .continuous)
             .stroke(Color.black.opacity(0.06))
         )
@@ -36,7 +41,7 @@ struct TrendingCard: View {
       }
       .padding(16)
     }
-    .frame(height: 92) // 스크린샷 느낌에 맞춰 높이 고정
+    .frame(height: 92) 
     .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
   }
 }

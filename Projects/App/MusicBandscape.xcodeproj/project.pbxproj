@@ -56,13 +56,13 @@
 		24F1FEADC3D5EC01CE0491D4 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		255F08C66546E0F460B0C542 /* RootTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDECE91037372D4BB0145D6 /* RootTab.framework */; };
 		2690A55EF6B269628E8A5E38 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C16DECD42832FD64B818E8 /* CustomDump.framework */; };
+		273206EEFD00E6742FB256CA /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65C0F070A9C35314AB3A4 /* NetworkService.framework */; };
 		28AB0A7E3710415E6C2C378B /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411F373429BD20116338B0AA /* Repository.framework */; };
 		29345DEC8E3241483FDB996F /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFB49684525727EFB0970AF8 /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2A35AA72055CDBCA622D7D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0C9BBD68A6C292BD0CB8A /* Assets.xcassets */; };
 		2B7D97BA92BDE712CAFBD867 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A0EE8840D11F2011CBBE29 /* IdentifiedCollections.framework */; };
 		2C5187E0291D57929DD4F836 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A534AB24BB749761EA470B /* Sharing.framework */; };
 		2DC88D55883A2BD20D72D963 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B081EA03877CDCBBF9BE37 /* CombineSchedulers.framework */; };
-		2EB19116E83244076587A072 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D171B46B205C23D969EB9 /* Service.framework */; };
 		2FAF2D8C0E1DBFAD0A8CFC8C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61FCA46004C4BD4749B5256 /* CFNetwork.framework */; };
 		30C644F3367299B83A3D96AD /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C16DECD42832FD64B818E8 /* CustomDump.framework */; };
 		34AA23EF0FE92343E32207A1 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1944849178F0F088B629386 /* InternalCollectionsUtilities.framework */; };
@@ -118,6 +118,7 @@
 		600C241DFD37E58D2FAC1D0C /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511C13A7FBEFC14FAF80CED3 /* IssueReporting.framework */; };
 		60ECA104DFE0D556B08C937C /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; };
 		61794716B7B25F2CD961E712 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDC077BB211E002675BC4ECC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		626E3073D39184EF3DD2634E /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65C0F070A9C35314AB3A4 /* NetworkService.framework */; };
 		62CA2FBB50D76CCCC2326C7D /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; };
 		63B1E6DDF43CB617B800F935 /* MusicBandscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */; };
 		66356491F981BF41ED9FCABB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61FCA46004C4BD4749B5256 /* CFNetwork.framework */; };
@@ -199,10 +200,8 @@
 		A3C328894FB4915C5950048C /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27CB3EE673A8884BB3A50EC /* XCTestDynamicOverlay.framework */; };
 		A641AA89043BB0804B92047C /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14C8BBC1AA0C2769371AC2B /* CasePathsCore.framework */; };
 		A87509248F84AE1D4875D930 /* MusicBandscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F3BD01DC326535CC27C0E /* MusicBandscapeApp.swift */; };
-		A974B14C3A1D6B7A271D071B /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D171B46B205C23D969EB9 /* Service.framework */; };
 		ABF2A5EEE254C50344F72337 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DDFC2DF9F3C204A6914AC8 /* CasePaths.framework */; };
 		AC2536418C0DADB608D84032 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BEF1E973143D576A633AB8 /* Moya.framework */; };
-		ACDD61A4F6CEB6F6D42562DD /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D171B46B205C23D969EB9 /* Service.framework */; };
 		AEE3DEE75747C11BC9038499 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E7FA98AACEE22BF4820CBB /* IssueReportingPackageSupport.framework */; };
 		B0451F7BD603A23C1FDA995E /* DomainInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5C65B0CE0DCC55D3B1A5F18 /* DomainInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B2D36260114BA601CD14CC0B /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3316577AFAD65218F8A2C92 /* UIKitNavigation.framework */; };
@@ -228,6 +227,7 @@
 		C44ACA93D7619ED35029D8E3 /* MusicBandscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27EAE3B4F4B2B162F1F0721 /* MusicBandscapeTests.swift */; };
 		C4CDC0E30B1844B4BACD9927 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656A76A3F9531FBAF5913CE9 /* OSLog.framework */; };
 		C5F01A2A4A69A2673CAD1EB8 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE28007811CD964F977CC9D /* SwiftNavigation.framework */; };
+		C72446E50F6741802D95A47F /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65C0F070A9C35314AB3A4 /* NetworkService.framework */; };
 		C774659FBB75A2D79F9FBA24 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511C13A7FBEFC14FAF80CED3 /* IssueReporting.framework */; };
 		C810A7323BADBAF6B396F919 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9411676F514298935939D705 /* Networking.framework */; };
 		C8C1D8D99D77E35E30306B85 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A0EE8840D11F2011CBBE29 /* IdentifiedCollections.framework */; };
@@ -245,7 +245,7 @@
 		CFAB72774713C5A74A88712E /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79EEE27CCE4F5746C6818F5 /* LogMacro.framework */; };
 		D00CC2FBE319C715102EC81A /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E7FA98AACEE22BF4820CBB /* IssueReportingPackageSupport.framework */; };
 		D0CCAAE2C27BDBBC1532989A /* CombineMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF508258988278547FE5B80 /* CombineMoya.framework */; };
-		D144B3AD310BEF3600826F88 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D171B46B205C23D969EB9 /* Service.framework */; };
+		D250239FCFAFEFBC68809AD4 /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65C0F070A9C35314AB3A4 /* NetworkService.framework */; };
 		D340899029B0D880BB041CFD /* DIRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1091972177A91D9F23CA9F /* DIRegistry.swift */; };
 		D50007DEBA099BB03470A146 /* TuistAssets+MusicBandscapeProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B20A5B048CC92D24837B48D /* TuistAssets+MusicBandscapeProd.swift */; };
 		D5C60A087093A7288543A24B /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D707E92A8606642B65BD396E /* Shared.framework */; };
@@ -475,10 +475,10 @@
 		85990DA767BCC280E4E8B21B /* MusicBandscape-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MusicBandscape-Debug-Info.plist"; sourceTree = "<group>"; };
 		85E5215AD6585588E565D635 /* EventLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE0F8B39244CF15BDE3E932 /* UseCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE65C0F070A9C35314AB3A4 /* NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DA118562B109C921D0685F /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9411676F514298935939D705 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9667DEBDA963F835C11D7C43 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A2D171B46B205C23D969EB9 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B20A5B048CC92D24837B48D /* TuistAssets+MusicBandscapeProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MusicBandscapeProd.swift"; sourceTree = "<group>"; };
 		9BDF2DF7FFEF91EF96175DF4 /* MusicBandscape-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MusicBandscape-Prod-Info.plist"; sourceTree = "<group>"; };
 		9D2D50290E2D6846E7D497B1 /* TuistAssets+MusicBandscapeStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MusicBandscapeStage.swift"; sourceTree = "<group>"; };
@@ -562,6 +562,7 @@
 				FC4753E546DC52CCAE6B62E1 /* LogMacro.framework in Frameworks */,
 				FE82AE5DC3FFBBA968C01919 /* Model.framework in Frameworks */,
 				3907410A7D8DB8CEE5FBB243 /* Moya.framework in Frameworks */,
+				C72446E50F6741802D95A47F /* NetworkService.framework in Frameworks */,
 				E40BD2B2AF4EEFCF26ABD48D /* Networking.framework in Frameworks */,
 				BF0E68187A602D5E81EE2CED /* OrderedCollections.framework in Frameworks */,
 				6DF4E5A18AA13FC0969E3AF2 /* Perception.framework in Frameworks */,
@@ -572,7 +573,6 @@
 				F603206E69DAEF2E6DBC60AE /* RxMoya.framework in Frameworks */,
 				34B112E33FF22C09C02D3A76 /* RxSwift.framework in Frameworks */,
 				0E526578A5572BDF464E6D70 /* Search.framework in Frameworks */,
-				A974B14C3A1D6B7A271D071B /* Service.framework in Frameworks */,
 				62CA2FBB50D76CCCC2326C7D /* Shared.framework in Frameworks */,
 				4092C1E5AAB583D68A729F59 /* Sharing.framework in Frameworks */,
 				38A58F2C9825B7715775DD0F /* Sharing1.framework in Frameworks */,
@@ -621,6 +621,7 @@
 				848782307FF545C29EEA71EC /* LogMacro.framework in Frameworks */,
 				FC299174352E0628DF06D433 /* Model.framework in Frameworks */,
 				77D6191D5726DF9C180A27BA /* Moya.framework in Frameworks */,
+				273206EEFD00E6742FB256CA /* NetworkService.framework in Frameworks */,
 				66AB6A6B941F649DC0799724 /* Networking.framework in Frameworks */,
 				3E4A6A42D1187D90A3295DA2 /* OrderedCollections.framework in Frameworks */,
 				E82CFB5DEBB5655E13F494ED /* Perception.framework in Frameworks */,
@@ -631,7 +632,6 @@
 				EA1BEDA046EE1B95B2CA9208 /* RxMoya.framework in Frameworks */,
 				22902484E3BDBD14FDD2E6CF /* RxSwift.framework in Frameworks */,
 				E3907464FE57CE9A22DAC744 /* Search.framework in Frameworks */,
-				D144B3AD310BEF3600826F88 /* Service.framework in Frameworks */,
 				D5C60A087093A7288543A24B /* Shared.framework in Frameworks */,
 				2C5187E0291D57929DD4F836 /* Sharing.framework in Frameworks */,
 				6C10E8D8155EC59D62E04999 /* Sharing1.framework in Frameworks */,
@@ -680,6 +680,7 @@
 				CFAB72774713C5A74A88712E /* LogMacro.framework in Frameworks */,
 				F40275D2E1B44407ED9924D0 /* Model.framework in Frameworks */,
 				AC2536418C0DADB608D84032 /* Moya.framework in Frameworks */,
+				626E3073D39184EF3DD2634E /* NetworkService.framework in Frameworks */,
 				C810A7323BADBAF6B396F919 /* Networking.framework in Frameworks */,
 				6DA856B174DAA4D26A74F414 /* OrderedCollections.framework in Frameworks */,
 				CEBB4CF785BDF0E5FB48996B /* Perception.framework in Frameworks */,
@@ -690,7 +691,6 @@
 				21F27F18D8004F22E0DD91A4 /* RxMoya.framework in Frameworks */,
 				B4A168D48DED5F717DCD37D4 /* RxSwift.framework in Frameworks */,
 				851B56A66E31F7280ACA461A /* Search.framework in Frameworks */,
-				2EB19116E83244076587A072 /* Service.framework in Frameworks */,
 				02999AE872F2D7264BFB9644 /* Shared.framework in Frameworks */,
 				D9520494BF429BCFD8A0202D /* Sharing.framework in Frameworks */,
 				A36A560333CB11B5331C6229 /* Sharing1.framework in Frameworks */,
@@ -739,6 +739,7 @@
 				53E34108E0045F59D09C7102 /* LogMacro.framework in Frameworks */,
 				103C1E47CE9302D7E2C1E1F6 /* Model.framework in Frameworks */,
 				F6373301C2FBD9BFD7C718F9 /* Moya.framework in Frameworks */,
+				D250239FCFAFEFBC68809AD4 /* NetworkService.framework in Frameworks */,
 				5DCE878363FD355EBC979C13 /* Networking.framework in Frameworks */,
 				A2EC191DB6CEE041CCE16542 /* OrderedCollections.framework in Frameworks */,
 				1D7ECE8ADBFA8C8636FD27A9 /* Perception.framework in Frameworks */,
@@ -749,7 +750,6 @@
 				C0AD5C8671D79F527F74F98B /* RxMoya.framework in Frameworks */,
 				F69C0CB73F21D42046C3F76C /* RxSwift.framework in Frameworks */,
 				8DA1373B7A50AC023C45523A /* Search.framework in Frameworks */,
-				ACDD61A4F6CEB6F6D42562DD /* Service.framework in Frameworks */,
 				60ECA104DFE0D556B08C937C /* Shared.framework in Frameworks */,
 				CC03D39B7CE48BE4BB1B48FB /* Sharing.framework in Frameworks */,
 				C1A75A439543DE1C2643BFD6 /* Sharing1.framework in Frameworks */,
@@ -831,6 +831,7 @@
 				3F2D795A0123868CB07940C6 /* MusicBandscape.app */,
 				EF13C035E3F2B1CB419D7E79 /* MusicBandscapeTests.xctest */,
 				9411676F514298935939D705 /* Networking.framework */,
+				8FE65C0F070A9C35314AB3A4 /* NetworkService.framework */,
 				DFE6209A123984B3049F45D6 /* OrderedCollections.framework */,
 				C71784E02676A94DD3F2769F /* Perception.framework */,
 				7EB317F5B4B2AB2E48EE33CE /* PerceptionCore.framework */,
@@ -840,7 +841,6 @@
 				395E5488BE9250C59B36DF9C /* RxMoya.framework */,
 				C13D89327BE43AEDA4158E57 /* RxSwift.framework */,
 				AA77A0AD95B700A22B517761 /* Search.framework */,
-				9A2D171B46B205C23D969EB9 /* Service.framework */,
 				D707E92A8606642B65BD396E /* Shared.framework */,
 				76A534AB24BB749761EA470B /* Sharing.framework */,
 				D520AFDBB02070A3950E589F /* Sharing1.framework */,

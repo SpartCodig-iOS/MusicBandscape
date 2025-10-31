@@ -60,7 +60,7 @@ public extension ModulePath {
     case Repository
     case DataInterface
     case API
-    case Service
+    case NetworkService
 
     public static let name: String = "Data"
   }

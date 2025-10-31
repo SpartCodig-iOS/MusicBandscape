@@ -22,7 +22,6 @@
 		0AC161F8F43479EF47B65273 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
 		0B2DBBBB0D34113CBC8D6045 /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */; };
 		0C990308784F2D3A574761BE /* Alamofire_Alamofire.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 64BC3B8469A7FF9C669EFC3F /* Alamofire_Alamofire.bundle */; };
-		0EF10848EB1E5A8ED6641F12 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
 		153DA734BD15A3E83170B825 /* Foundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC2DBA35091C70DC51D960D /* Foundations.framework */; };
 		193C3045681EE3E35615EEF4 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
 		197C9F3FF97991D3BCFD6149 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C59ACF63375043BBA6AB53F /* RxSwift.framework */; };
@@ -37,6 +36,7 @@
 		23623C8CAA0D5B0C48DBC33E /* AsyncMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD660C81381F8C73A9A8893 /* AsyncMoya.framework */; };
 		23C8B915134EFE977A0AF44C /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A713B47F2AAA89018EAC9F /* InternalCollectionsUtilities.framework */; };
 		25331ABA2B62C93B801F42C7 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
+		265528BBB6662B3D7B15D04A /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E22A834A68C79CBCDEC612 /* NetworkService.framework */; };
 		27ECE37DA37CDC0E38D78AEB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3F13E23B6662B1FDAD4536 /* CFNetwork.framework */; };
 		28179AACF7CEE8F379C94168 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
 		283B75BE810668074615A488 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
@@ -51,7 +51,6 @@
 		3B6E24246242E5B45041A961 /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF02179EA24FA0AA10E102 /* EventLimiter.framework */; };
 		3EF87DF18AEF093172128201 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3F13E23B6662B1FDAD4536 /* CFNetwork.framework */; };
 		4112B6136D7137512BB47137 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
-		4136091B0498B913CAF09504 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
 		44EF53FEAA0FD1F604AFA623 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */; };
 		4584FA74CCA4B45BDFBC2B84 /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
 		458BC20C8B3061D32FA23B4E /* AsyncMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD660C81381F8C73A9A8893 /* AsyncMoya.framework */; };
@@ -110,6 +109,7 @@
 		84F29B64D24E2F2F7E7C75AF /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */; };
 		85AE440AE710D600F1CB23EE /* EventLimiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF02179EA24FA0AA10E102 /* EventLimiter.framework */; };
 		887EBC2FF03A101E2EAA63DA /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
+		8ACC78225C9BB558C9F8F32A /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E22A834A68C79CBCDEC612 /* NetworkService.framework */; };
 		8C85E8CCC8F4BAC32A1F8956 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
 		8C935BC4799F8B6E3A6223E1 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
 		8E227E6CDAE631A87FCFDF58 /* Alamofire_Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64BC3B8469A7FF9C669EFC3F /* Alamofire_Alamofire.bundle */; };
@@ -118,6 +118,7 @@
 		908239751BB5B44F306AF1B5 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208035A4D93E76DE8390864 /* API.framework */; };
 		90F9749BFCF03B4AB847C6B1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E427963EEC5B2C6424367BB /* Test.swift */; };
 		912F15FB808EFD42963B2181 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */; };
+		91A25C1DC1F72D3555C333B5 /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E22A834A68C79CBCDEC612 /* NetworkService.framework */; };
 		91CA37E449BC98542266178B /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */; };
 		928BF1612A4C4B5382E83F0A /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
 		9759622C07EB4108F92C7BFC /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */; };
@@ -145,11 +146,11 @@
 		BAC14B2B430CF2FEC6001708 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
 		BB7607FFD4AFB70D473FF4FA /* CombineMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B99D7CBDD38E8D23D59A25 /* CombineMoya.framework */; };
 		BC8595A1E286E2F5B6EF15C9 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FA7F85F3573FB522F9478 /* Core.framework */; };
+		BD7829308C3714E53A78DBB0 /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E22A834A68C79CBCDEC612 /* NetworkService.framework */; };
 		BDB24F99EF91F73F88E48FDB /* DataInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA4FDADB9D94372F0DF1DAB /* DataInterface.framework */; };
 		BDF58A4C856FFC3CBE67FBBD /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
 		BE2A82C9C8D2B6E2E0078C59 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
 		BF97AB1F1286F02D88CDF7BF /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
-		C1234BEE27DE517F8CE3A864 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
 		C19440D7C9DE70C6EDF16A45 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
 		C4B19E5C873780D6AA661A00 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C59ACF63375043BBA6AB53F /* RxSwift.framework */; };
 		C670CC47F85EAD32C8DDD147 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0E7A7D8E049C47C0D8DBAF /* RxMoya.framework */; };
@@ -166,7 +167,6 @@
 		D1B3E19A5BAFD54933477B6F /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
 		D35EE132FCBD9B30CFA96C65 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
 		D67B83859DB2A4BC50429596 /* CombineMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B99D7CBDD38E8D23D59A25 /* CombineMoya.framework */; };
-		D6FB16CDB69D52FF171AE043 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
 		D807263AF515DA4FF704F991 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
 		D8D02BB84AD77216D6013F99 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
 		D8D0B2291F7B85620B6DC4BF /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
@@ -285,7 +285,6 @@
 		2B0FA7F85F3573FB522F9478 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E313EC3E53C9ED17660FD3F /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ED045ECCC0A0126F7A4BC13 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9C516A0389461EC9B5D46E /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePathsCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A672C80AC40AD7ADFD38507 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -327,6 +326,7 @@
 		DE81E51C38BC7DF49AD255BD /* UseCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB3C68C2ED81026636D7F75 /* CoreExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreExport.swift; sourceTree = "<group>"; };
 		DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E22A834A68C79CBCDEC612 /* NetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAF02179EA24FA0AA10E102 /* EventLimiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventLimiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -365,6 +365,7 @@
 				BDF58A4C856FFC3CBE67FBBD /* LogMacro.framework in Frameworks */,
 				9FBB462562FD1381FCB33831 /* Model.framework in Frameworks */,
 				7EDF61ED9570CCFAE8A34322 /* Moya.framework in Frameworks */,
+				91A25C1DC1F72D3555C333B5 /* NetworkService.framework in Frameworks */,
 				774D915DCAFDDA823F514A4D /* Networking.framework in Frameworks */,
 				581BA75F50FE6547B2732D10 /* OrderedCollections.framework in Frameworks */,
 				7F1A303924CE85716B92157B /* Perception.framework in Frameworks */,
@@ -372,7 +373,6 @@
 				0ABD067AC835C34B144A119C /* Repository.framework in Frameworks */,
 				9B78C94AA0A23A21657A19F1 /* RxMoya.framework in Frameworks */,
 				E332090F0D2AF223B729735D /* RxSwift.framework in Frameworks */,
-				D6FB16CDB69D52FF171AE043 /* Service.framework in Frameworks */,
 				6ADBD1397C6A44688E9A4170 /* Sharing.framework in Frameworks */,
 				1A4CE5864E3E0A793F262D04 /* Sharing1.framework in Frameworks */,
 				2E139BFE929C679F3FA93456 /* Sharing2.framework in Frameworks */,
@@ -416,6 +416,7 @@
 				B49C0C48B313FA48AB6B5397 /* LogMacro.framework in Frameworks */,
 				796E9382BC2BE4D1E6889FD7 /* Model.framework in Frameworks */,
 				73588A177644EDE0C3A5C627 /* Moya.framework in Frameworks */,
+				8ACC78225C9BB558C9F8F32A /* NetworkService.framework in Frameworks */,
 				52B4AD0DF0AC04F86A07FB86 /* Networking.framework in Frameworks */,
 				53CBEAA13C914C361402B056 /* OrderedCollections.framework in Frameworks */,
 				666209C52E74FB8C6EFA853B /* Perception.framework in Frameworks */,
@@ -423,7 +424,6 @@
 				70D5DB78FC01271FA17127DB /* Repository.framework in Frameworks */,
 				C670CC47F85EAD32C8DDD147 /* RxMoya.framework in Frameworks */,
 				F6AAD53AE5AF84CA56570AE1 /* RxSwift.framework in Frameworks */,
-				C1234BEE27DE517F8CE3A864 /* Service.framework in Frameworks */,
 				F965D44749FBCF0F5B2DA464 /* Sharing.framework in Frameworks */,
 				C19440D7C9DE70C6EDF16A45 /* Sharing1.framework in Frameworks */,
 				7E0F7A2E919A8E3E252C6E5E /* Sharing2.framework in Frameworks */,
@@ -467,6 +467,7 @@
 				822DF876BB668FF81689C7E4 /* LogMacro.framework in Frameworks */,
 				7A83E67FEDA6E2128A0DBE82 /* Model.framework in Frameworks */,
 				78DE9E2870EA091066A98F3E /* Moya.framework in Frameworks */,
+				BD7829308C3714E53A78DBB0 /* NetworkService.framework in Frameworks */,
 				73E8511D2CFD4034A1050AA0 /* Networking.framework in Frameworks */,
 				30C165DDDBA521864ADED55A /* OrderedCollections.framework in Frameworks */,
 				D807263AF515DA4FF704F991 /* Perception.framework in Frameworks */,
@@ -474,7 +475,6 @@
 				E5D416E83E8404C167333304 /* Repository.framework in Frameworks */,
 				07897CF48250E12FD0CDDABF /* RxMoya.framework in Frameworks */,
 				C4B19E5C873780D6AA661A00 /* RxSwift.framework in Frameworks */,
-				4136091B0498B913CAF09504 /* Service.framework in Frameworks */,
 				91CA37E449BC98542266178B /* Sharing.framework in Frameworks */,
 				D8D02BB84AD77216D6013F99 /* Sharing1.framework in Frameworks */,
 				0A6F0AAF346955B125A6D78E /* Sharing2.framework in Frameworks */,
@@ -518,6 +518,7 @@
 				C6A9D0FB7BC398F04CF131AE /* LogMacro.framework in Frameworks */,
 				C9DC1FC3181E0BCA557D445D /* Model.framework in Frameworks */,
 				CD5695821CEC5EAC1D117155 /* Moya.framework in Frameworks */,
+				265528BBB6662B3D7B15D04A /* NetworkService.framework in Frameworks */,
 				65D9C904FC575380ED1A65F6 /* Networking.framework in Frameworks */,
 				02C8AC5E9D8916ADD6307109 /* OrderedCollections.framework in Frameworks */,
 				C817E90B41D7B129CAAF83C4 /* Perception.framework in Frameworks */,
@@ -525,7 +526,6 @@
 				FA3AE178AFC2EC94AE27EDDF /* Repository.framework in Frameworks */,
 				5320D016B9469C3BA540AC1B /* RxMoya.framework in Frameworks */,
 				197C9F3FF97991D3BCFD6149 /* RxSwift.framework in Frameworks */,
-				0EF10848EB1E5A8ED6641F12 /* Service.framework in Frameworks */,
 				AD8CB953E5D441B8542F4323 /* Sharing.framework in Frameworks */,
 				8460A0263EB5BB299A2ABD2E /* Sharing1.framework in Frameworks */,
 				543E087427D4A8420C2134C1 /* Sharing2.framework in Frameworks */,
@@ -600,13 +600,13 @@
 				3F9C516A0389461EC9B5D46E /* Model.framework */,
 				6260F75C087362295DDE52AE /* Moya.framework */,
 				69722B72879FA3302F07EF38 /* Networking.framework */,
+				E9E22A834A68C79CBCDEC612 /* NetworkService.framework */,
 				FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */,
 				1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */,
 				70750465C5300D484ABA9F60 /* PerceptionCore.framework */,
 				A6B638D8DB02624DD45D49E2 /* Repository.framework */,
 				AC0E7A7D8E049C47C0D8DBAF /* RxMoya.framework */,
 				6C59ACF63375043BBA6AB53F /* RxSwift.framework */,
-				3ED045ECCC0A0126F7A4BC13 /* Service.framework */,
 				4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */,
 				141E57E374A54F7AB6E29DC2 /* Sharing1.framework */,
 				2690CFF7D8527FFE80ABE74D /* Sharing2.framework */,

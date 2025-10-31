@@ -22,9 +22,9 @@ struct AppView: View {
             SplashView(store: store)
           }
 
-        case .home:
-          if let store = store.scope(state: \.home, action: \.scope.home) {
-           HomeCoordinatorView(store: store)
+        case .tabBar:
+          if let store = store.scope(state: \.tabBar, action: \.scope.tabBar) {
+           RootTabBarView(store: store)
           }
       }
     }

@@ -24,6 +24,8 @@ public extension ModulePath {
     case Splash
     case Home
     case Detail
+    case Search
+    case RootTab
 
 
     public static let name: String = "Presentation"
@@ -58,7 +60,7 @@ public extension ModulePath {
     case Repository
     case DataInterface
     case API
-    case Service
+    case NetworkService
 
     public static let name: String = "Data"
   }

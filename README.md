@@ -108,7 +108,17 @@ Data/Repository implements DataInterface
 ```
 
 ### Tuist  graph
-<img width="400" height="400" alt="graph" src="https://github.com/user-attachments/assets/5f852cc4-c5f2-417c-b0b6-6b7dae47b76d" />
+<img src="/graph.png" width="500" height="800" alt="graph" />
+
+
+## 📸 구현 미리보기
+
+| 홈 메인 | 검색 상세 |
+| --- | --- |
+| ![Home](Docs/Screenshots/home.png) | ![Search](Docs/Screenshots/search.png) |
+
+> 스크린샷은 `Docs/Screenshots` 디렉터리에 저장되어 있으며, 최신 UI 상태에 맞춰 교체할 수 있습니다.
+
 
 
 ## 개발 환경
@@ -124,6 +134,49 @@ Data/Repository implements DataInterface
 - **TCACoordinators**: 화면 전환 관리
 - **WeaveDI**: 의존성 주입
 - **SwiftLint**: 코드 스타일 체크
+
+## 설계 및 의사결정 기록
+
+### 모듈화 & Clean Architecture
+- Domain/Data/Presentation을 독립 모듈로 분리하여 의존성 역전과 테스트 용이성을 확보했습니다.
+- 각 레이어는 Protocol 기반 인터페이스로만 연결하여 구현체 교체가 자유롭습니다.
+
+### 상태 관리: Composable Architecture
+- 비동기 작업과 사이드이펙트를 Reducer/Effect로 통일해 화면 간 일관된 패턴을 유지했습니다.
+- TestStore 기반 단위 테스트를 통해 onAppear, 검색, 탭 전환 등 주요 시나리오를 검증합니다.
+
+### 네트워킹 & 데이터 흐름
+- `AsyncMoya` 조합으로 iTunes API를 호출하고, DTO → Domain 매핑을 통해 Presentation 의존성을 최소화했습니다.
+- Repository는 DomainInterface를 구현하며, 테스트에서는 Mock Repository로 교체해 빠른 회귀 검증이 가능합니다.
+
+### 의존성 주입: WeaveDI
+- KeyPath 기반 등록으로 모듈 간 결합도를 낮추고, 테스트 환경에서 Mock을 손쉽게 주입할 수 있게 했습니다.
+- Shared 모듈의 `@AutoSyncExtension`을 통해 TCA Environment와 DI 컨테이너를 자연스럽게 연결했습니다.
+
+### UI & 내비게이션 전략
+- `TCACoordinators`로 루트 탭과 상세 화면 전환을 구성하여 화면 상태를 명확히 추적합니다.
+- `Shared/DesignSystem`에서 공통 UI 자산을 관리해 피처 모듈이 비즈니스 로직에 집중하도록 했습니다.
+
+## 추가 구현 사항
+
+- **계절별 자동 로딩**: 홈 진입 시 5개의 시즌 곡을 병렬로 가져와 최신 순 정렬 후 중복 제거.
+- **검색 카테고리 통계**: 전체/음악/영화/팟캐스트/기타 탭별 결과 수를 실시간 표시.
+- **최근/추천 검색 흐름**: 최근 검색어 관리 및 Trending 항목을 통해 원탭 재검색 지원.
+- **상세 공유 상태**: 홈과 검색에서 선택한 곡을 Shared Storage로 보존해 Detail 화면에서 즉시 활용.
+- **테스트 강화**: Reducer 테스트로 에러 처리, 정렬, 카운트 로직 등을 회귀 검증.
+
+## 메모리 관리 분석
+
+- **도구**: Xcode Instruments의 *Leaks*와 *Allocations*를 활용했습니다.
+- **점검 절차**
+  1. 홈 → 검색 → 상세 → 뒤로 이동 흐름을 반복 실행하면서 Allocations 그래프를 확인했습니다.
+  2. Reducer/UseCase/Repository 인스턴스의 Retain Count가 화면 이탈 후 안정적으로 감소하는지 체크했습니다.
+  3. Leaks 세션을 녹화하여 비동기 `Effect.run` 및 DI 등록부에서 순환 참조가 발생하지 않는지 조사했습니다.
+- **결과**
+  - 누수 및 순환 참조가 검출되지 않았습니다. Reducer 내부 비동기 작업은 `await send` 후 종료되어 self 캡처를 남기지 않습니다.
+  - Repository/UseCase는 값 타입 또는 단순 클래스이므로 추가적인 `weak` 처리 없이도 회수되었습니다.
+- **향후 가이드**
+  - 새 피처 추가 시 Instruments 세션을 재실행해 메모리 안정성을 주기적으로 확인하는 것을 권장합니다.
 
 ## 🏗 Clean Architecture 설계
 
@@ -255,5 +308,4 @@ swiftc TuistTool.swift -o tuisttool
   - `Plugins/DependencyPackagePlugin/ProjectDescriptionHelpers/DependencyPackage/Extension+TargetDependencySPM.swift`에서 **SPM 의존성 목록**을 파싱합니다.
   - 입력 받은 의존성들을 `Projects/<Layer>/<ModuleName>/Project.swift`의 `dependencies: [` 영역에 자동 삽입합니다.
   - Domain 계층 생성 시, `Interface/Sources/Base.swift`를 템플릿으로 생성하도록 선택 가능.
-
 

@@ -28,6 +28,37 @@ public struct MusicSearchUseCase: MusicSearchUseCaseProtocol {
     let dto = try await repository.fetchMusic(search: searchQuery)
     return dto.toDomain()
   }
+
+  public func searchMedia(
+    query: String,
+    media: String,
+    entity: String
+  ) async throws -> [MusicItem] {
+    let dtos = try await repository.searchMedia(
+      query: query,
+      media: media,
+      entity: entity
+    )
+    return dtos.toDomain()
+  }
+
+  public func getCategoryCount(
+    from results: [MusicItem],
+    category: SearchCategory
+  ) -> Int {
+    switch category {
+    case .all:
+      return results.count
+    case .music:
+      return results.musicCount
+    case .movies:
+      return results.movieCount
+    case .podcast:
+      return results.podcastCount
+    case .etc:
+      return results.etcCount
+    }
+  }
 }
 
 

@@ -19,18 +19,18 @@ public struct ITunesTrack: Decodable {
 
   public let artistId: Int?
   public let collectionId: Int?
-  public let trackId: Int
+  public let trackId: Int?
 
-  public let artistName: String
+  public let artistName: String?
   public let collectionName: String?
-  public let trackName: String
+  public let trackName: String?
 
   public let previewUrl: URL?
   public let artworkUrl100: URL?
 
-  public let releaseDate: String
-  public let primaryGenreName: String
-  public let collectionCensoredName: String
+  public let releaseDate: String?
+  public let primaryGenreName: String?
+  public let collectionCensoredName: String?
 
   enum CodingKeys: String, CodingKey {
     case wrapperType, kind, artistId, collectionId, trackId
@@ -44,15 +44,15 @@ public struct ITunesTrack: Decodable {
     kind: String?,
     artistId: Int?,
     collectionId: Int?,
-    trackId: Int,
-    artistName: String,
+    trackId: Int?,
+    artistName: String?,
     collectionName: String?,
-    trackName: String,
+    trackName: String?,
     previewUrl: URL?,
     artworkUrl100: URL?,
-    releaseDate: String,
-    primaryGenreName: String,
-    collectionCensoredName: String
+    releaseDate: String?,
+    primaryGenreName: String?,
+    collectionCensoredName: String?
   ) {
     self.wrapperType = wrapperType
     self.kind = kind

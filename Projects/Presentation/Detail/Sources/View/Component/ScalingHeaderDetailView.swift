@@ -7,26 +7,27 @@
 
 import SwiftUI
 import DesignSystem
+import ComposableArchitecture
 
 struct ScalingHeaderDetailView<Content: View>: View {
   let headerURL: URL?
   let isLoading: Bool
   let headerHeight: CGFloat
   let content: Content
-  let backAction: () -> Void
+  let store: StoreOf<DetailReducer>
 
   init(
     headerURL: URL?,
     isLoading: Bool,
     headerHeight: CGFloat = 400,
-    backAction: @escaping () -> Void = {},
+    store: StoreOf<DetailReducer>,
     @ViewBuilder content: () -> Content
   ) {
     self.headerURL = headerURL
     self.isLoading = isLoading
     self.headerHeight = headerHeight
+    self.store = store
     self.content = content()
-    self.backAction = backAction
   }
 
   var body: some View {
@@ -54,7 +55,7 @@ struct ScalingHeaderDetailView<Content: View>: View {
         }
 
         NavigationArrowButton {
-          backAction()
+          store.send(.navigation(.backToHome))
         }
         .padding(.leading, 16)
         .padding(.top, outerGeo.safeAreaInsets.top + 20)

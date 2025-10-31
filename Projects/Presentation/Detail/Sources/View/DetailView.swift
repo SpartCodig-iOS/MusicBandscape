@@ -26,9 +26,7 @@ public struct DetailView: View {
         headerURL: store.musicItem?.highResolutionArtworkURL,
         isLoading: store.isLoading,
         headerHeight: 400,
-        backAction: {
-          store.send(.navigation(.backToHome))
-        }
+        store: store
       ) {
         VStack(alignment: .leading, spacing: 24) {
           if store.isLoading {

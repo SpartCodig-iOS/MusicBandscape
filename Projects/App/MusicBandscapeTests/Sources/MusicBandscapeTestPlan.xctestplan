@@ -14,16 +14,9 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:..\/Presentation\/Splash\/Splash.xcodeproj",
-        "identifier" : "9165A57EA536D2AB06CC46C8",
-        "name" : "SplashTests"
-      }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:..\/Presentation\/Home\/Home.xcodeproj",
-        "identifier" : "AF31213DA71B06E9B09EA3F0",
-        "name" : "HomeTests"
+        "containerPath" : "container:..\/Presentation\/Detail\/Detail.xcodeproj",
+        "identifier" : "378027671B59764DC5831691",
+        "name" : "DetailTests"
       }
     },
     {
@@ -35,9 +28,9 @@
     },
     {
       "target" : {
-        "containerPath" : "container:..\/Presentation\/Detail\/Detail.xcodeproj",
-        "identifier" : "378027671B59764DC5831691",
-        "name" : "DetailTests"
+        "containerPath" : "container:..\/Presentation\/Home\/Home.xcodeproj",
+        "identifier" : "AF31213DA71B06E9B09EA3F0",
+        "name" : "HomeTests"
       }
     },
     {
@@ -45,6 +38,20 @@
         "containerPath" : "container:..\/Core\/Data\/Repository\/Repository.xcodeproj",
         "identifier" : "E227DA11F88E56EFAEBAD447",
         "name" : "RepositoryTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Presentation\/Splash\/Splash.xcodeproj",
+        "identifier" : "9165A57EA536D2AB06CC46C8",
+        "name" : "SplashTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Presentation\/Search\/Search.xcodeproj",
+        "identifier" : "5025AE41A60E1D1B5B67EC7D",
+        "name" : "SearchTests"
       }
     }
   ],

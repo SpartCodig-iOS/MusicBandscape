@@ -34,7 +34,10 @@ public struct HomeCoordinator {
 
   public enum View {
     case backToRoot
+    case switchTapBar
   }
+
+
 
   private enum CancelID: Hashable {
     case screen
@@ -67,7 +70,11 @@ extension HomeCoordinator {
         state.routes.push(.detail(.init(musicItem: item)))
         return .none
 
+      case .routeAction(id: _, action: .home(.navigation(.tapSearch))):
+        return .send(.view(.switchTapBar))
+
       case .routeAction(id: _, action: .detail(.navigation(.backToHome))):
+//        state.routes.goBackToRoot()
         return .send(.view(.backToRoot))
 
       default:
@@ -85,6 +92,8 @@ extension HomeCoordinator {
         state.routes.goBackTo(\.home)
         return .none
 
+      case .switchTapBar:
+        return .none
     }
   }
 }

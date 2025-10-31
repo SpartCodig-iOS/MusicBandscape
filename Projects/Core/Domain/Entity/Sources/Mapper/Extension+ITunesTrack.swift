@@ -12,9 +12,30 @@ import Model
 
 public extension ITunesTrack {
   func toDomain() -> MusicItem? {
-    guard let artwork = artworkUrl100 else {
+    guard
+      let trackId,
+      let trackName,
+      let artistName,
+      let artwork = artworkUrl100
+    else {
       return nil
     }
+
+    // wrapperType과 kind를 사용해서 MediaType 결정
+    let mediaType: MediaType = {
+      guard let kind = kind else { return .other }
+
+      switch kind.lowercased() {
+      case "song":
+        return .music
+      case "feature-movie", "movie":
+        return .movie
+      case "podcast":
+        return .podcast
+      default:
+        return .other
+      }
+    }()
 
     return MusicItem(
       trackId: trackId,
@@ -23,9 +44,10 @@ public extension ITunesTrack {
       artist: artistName,
       artworkURL: artwork,
       previewURL: previewUrl,
-      releaseDate: releaseDate,
-      aboutAlbumInfo: collectionCensoredName,
-      genre: primaryGenreName
+      releaseDate: releaseDate ?? "",
+      aboutAlbumInfo: collectionCensoredName ?? collectionName ?? "",
+      genre: primaryGenreName ?? "",
+      mediaType: mediaType
     )
   }
 }

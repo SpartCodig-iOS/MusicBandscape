@@ -1134,6 +1134,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "453323209A3FFF1E78EECE5D"
+               BuildableName = "NetworkService.framework"
+               BlueprintName = "NetworkService"
+               ReferencedContainer = "container:Projects/Core/Data/NetworkService/NetworkService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C395E80BFAC0521EAB3AADA4"
+               BuildableName = "NetworkService_Debug.framework"
+               BlueprintName = "NetworkService-Debug"
+               ReferencedContainer = "container:Projects/Core/Data/NetworkService/NetworkService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "40077CE6F54050EBCAC85F36"
+               BuildableName = "NetworkService_Prod.framework"
+               BlueprintName = "NetworkService-Prod"
+               ReferencedContainer = "container:Projects/Core/Data/NetworkService/NetworkService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "760D6B032E47E616DDA4CC10"
+               BuildableName = "NetworkService_Stage.framework"
+               BlueprintName = "NetworkService-Stage"
+               ReferencedContainer = "container:Projects/Core/Data/NetworkService/NetworkService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E9352438CCA76AF037B25979"
+               BuildableName = "NetworkServiceTests.xctest"
+               BlueprintName = "NetworkServiceTests"
+               ReferencedContainer = "container:Projects/Core/Data/NetworkService/NetworkService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "1E63DC1CCC5B22B03E06E966"
                BuildableName = "Networking.framework"
                BlueprintName = "Networking"
@@ -1400,6 +1470,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A57DF7FAED265CC780DD5AEE"
+               BuildableName = "RootTab.framework"
+               BlueprintName = "RootTab"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "72FA08FD2BDC50438419AAB7"
+               BuildableName = "RootTab_Debug.framework"
+               BlueprintName = "RootTab-Debug"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "119A41C36F9F57A3C548D3FC"
+               BuildableName = "RootTab_Prod.framework"
+               BlueprintName = "RootTab-Prod"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "582CF93C48A4A951B5798CC5"
+               BuildableName = "RootTab_Stage.framework"
+               BlueprintName = "RootTab-Stage"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5E21E9921D0FCCDAEAA45BEC"
+               BuildableName = "RootTabTests.xctest"
+               BlueprintName = "RootTabTests"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "5023327BBF6D14FE88DF5B24"
                BuildableName = "RxMoya.framework"
                BlueprintName = "RxMoya"
@@ -1428,10 +1568,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2B641F230465A1CF012FDED"
-               BuildableName = "Service.framework"
-               BlueprintName = "Service"
-               ReferencedContainer = "container:Projects/Core/Data/Service/Service.xcodeproj">
+               BlueprintIdentifier = "C8340F58B0B1AD7EA1B1F833"
+               BuildableName = "Search.framework"
+               BlueprintName = "Search"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1442,10 +1582,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D77B3747602ABAB4CDEEAE5"
-               BuildableName = "Service_Debug.framework"
-               BlueprintName = "Service-Debug"
-               ReferencedContainer = "container:Projects/Core/Data/Service/Service.xcodeproj">
+               BlueprintIdentifier = "ADF6FD6557B86CF1D0D142F4"
+               BuildableName = "Search_Debug.framework"
+               BlueprintName = "Search-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1456,10 +1596,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F05B98A978D0CCF22F7E153"
-               BuildableName = "Service_Prod.framework"
-               BlueprintName = "Service-Prod"
-               ReferencedContainer = "container:Projects/Core/Data/Service/Service.xcodeproj">
+               BlueprintIdentifier = "BC9735B9FBE423AE69AD2C5D"
+               BuildableName = "Search_Prod.framework"
+               BlueprintName = "Search-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1470,10 +1610,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6E0EDD309910261BA164618"
-               BuildableName = "Service_Stage.framework"
-               BlueprintName = "Service-Stage"
-               ReferencedContainer = "container:Projects/Core/Data/Service/Service.xcodeproj">
+               BlueprintIdentifier = "07BC18765727814C00E81BA3"
+               BuildableName = "Search_Stage.framework"
+               BlueprintName = "Search-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1484,10 +1624,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC16F4EC08A28EAA48363D3F"
-               BuildableName = "ServiceTests.xctest"
-               BlueprintName = "ServiceTests"
-               ReferencedContainer = "container:Projects/Core/Data/Service/Service.xcodeproj">
+               BlueprintIdentifier = "5025AE41A60E1D1B5B67EC7D"
+               BuildableName = "SearchTests.xctest"
+               BlueprintName = "SearchTests"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -2366,6 +2506,17 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E9352438CCA76AF037B25979"
+               BuildableName = "NetworkServiceTests.xctest"
+               BlueprintName = "NetworkServiceTests"
+               ReferencedContainer = "container:Projects/Core/Data/NetworkService/NetworkService.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "F37FCD8E01CA56BB3BD87FD6"
                BuildableName = "NetworkingTests.xctest"
                BlueprintName = "NetworkingTests"
@@ -2399,10 +2550,21 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC16F4EC08A28EAA48363D3F"
-               BuildableName = "ServiceTests.xctest"
-               BlueprintName = "ServiceTests"
-               ReferencedContainer = "container:Projects/Core/Data/Service/Service.xcodeproj">
+               BlueprintIdentifier = "5E21E9921D0FCCDAEAA45BEC"
+               BuildableName = "RootTabTests.xctest"
+               BlueprintName = "RootTabTests"
+               ReferencedContainer = "container:Projects/Presentation/RootTab/RootTab.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5025AE41A60E1D1B5B67EC7D"
+               BuildableName = "SearchTests.xctest"
+               BlueprintName = "SearchTests"
+               ReferencedContainer = "container:Projects/Presentation/Search/Search.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

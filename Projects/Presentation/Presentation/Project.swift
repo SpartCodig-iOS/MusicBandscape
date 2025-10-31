@@ -11,8 +11,7 @@ let project = Project.makeAppModule(
   settings:  .settings(),
   dependencies: [
     .Presentation(implements: .Splash),
-    .Presentation(implements: .Home),
-    .Presentation(implements: .Detail)
+    .Presentation(implements: .RootTab)
   ],
   sources: ["Sources/**"]
 )

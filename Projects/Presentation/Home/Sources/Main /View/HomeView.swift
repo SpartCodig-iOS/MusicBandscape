@@ -23,7 +23,6 @@ public struct HomeView: View {
     GeometryReader { proxy in
       WithPerceptionTracking {
         let horizontalPadding: CGFloat = 20
-        let contentWidth = max(proxy.size.width - (horizontalPadding * 2), 0)
         let cardHeight: CGFloat = 200
         let searchBarHeight: CGFloat = 68
 
@@ -59,7 +58,9 @@ public struct HomeView: View {
           .scrollIndicators(.hidden)
 
           VStack(spacing: 8) {
-            SearchBarView()
+            SearchBarView {
+              store.send(.navigation(.tapSearch))
+            }
               .padding(.horizontal, horizontalPadding)
           }
           .padding(.top, proxy.safeAreaInsets.top + 4)

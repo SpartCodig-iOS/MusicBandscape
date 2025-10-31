@@ -7,7 +7,7 @@
 
 
 import Foundation
-import Service
+import NetworkService
 import DataInterface
 
 import AsyncMoya

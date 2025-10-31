@@ -28,9 +28,44 @@ private enum DummyError: Error { case fail }
 private struct StubMusicSearchUseCase: MusicSearchUseCaseProtocol {
   let searchHandler: @Sendable (String) async throws -> [MusicItem]
   let fetchDetailHandler: @Sendable (Int) async throws -> Entity.MusicItem
+  let searchMediaHandler: @Sendable (String, String, String) async throws -> [Entity.MusicItem]
+  let getCategoryCountHandler: ([Entity.MusicItem], Entity.SearchCategory) -> Int
+
+  init(
+    searchHandler: @escaping @Sendable (String) async throws -> [MusicItem],
+    fetchDetailHandler: @escaping @Sendable (Int) async throws -> Entity.MusicItem,
+    searchMediaHandler: @escaping @Sendable (String, String, String) async throws -> [Entity.MusicItem] = { _, _, _ in [] },
+    getCategoryCountHandler: @escaping ([Entity.MusicItem], Entity.SearchCategory) -> Int = { results, category in
+      switch category {
+      case .all:
+        return results.count
+      case .music:
+        return results.musicCount
+      case .movies:
+        return results.movieCount
+      case .podcast:
+        return results.podcastCount
+      case .etc:
+        return results.etcCount
+      }
+    }
+  ) {
+    self.searchHandler = searchHandler
+    self.fetchDetailHandler = fetchDetailHandler
+    self.searchMediaHandler = searchMediaHandler
+    self.getCategoryCountHandler = getCategoryCountHandler
+  }
 
   func searchMusic(searchQuery: String) async throws -> [MusicItem] {
     try await searchHandler(searchQuery)
+  }
+
+  func searchMedia(query: String, media: String, entity: String) async throws -> [Entity.MusicItem] {
+    try await searchMediaHandler(query, media, entity)
+  }
+
+  func getCategoryCount(from results: [Entity.MusicItem], category: Entity.SearchCategory) -> Int {
+    getCategoryCountHandler(results, category)
   }
 
   func fetchTrackDetail(id: Int) async throws -> Entity.MusicItem {
@@ -132,7 +167,9 @@ struct HomeReducerTests {
 
     store.exhaustivity = .off(showSkippedAssertions: false)
 
-    await store.send(.view(.onAppear))
+    await store.send(.view(.onAppear)) { state in
+      state.didTriggerInitialFetch = true
+    }
     await store.skipReceivedActions()
 
     #expect(store.state.popularMusicModel.count == Fixture.popular.count)
@@ -197,5 +234,98 @@ struct HomeReducerTests {
     }
 
     #expect(store.state.detailMusicItem?.trackId == picked.trackId)
+  }
+
+  @Test("searchMedia 호출 시 지정한 핸들러와 파라미터 사용")
+  func searchMedia_usesInjectedHandler() async throws {
+    let expectedItems: [Entity.MusicItem] = [
+      .stub(trackId: 1, trackName: "Song-1"),
+      .stub(trackId: 2, trackName: "Song-2")
+    ]
+
+    var captured: (String, String, String)?
+
+    let useCase = StubMusicSearchUseCase(
+      searchHandler: { _ in Fixture.popular },
+      fetchDetailHandler: { _ in .stub() },
+      searchMediaHandler: { query, media, entity in
+        captured = (query, media, entity)
+        return expectedItems
+      }
+    )
+
+    let result = try await useCase.searchMedia(query: "K-Pop", media: "music", entity: "song")
+
+    #expect(result == expectedItems)
+    #expect(captured?.0 == "K-Pop")
+    #expect(captured?.1 == "music")
+    #expect(captured?.2 == "song")
+  }
+
+  @Test("getCategoryCount 카테고리별 건수 반환")
+  func getCategoryCount_returnsCategorySpecificCounts() {
+    let sampleResults: [Entity.MusicItem] = [
+      .init(
+        trackId: 1,
+        trackName: "Music",
+        album: "Album",
+        artist: "Artist",
+        artworkURL: URL(string: "https://example.com/1.png")!,
+        releaseDate: "2024-01-01T00:00:00Z",
+        genre: "Pop",
+        mediaType: .music
+      ),
+      .init(
+        trackId: 2,
+        trackName: "Movie",
+        album: "Movie Album",
+        artist: "Director",
+        artworkURL: URL(string: "https://example.com/2.png")!,
+        releaseDate: "2024-02-01T00:00:00Z",
+        genre: "Drama",
+        mediaType: .movie
+      ),
+      .init(
+        trackId: 3,
+        trackName: "Podcast",
+        album: "Podcast Album",
+        artist: "Host",
+        artworkURL: URL(string: "https://example.com/3.png")!,
+        releaseDate: "2024-03-01T00:00:00Z",
+        genre: "Talk",
+        mediaType: .podcast
+      ),
+      .init(
+        trackId: 4,
+        trackName: "Other",
+        album: "Other Album",
+        artist: "Creator",
+        artworkURL: URL(string: "https://example.com/4.png")!,
+        releaseDate: "2024-04-01T00:00:00Z",
+        genre: "Misc",
+        mediaType: .other
+      ),
+      .init(
+        trackId: 5,
+        trackName: "Music-2",
+        album: "Second Album",
+        artist: "Artist",
+        artworkURL: URL(string: "https://example.com/5.png")!,
+        releaseDate: "2024-05-01T00:00:00Z",
+        genre: "Pop",
+        mediaType: .music
+      )
+    ]
+
+    let useCase = StubMusicSearchUseCase(
+      searchHandler: { _ in Fixture.popular },
+      fetchDetailHandler: { _ in .stub() }
+    )
+
+    #expect(useCase.getCategoryCount(from: sampleResults, category: .all) == 5)
+    #expect(useCase.getCategoryCount(from: sampleResults, category: .music) == 2)
+    #expect(useCase.getCategoryCount(from: sampleResults, category: .movies) == 1)
+    #expect(useCase.getCategoryCount(from: sampleResults, category: .podcast) == 1)
+    #expect(useCase.getCategoryCount(from: sampleResults, category: .etc) == 1)
   }
 }

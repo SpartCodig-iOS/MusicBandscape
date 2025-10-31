@@ -167,7 +167,9 @@ struct HomeReducerTests {
 
     store.exhaustivity = .off(showSkippedAssertions: false)
 
-    await store.send(.view(.onAppear))
+    await store.send(.view(.onAppear)) { state in
+      state.didTriggerInitialFetch = true
+    }
     await store.skipReceivedActions()
 
     #expect(store.state.popularMusicModel.count == Fixture.popular.count)

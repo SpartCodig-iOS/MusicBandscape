@@ -24,6 +24,7 @@ public struct HomeReducer {
     var errorMessage: String?
     @Shared(.inMemory("MusicItem")) var detailMusicItem: MusicItem? = nil
     var latestFailedSeason: MusicSeason?
+    var didTriggerInitialFetch: Bool = false
 
     public init() {}
   }
@@ -60,8 +61,10 @@ public struct HomeReducer {
   @Dependency(\.continuousClock) var clock
   @Dependency(\.mainQueue) var mainQueue
 
-  private struct CancelID: Hashable { let category: MusicSeason }
-  private struct HomeCancel: Hashable {}
+  private enum CancelID: Hashable {
+    case fetchAll
+    case season(MusicSeason)
+  }
 
   public var body: some Reducer<State, Action> {
     BindingReducer()
@@ -105,6 +108,8 @@ extension HomeReducer {
   ) -> Effect<Action> {
     switch action {
       case .onAppear:
+        guard state.didTriggerInitialFetch == false else { return .none }
+        state.didTriggerInitialFetch = true
         return .send(.async(.fetchAll))
     }
   }
@@ -115,10 +120,19 @@ extension HomeReducer {
   ) -> Effect<Action> {
     switch action {
       case .fetchAll:
-        return .merge(
-          MusicSeason.allCases.map { .send(.async(.fetchMusic($0))) }
-        )
-        .debounce(id: HomeCancel(), for: 0.1, scheduler: mainQueue)
+        return .run { [musicSearchUseCase] send in
+          await withTaskGroup(of: Void.self) { group in
+            for season in MusicSeason.allCases {
+              group.addTask {
+                let result = await Result {
+                  try await musicSearchUseCase.searchMusic(searchQuery: season.term)
+                }
+                await send(.inner(.fetchMusicResponse(season, result)))
+              }
+            }
+          }
+        }
+        .cancellable(id: CancelID.fetchAll, cancelInFlight: true)
 
       case .fetchMusic(let category):
         return .run { send in
@@ -132,7 +146,7 @@ extension HomeReducer {
               await send(.inner(.fetchMusicResponse(category, .failure(error))))
           }
         }
-        .cancellable(id: CancelID(category: category), cancelInFlight: true)
+        .cancellable(id: CancelID.season(category), cancelInFlight: true)
     }
   }
 

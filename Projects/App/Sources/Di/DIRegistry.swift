@@ -7,6 +7,7 @@
 
 
 import WeaveDI
+import Core
 
 /// 모든 의존성을 자동으로 등록하는 레지스트리
 extension WeaveDI.Container {
@@ -15,7 +16,8 @@ extension WeaveDI.Container {
   ///  Repository 등록
   static func registerRepositories() async {
     let repositories: [Module] = [
-
+      helper.musicRepositoryModule(),
+      helper.musicDetailRepositoryModule()
     ]
 
     await repositories.asyncForEach { module in
@@ -27,7 +29,8 @@ extension WeaveDI.Container {
   static func registerUseCases() async {
 
     let useCases: [Module] = [
-     
+      helper.musicUseCaseModule(),
+      helper.musicDetailUseCaseModule()
     ]
 
     await useCases.asyncForEach { module in

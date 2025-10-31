@@ -1,5 +1,5 @@
 {
-  "originHash" : "8d966090a3cd3da47929826719cae739d56a0690d182e65b4b64f53a996d6153",
+  "originHash" : "8a37a82e9a0ba540336d552abd82f9eccfbc83a48bae7b3b508066bd5921fe53",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Roy-wonji/AsyncMoya",
       "state" : {
-        "revision" : "df73007ff25fac5342314e6a50ccb9f2f5cd06bd",
-        "version" : "1.1.6"
+        "revision" : "e01d139daf9aad62f11dcddeabf14cc014b6cef9",
+        "version" : "1.1.7"
       }
     },
     {

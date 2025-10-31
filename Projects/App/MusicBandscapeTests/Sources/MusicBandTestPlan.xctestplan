@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "A4BA7A36-6E29-4F0C-AFCA-77405B6796A7",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core\/Data\/Repository\/Repository.xcodeproj",
+        "identifier" : "E227DA11F88E56EFAEBAD447",
+        "name" : "RepositoryTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core\/Domain\/UseCase\/UseCase.xcodeproj",
+        "identifier" : "3DF3057AD58FAE5A14CAF9E4",
+        "name" : "UseCaseTests"
+      }
+    }
+  ],
+  "version" : 1
+}

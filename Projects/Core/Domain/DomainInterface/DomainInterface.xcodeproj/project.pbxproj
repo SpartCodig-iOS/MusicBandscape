@@ -3,23 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		16A76FED32C6B714CAF33D2B /* Entity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F92106B46658C4D05E4ABB /* Entity.framework */; };
-		253ADDBA7F0F518205DA6086 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCB4A5101AA202060F9AA /* Base.swift */; };
 		353BF1AD56F4CC357E19D719 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C9CF1C2E1A74CF11222B2 /* Test.swift */; };
 		57E5E0940F81FC8D1DFD045E /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D56B0B55DD9F93D8170AD5 /* DomainInterface.framework */; };
 		6DAACDFF7943CB37965B2368 /* Entity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F92106B46658C4D05E4ABB /* Entity.framework */; };
 		72E1BB6284DCE3777F9AFFC6 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EEC0400C29FD0B52020310 /* Model.framework */; };
-		980FB81611FF729E004936AD /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCB4A5101AA202060F9AA /* Base.swift */; };
+		7F1AC73B2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC73A2EB44EF000C82441 /* MusicDetailUseCaseProtocol.swift */; };
+		7F1AC73C2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC73A2EB44EF000C82441 /* MusicDetailUseCaseProtocol.swift */; };
+		7F1AC73D2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC73A2EB44EF000C82441 /* MusicDetailUseCaseProtocol.swift */; };
+		7F1AC73E2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC73A2EB44EF000C82441 /* MusicDetailUseCaseProtocol.swift */; };
+		82EC8CCB6C2A84301319D45F /* MusicSearchUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1AC6CCA9E4B674786DC31 /* MusicSearchUseCaseProtocol.swift */; };
 		AB7D4D041B1B69901FBE2092 /* Entity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F92106B46658C4D05E4ABB /* Entity.framework */; };
-		B3FF7F599D59926AF7C5431F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCB4A5101AA202060F9AA /* Base.swift */; };
+		AF5BC2589B071B38F7BA40A8 /* MusicSearchUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1AC6CCA9E4B674786DC31 /* MusicSearchUseCaseProtocol.swift */; };
 		BC207C9DA5E4673477A9C014 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EEC0400C29FD0B52020310 /* Model.framework */; };
 		D9737EB0F4B4152468E4B3C0 /* Entity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F92106B46658C4D05E4ABB /* Entity.framework */; };
-		DB51ABC4FB182C4238F4C2BE /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CCB4A5101AA202060F9AA /* Base.swift */; };
+		DF2884833774231E52AF9EDF /* MusicSearchUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1AC6CCA9E4B674786DC31 /* MusicSearchUseCaseProtocol.swift */; };
 		ECB93EACF0EFEE45B37EC544 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EEC0400C29FD0B52020310 /* Model.framework */; };
+		F50AAC1F42DFDBC5F759A4A5 /* MusicSearchUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1AC6CCA9E4B674786DC31 /* MusicSearchUseCaseProtocol.swift */; };
 		FCC7D056697F3ACC66085599 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EEC0400C29FD0B52020310 /* Model.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,7 +97,8 @@
 		276BFC70D11B277656C925C7 /* DomainInterface_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D56B0B55DD9F93D8170AD5 /* DomainInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8C9CF1C2E1A74CF11222B2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		AA0CCB4A5101AA202060F9AA /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		7F1AC73A2EB44EF000C82441 /* MusicDetailUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailUseCaseProtocol.swift; sourceTree = "<group>"; };
+		A9A1AC6CCA9E4B674786DC31 /* MusicSearchUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSearchUseCaseProtocol.swift; sourceTree = "<group>"; };
 		AC3A341CE5DE046E57E6FA49 /* DomainInterface-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DomainInterface-Info.plist"; sourceTree = "<group>"; };
 		C6834A89F3FE887DA1691EBA /* DomainInterface_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C8C2D4A69E6BEA71EEC953 /* DomainInterface-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DomainInterface-Stage-Info.plist"; sourceTree = "<group>"; };
@@ -208,7 +213,8 @@
 		D5F4384B64B2AC2E7BFC4AB1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA0CCB4A5101AA202060F9AA /* Base.swift */,
+				7F1AC73A2EB44EF000C82441 /* MusicDetailUseCaseProtocol.swift */,
+				A9A1AC6CCA9E4B674786DC31 /* MusicSearchUseCaseProtocol.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -338,8 +344,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = A6A33577101613ED4870CAD3 /* Build configuration list for PBXProject "DomainInterface" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -406,7 +410,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB51ABC4FB182C4238F4C2BE /* Base.swift in Sources */,
+				7F1AC73B2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */,
+				F50AAC1F42DFDBC5F759A4A5 /* MusicSearchUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +427,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				980FB81611FF729E004936AD /* Base.swift in Sources */,
+				7F1AC73D2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */,
+				82EC8CCB6C2A84301319D45F /* MusicSearchUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +436,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				253ADDBA7F0F518205DA6086 /* Base.swift in Sources */,
+				7F1AC73E2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */,
+				DF2884833774231E52AF9EDF /* MusicSearchUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +445,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FF7F599D59926AF7C5431F /* Base.swift in Sources */,
+				7F1AC73C2EB44EF800C82441 /* MusicDetailUseCaseProtocol.swift in Sources */,
+				AF5BC2589B071B38F7BA40A8 /* MusicSearchUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,10 +552,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -730,10 +735,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -767,10 +769,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -797,10 +796,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -832,10 +828,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

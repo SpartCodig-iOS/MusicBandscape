@@ -21,6 +21,11 @@ struct AppView: View {
           if let store = store.scope(state: \.splash, action: \.scope.splash) {
             SplashView(store: store)
           }
+
+        case .home:
+          if let store = store.scope(state: \.home, action: \.scope.home) {
+           HomeCoordinatorView(store: store)
+          }
       }
     }
   }

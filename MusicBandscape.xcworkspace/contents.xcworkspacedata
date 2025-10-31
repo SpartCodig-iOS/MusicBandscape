@@ -60,7 +60,16 @@
          location = "group:Presentation"
          name = "Presentation">
          <FileRef
+            location = "group:Detail/Detail.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Home/Home.xcodeproj">
+         </FileRef>
+         <FileRef
             location = "group:Presentation/Presentation.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Splash/Splash.xcodeproj">
          </FileRef>
       </Group>
       <Group
@@ -84,10 +93,25 @@
       location = "container:"
       name = "Dependencies">
       <FileRef
+         location = "group:Tuist/.build/tuist-derived/Alamofire/Alamofire.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/AsyncMoya/AsyncMoya.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/EventLimiter/EventLimiter.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Tuist/.build/tuist-derived/FlowStacks/FlowStacks.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Tuist/.build/tuist-derived/LogMacro/LogMacro.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/Moya/Moya.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/RxSwift/RxSwift.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Tuist/.build/tuist-derived/TCACoordinators/TCACoordinators.xcodeproj">

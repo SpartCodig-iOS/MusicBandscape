@@ -26,6 +26,7 @@ public extension InfoPlist {
       .setAppUseExemptEncryption(value: false)
       .setCFBundleVersion(.appBuildVersion())
       .setLSRequiresIPhoneOS(true)
+      .setBaseURL("$(BASE_URL)")
       .setUIAppFonts(["PretendardVariable.ttf"])
       .setUIApplicationSceneManifest([
         "UIApplicationSupportsMultipleScenes": true,

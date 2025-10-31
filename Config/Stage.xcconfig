@@ -10,3 +10,4 @@
 OTHER_SWIFT_FLAGS[config=STAGE][sdk=*] = $(inherited) -DDEBUG
 SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGE
 BUNDLE_DISPLAY_NAME = Bandscape-Stage
+BASE_URL = itunes.apple.com/

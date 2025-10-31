@@ -15,7 +15,7 @@ struct AppReducer {
   @ObservableState
   enum State {
     case splash(SplashReducer.State)
-//    case mainTab(MainTabFeature.State)
+    case home(HomeCoordinator.State)
 
     init() {
       self = .splash(.init())
@@ -35,7 +35,7 @@ struct AppReducer {
   @CasePathable
   enum ScopeAction {
     case splash(SplashReducer.Action)
-//    case mainTab(MainTabFeature.Action)
+    case home(HomeCoordinator.Action)
   }
 
 
@@ -54,9 +54,9 @@ struct AppReducer {
     .ifCaseLet(\.splash, action: \.scope.splash) {
       SplashReducer()
     }
-//    .ifCaseLet(\.mainTab, action: \.scope.mainTab) {
-//      MainTabFeature()
-//    }
+    .ifCaseLet(\.home, action: \.scope.home) {
+      HomeCoordinator()
+    }
   }
 }
 
@@ -67,7 +67,7 @@ extension AppReducer {
   ) -> Effect<Action> {
     switch action {
       case .presentMain:
-//        state = .mainTab(.init())
+        state = .home(.init())
 //      return .send(.scope(.mainTab(.scope(.movieCoordinator))))
       return .none
     }

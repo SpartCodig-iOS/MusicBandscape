@@ -15,6 +15,8 @@ let project = Project.makeAppModule(
   sources: ["Sources/**"],
   resources: ["Resources/**"],
   infoPlist: .appInfoPlist,
-  
+  schemes: [
+    Scheme.makeTestPlanScheme(target: .debug, name: Project.Environment.appName)
+  ]
 )
 

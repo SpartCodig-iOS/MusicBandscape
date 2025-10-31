@@ -10,7 +10,7 @@
 OTHER_SWIFT_FLAGS[config=PROD][sdk=*] = $(inherited) -PROD
 SWIFT_ACTIVE_COMPILATION_CONDITIONS = PROD
 BUNDLE_DISPLAY_NAME = Bandscape
-
+BASE_URL = itunes.apple.com/
 
 
 

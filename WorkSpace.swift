@@ -15,12 +15,12 @@ let workspaceName: String = {
         return projectName
     } else {
         print("🔍 PROJECT_NAME 환경변수 없음, 기본값 사용")
-        return "MultiModuleTemplate"
+        return "MusicBandscape"
     }
 }()
 
 let workspace = Workspace(
-name: workspaceName,
+name: Project.Environment.appName,
 projects: [
     "Projects/**"
 ])
